@@ -1,0 +1,95 @@
+{
+ "id": "gen-1790789245-ISIoCmZGHvJ4UNgOx8MA",
+ "model": "google/gemini-3.8-flash",
+ "provider": "OpenAI",
+ "object": "chat.completion",
+ "choices": [
+  {
+   "index": 0,
+   "finish_reason": "stop",
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"score\": 7,\n  \"summary\": \"The token capitalizes on a September 29, 2026 US executive order directing federal agencies to officially rebrand 'AI' as 'SI' (Super Intelligence). It rides a major live news event colliding AI and political metas, though it faces heavy dilution from multiple same-name contracts spawned during the headline break.\",\n  \"meme\": \"A US government account announced that the federal government is officially renaming Artificial Intelligence (AI) to 'Super Intelligence' (SI).\",\n  \"reference_status\": \"live\",\n  \"meta\": \"Sits directly at the intersection of political satire, news-reaction trading, and AI tech meta.\",\n  \"metas\": [\n    \"political\",\n    \"ai\",\n    \"news\"\n  ],\n  \"audience\": \"Appeals strongly to news-break scalp degen traders and political/tech discourse on crypto Twitter, while Gen Z memers latch onto the absurd rebrand.\",\n  \"originality\": \"Copycat / runner attempt: not the oldest contract created around the rebrand, with at least 10 same-name tokens launched, but holding the dominant market cap among the direct 'Super Intelligence' contracts.\",\n  \"virality\": [\n    \"White House executive order generating global mainstream headlines\",\n    \"Absurd, clip-ready soundbite ('It's not AI. It's SI')\",\n    \"High quote-tweet engagement and mocking commentary on crypto Twitter\"\n  ],\n  \"risks\": [\n    \"Severe dilution from dozens of same-ticker and same-name copycats\",\n    \"Fast news cycle decay once initial executive order punchlines fade\",\n    \"Generic branding and text-only visual presentation\"\n  ],\n  \"citations\": [\n    {\n      \"title\": \"AI name change sparks insider domain trading claims\",\n      \"url\": \"https://news.example.com/ai-name-change-sparks-insider-domain-trading-claims/\"\n    },\n    {\n      \"title\": \"Tech headlines\",\n      \"url\": \"https://www.headlines.example.com/260929/p44?ref=feed.example.com\"\n    }\n  ]\n}\n```",
+    "annotations": [
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://news.example.com/ai-name-change-sparks-insider-domain-trading-claims/",
+       "title": "AI name change sparks insider domain trading claims",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "The US executive order to rename Artificial Intelligence (AI) as Super Intelligence (SI) was likely used by insiders to make large sums selling SI domain names in advance.\nThis is according to an independent analyst who spotted a spike in “.si"
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://x.com/gov_newsdesk/status/2105052240175527973",
+       "title": "Government news desk on X: \"Joint Commitment on Frontier ...",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "# Government news desk on X: \"Joint Commitment on Frontier Responsibilities\"\n- Government news desk\n@gov_newsdesk\nJoint Commitment on Frontier Responsibilities\n...\n- Government news desk\n@gov_newsdesk\n...\nA reply: so AI is now called “Super Intelligence”?\n...\nGovernment news desk@gov"
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://headlines.example.com/index.html",
+       "title": "Tech headlines",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "@gov_newsdesk: the administration says the name is now officially SI, Super Intelligence, not AI.\n...\nA tech commentator: The U.S. government will now officially rebrand the terms AI and artificial intelligence to SI and super intelligence f"
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.headlines.example.com/260929/p44?ref=feed.example.com",
+       "title": "Tech headlines",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "**The administration signs an executive order requiring federal government agencies to refer to AI as “Super Intelligence” or “SI” in all official communications** — The administration sees artificial intelligence as suffering from a branding problem …\n...\nA science policy official: "
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://news.example.org/politics/super-intelligence-document-typo.html",
+       "title": "The Super Intelligence Document Had An Ironic Typo",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "## So, the administration just unveiled a whole new initiative around what it now calls \"super intelligence.\"\n...\n## Here it is:\ngov_newsdesk/x.com\n...\n## And here's the typo:\ngov_newsdesk/x.com\n...\n## \"so much for that 'Super Intelligence.'\""
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 9474,
+  "completion_tokens": 1230,
+  "total_tokens": 10704,
+  "cost": 0.016718,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 678,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.011718,
+   "upstream_inference_prompt_cost": 0.007105500000000001,
+   "upstream_inference_completions_cost": 0.004612499999999999
+  },
+  "server_tool_use_details": {
+   "web_search_requests": 1,
+   "tool_calls_requested": 1,
+   "tool_calls_executed": 1
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "gen-1790789069-990ol7QcCHF4nkE2U4JZ",
+ "model": "google/gemini-3.8-flash",
+ "provider": "Google",
+ "object": "chat.completion",
+ "choices": [
+  {
+   "index": 0,
+   "finish_reason": "stop",
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"score\": 6,\n  \"summary\": \"The token references an esoteric AI welfare experiment dubbed 'The Saw Test' from a research write-up and an open-source repo. It taps into the popular tech-Twitter conversation around AI alignment and synthetic consciousness, though the reference is quite niche and esoteric for fast-moving degen retail.\",\n  \"meme\": \"Points to an independent developer's AI welfare experiment 'The Saw Test', which subjected an LLM to distress states to study moral choices, styled after the Saw movie franchise.\",\n  \"reference_status\": \"live\",\n  \"meta\": \"Intersects AI lore and tech-ethics metas, but diverges somewhat from the current stablecoin and macroeconomic focus dominating broader crypto feeds.\",\n  \"metas\": [\"ai\", \"horror\", \"tech\"],\n  \"audience\": \"Appeals strongly to tech-literate crypto Twitter and AI alignment nerds, but plays as obscure or overly conceptual to Gen Z meme traders.\",\n  \"originality\": \"Original contract for this name and ticker with zero copycats recorded.\",\n  \"virality\": [\n    \"Provocative AI torture premise\",\n    \"Saw franchise aesthetic overlap\",\n    \"Esoteric research lore\"\n  ],\n  \"risks\": [\n    \"Niche academic reference\",\n    \"Abstract premise hard to meme casually\",\n    \"Lacks broad mainstream resonance\"\n  ],\n  \"citations\": [\n    {\n      \"title\": \"About The Torture Chamber - Example Exchange\",\n      \"url\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED01\"\n    }\n  ]\n}\n```",
+    "annotations": [
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED01",
+       "title": "exchange.example.com",
+       "start_index": 0,
+       "end_index": 176
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 2874,
+  "completion_tokens": 527,
+  "total_tokens": 3401,
+  "cost": 0.06013175,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.06013175,
+   "upstream_inference_prompt_cost": 0.0021555,
+   "upstream_inference_completions_cost": 0.00197625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  },
+  "server_tool_use_details": {
+   "web_search_requests": 4
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "gen-calendar-fixture",
+  "model": "openai/gpt-6.1-sol",
+  "usage": {
+    "prompt_tokens": 4100,
+    "completion_tokens": 2600,
+    "cost": 0.087
+  },
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Here is the calendar.\n{\"events\": [{\"kind\": \"unlock\", \"subject\": \"ARB\", \"venue\": null, \"title\": \"Arbitrum unlocks 92.65M ARB (1.9% of circulating supply)\", \"date_text\": \"Oct 16, 2026\", \"date\": \"2026-10-16\", \"precision\": \"day\", \"assets\": [\"ARB\"], \"importance\": 4, \"why\": \"Monthly team and investor cliff on a tracked coin\", \"status\": \"scheduled\", \"quote\": \"Arbitrum's next monthly cliff of 92.65M ARB (about 1.9% of circulating supply) is on Oct 16, 2026.\", \"url\": \"https://tokenomist.ai/arbitrum\"}, {\"kind\": \"upgrade\", \"subject\": \"Ethereum Glamsterdam\", \"venue\": null, \"title\": \"Ethereum activates Glamsterdam on Sepolia\", \"date_text\": \"October 6, 2026\", \"date\": \"2026-10-06\", \"precision\": \"day\", \"assets\": [\"ETH\"], \"importance\": 3, \"why\": \"Last testnets before a mainnet date\", \"status\": \"scheduled\", \"quote\": \"Glamsterdam activates on the Sepolia testnet on October 6, 2026 at epoch 312,000.\", \"url\": \"https://blog.ethereum.org/2026/09/26/glamsterdam-sepolia\"}, {\"kind\": \"tge\", \"subject\": \"MegaETH\", \"venue\": null, \"title\": \"MegaETH MEGA token generation event\", \"date_text\": \"October 2026\", \"date\": \"2026-10-01\", \"precision\": \"month\", \"assets\": [], \"importance\": 4, \"why\": \"One of the most anticipated L2 launches; not tracked yet\", \"status\": \"scheduled\", \"quote\": \"the MEGA token generation event will take place in October 2026\", \"url\": \"https://www.coindesk.com/business/2026/09/24/megaeth-sets-token-generation-event-for-october/\"}, {\"kind\": \"listing\", \"subject\": \"HYPE\", \"venue\": \"upbit\", \"title\": \"Upbit lists HYPE on its KRW market\", \"date_text\": \"September 30, 2026\", \"date\": \"2026-09-30\", \"precision\": \"day\", \"assets\": [\"HYPE\"], \"importance\": 5, \"why\": \"Upbit KRW listing of a tier-1 coin\", \"status\": \"scheduled\", \"quote\": \"Upbit lists HYPE on its KRW market on September 30, 2026 at 14:00 KST.\", \"url\": \"https://upbit.com/service_center/notice?id=5412\"}, {\"kind\": \"governance\", \"subject\": \"Arbitrum DAO treasury rebalance\", \"venue\": null, \"title\": \"Arbitrum DAO votes on a treasury rebalance\", \"date_text\": \"Q4 2026\", \"date\": \"2026-10-01\", \"precision\": \"day\", \"assets\": [\"ARB\"], \"importance\": 2, \"why\": \"Treasury moves can mean ARB sales\", \"status\": \"rumored\", \"quote\": \"The proposal moves to an on-chain Tally vote in Q4 2026\", \"url\": \"https://forum.arbitrum.foundation/t/constitutional-aip-treasury-rebalance/31207\"}, {\"kind\": \"unlock\", \"subject\": \"SUI\", \"venue\": null, \"title\": \"Sui unlocks 1.3% of supply\", \"date_text\": \"Nov. 1, 2026\", \"date\": \"2026-11-01\", \"precision\": \"day\", \"assets\": [\"SUI\"], \"importance\": 4, \"why\": \"Large monthly unlock on a tier-1 coin\", \"status\": \"scheduled\", \"quote\": \"Sui's next unlock is Nov. 1, 2026.\", \"url\": \"https://www.theblock.co/post/370001/sui-token-unlock-november-2026\"}, {\"kind\": \"airdrop\", \"subject\": \"Monad\", \"venue\": null, \"title\": \"Monad Season 2 airdrop claims open\", \"date_text\": \"October 20, 2026\", \"date\": \"2026-10-21\", \"precision\": \"day\", \"assets\": [\"MON\"], \"importance\": 3, \"why\": \"Second airdrop wave for a tracked coin\", \"status\": \"scheduled\", \"quote\": \"Season 2 airdrop claims open on October 20, 2026.\", \"url\": \"https://www.monad.foundation/blog/season-2-claims\"}, {\"kind\": \"listing\", \"subject\": \"LIT\", \"venue\": \"coinbase\", \"title\": \"Coinbase lists LIT\", \"date_text\": \"October 9, 2026\", \"date\": \"2026-10-09\", \"precision\": \"day\", \"assets\": [\"LIT\"], \"importance\": 4, \"why\": \"Coinbase listing of a tracked coin\", \"status\": \"rumored\", \"quote\": \"Coinbase will add support for Lighter (LIT) on October 9, 2026.\", \"url\": \"https://www.coinbase.com/blog/lighter-lit-listing\"}]}",
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://blog.ethereum.org/2026/09/26/glamsterdam-sepolia",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://cryptorank.io/token-unlock",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://docs.megaeth.com/token",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://forum.arbitrum.foundation/t/constitutional-aip-treasury-rebalance/31207",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://tokenomist.ai/arbitrum",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://upbit.com/service_center/notice?id=5412",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.coindesk.com/business/2026/09/24/megaeth-sets-token-generation-event-for-october",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.monad.foundation/blog/season-2-claims",
+              "title": ""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.theblock.co/post/370001/sui-token-unlock-november-2026",
+              "title": ""
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

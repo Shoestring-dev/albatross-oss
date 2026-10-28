@@ -1,0 +1,46 @@
+{
+ "code": "0",
+ "msg": "",
+ "data": [
+  {
+   "details": [
+    {
+     "annType": "announcements-delistings",
+     "title": "OKX to delist DORA, ICX, STORJ, ZEUS and ELF spot trading pairs",
+     "url": "https://www.okx.com/en-us/help/okx-to-delist-dora-icx-storj-zeus-and-elf-spot-trading-pairs",
+     "pTime": "1790157613684",
+     "businessPTime": "1790157600000"
+    },
+    {
+     "annType": "announcements-delistings",
+     "title": "OKX to delist selected USD spot trading pair",
+     "url": "https://www.okx.com/en-us/help/okx-to-delist-aeon-usd-spot-trading-pair",
+     "pTime": "1790146816439",
+     "businessPTime": "1790143200000"
+    },
+    {
+     "annType": "announcements-delistings",
+     "title": "OKX to delist selected USD spot trading pairs",
+     "url": "https://www.okx.com/en-us/help/okx-to-delist-selected-usd-spot-trading-pairs",
+     "pTime": "1789038013041",
+     "businessPTime": "1788969600000"
+    },
+    {
+     "annType": "announcements-delistings",
+     "title": "OKX to delist GODS, PRCL and DUCK spot trading pairs",
+     "url": "https://www.okx.com/en-us/help/okx-to-delist-gods-prcl-and-duck-spot-trading-pairs",
+     "pTime": "1786089609991",
+     "businessPTime": "1786089600000"
+    },
+    {
+     "annType": "announcements-delistings",
+     "title": "OKX to support AERGO crypto migration",
+     "url": "https://www.okx.com/en-us/help/okx-to-support-aergo-crypto-migration",
+     "pTime": "1784023216123",
+     "businessPTime": "1784016000000"
+    }
+   ],
+   "totalPage": "1"
+  }
+ ]
+}

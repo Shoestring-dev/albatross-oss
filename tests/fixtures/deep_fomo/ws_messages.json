@@ -1,0 +1,367 @@
+[
+ {
+  "received_at": "2026-10-01T19:44:58.146572+00:00",
+  "message": {
+   "type": "welcome",
+   "stream": "alerts",
+   "buffered": 4059,
+   "filter": "all",
+   "realtime": true,
+   "heartbeatSeconds": 20,
+   "delaySeconds": 0,
+   "note": "Realtime full stream. Send {\"action\":\"subscribe\",\"trader\":\"<handle>\"} (or connect with ?trader=<handle>) to follow one trader for copy-trading."
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:45:11.170100+00:00",
+  "message": {
+   "type": "heartbeat",
+   "ts": 1790883911140,
+   "lastEventAt": 1790883907443,
+   "quietSeconds": 4,
+   "buffered": 4060
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.147501+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883155000_2966",
+   "alertType": "buy",
+   "source": "feed",
+   "trader": "hosample",
+   "token": "e/acc",
+   "eventId": "20755d55-6b9c-5fa9-80de-a6bb8e87b635",
+   "userId": "dac08187-7dce-566b-b0e9-34af3039feac",
+   "tradeId": "922ccefb-dbe8-42ce-8f91-eb5d3c20ec19",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU",
+   "chainId": 1399811149,
+   "chain": "solana",
+   "notificationType": null,
+   "usdValue": 5981.07,
+   "tradeUsd": 6008.08,
+   "tradeUsdSource": "stable",
+   "positionValueUsd": 5981.07,
+   "txHash": "4aU3xwtC7pRfP2rK4AEjGMfVXbptWnvUt29mvNDmAPJSiWnXSqZXjmwgry8bmaiSAs7gmaaLzV81X2LudDt4VwJs",
+   "execTs": 1790883156452,
+   "execLagMs": -1452,
+   "fillMatch": "onchain-exact",
+   "text": "hosample bought $e/acc ($6K size)",
+   "ts": 1790883155000,
+   "raw": {
+    "title": "",
+    "text": "hosample bought $e/acc ($6K size)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.163741+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883545000_3014",
+   "alertType": "buy",
+   "source": "feed",
+   "trader": "samplewtf",
+   "token": "GAGE",
+   "eventId": "e9b18a71-ba10-5cc7-8ef9-f6001e12ff57",
+   "userId": "cbb634b0-e339-5f7b-8797-e082d2b839dc",
+   "tradeId": "a8bd14d8-83e9-4b72-a73d-740001eebb48",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d",
+   "chainId": 4663,
+   "chain": "robinhood",
+   "notificationType": null,
+   "usdValue": 6220.87,
+   "positionValueUsd": 6220.87,
+   "fillMatch": "ambiguous",
+   "fillCandidates": 3,
+   "txHashCandidates": [
+    "0x768f3e4ba5d62ea04f4f9a595b94435414a90a3bb6ad773df5e3d95443a51f55",
+    "0x7243be684823745daf46ba556accbfc4af9e122d36396d60ea5592b29de6bb5d",
+    "0x479dd1c0778b012b26c9659c7cd21a919f0cfd2219ebea3034058a63e494e444"
+   ],
+   "text": "samplewtf bought $GAGE ($6K size)",
+   "ts": 1790883545000,
+   "raw": {
+    "title": "",
+    "text": "samplewtf bought $GAGE ($6K size)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.162362+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883515000_3005",
+   "alertType": "buy",
+   "source": "feed",
+   "trader": "sample999",
+   "token": "CARDS",
+   "eventId": "9f3378e6-dad6-5baa-af9c-ac357b81d39e",
+   "userId": "813c287b-a2da-5333-b90f-1e6fc6eba6a1",
+   "tradeId": "d9d0f3d3-a04f-4f28-97e5-99e65b08b545",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+   "chainId": 1399811149,
+   "chain": "solana",
+   "notificationType": null,
+   "usdValue": 594660.07,
+   "positionValueUsd": 594660.07,
+   "text": "sample999 bought $CARDS ($595K size)",
+   "ts": 1790883515000,
+   "raw": {
+    "title": "",
+    "text": "sample999 bought $CARDS ($595K size)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.162937+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883520000_3008",
+   "alertType": "buy",
+   "source": "feed",
+   "trader": "sample999",
+   "token": "CARDS",
+   "eventId": "2aae41c3-2f4b-519c-af9e-b44faa8067c5",
+   "userId": "813c287b-a2da-5333-b90f-1e6fc6eba6a1",
+   "tradeId": "d9d0f3d3-a04f-4f28-97e5-99e65b08b545",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+   "chainId": 1399811149,
+   "chain": "solana",
+   "notificationType": null,
+   "usdValue": 609493.87,
+   "positionValueUsd": 609493.87,
+   "text": "sample999 bought $CARDS ($609K size)",
+   "ts": 1790883520000,
+   "raw": {
+    "title": "",
+    "text": "sample999 bought $CARDS ($609K size)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.147403+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883150000_2964",
+   "alertType": "sell",
+   "source": "feed",
+   "trader": "sampletitan",
+   "token": "PRIORS",
+   "eventId": "1c0542f7-3e0b-547e-addd-d6b807900425",
+   "userId": "b118abe5-a9e4-57c1-a917-6cf2723b1d92",
+   "tradeId": "37e53c68-1991-498e-8221-6ba5d9a67f86",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "0xedbf91223639800bcd5756815caf908df3b890be",
+   "chainId": 4663,
+   "chain": "robinhood",
+   "notificationType": null,
+   "usdValue": 37871.64,
+   "tradeUsd": 4891.51,
+   "tradeUsdSource": "usdg",
+   "realizedPnlUsd": 37871.64,
+   "txHash": "0x955d1fca48e2e27a63e7344a7122e169d6ff91f19c019a8c13f6dc33de48eaf2",
+   "execTs": 1790883147000,
+   "execLagMs": 3000,
+   "fillMatch": "onchain-exact",
+   "text": "sampletitan sold $PRIORS (+$38K realized)",
+   "ts": 1790883150000,
+   "raw": {
+    "title": "",
+    "text": "sampletitan sold $PRIORS (+$38K realized)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:45:37.495401+00:00",
+  "message": {
+   "type": "alert",
+   "id": "alrt_1790883935000_3067",
+   "alertType": "sell",
+   "source": "feed",
+   "trader": "macsample",
+   "token": "SI",
+   "eventId": "d24b7a27-770b-5af7-8c81-cdf65322252b",
+   "userId": "5e7af1ac-5b16-5150-9bd4-ccfb72c2c27f",
+   "tradeId": "2c4bf6c0-f1c6-47fb-b438-85781b2c2e0a",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+   "chainId": 1399811149,
+   "chain": "solana",
+   "notificationType": null,
+   "usdValue": 580386.88,
+   "tradeUsd": 15554.86,
+   "tradeUsdSource": "stable",
+   "realizedPnlUsd": 580386.88,
+   "txHash": "5y5FxuQTf1QSy3kKn4pVAnVcGTPvJDBpPhFFGo3PG1fksj9AFpZzdZkRw4CkDWXFzKx9Dgqcnow1aQRgKLohE9m7",
+   "execTs": 1790883933646,
+   "execLagMs": 1354,
+   "fillMatch": "onchain-exact",
+   "text": "macsample sold $SI (+$580K realized)",
+   "ts": 1790883935000,
+   "raw": {
+    "title": "",
+    "text": "macsample sold $SI (+$580K realized)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.146944+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883145000_2961",
+   "alertType": "sell",
+   "source": "feed",
+   "trader": "Samplepeanut",
+   "token": "1F916",
+   "eventId": "c0c5844e-efcb-5924-9525-f2ee19f2513f",
+   "userId": "85899177-d7a9-5dd2-9931-2d5fe42239dd",
+   "tradeId": "ee6a47b7-3822-4d02-afec-47ee4a1430ea",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "0x9e00fc92493451eba1c63dd3880d68b622037ba3",
+   "chainId": 8453,
+   "chain": "base",
+   "notificationType": null,
+   "usdValue": 1039.36,
+   "realizedPnlUsd": 1039.36,
+   "text": "Samplepeanut sold $1F916 (+$1K realized)",
+   "ts": 1790883145000,
+   "raw": {
+    "title": "",
+    "text": "Samplepeanut sold $1F916 (+$1K realized)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.146853+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883130000_2960",
+   "alertType": "thesis",
+   "source": "feed",
+   "trader": "3SAMPLE",
+   "token": "旺柴",
+   "eventId": "6e6cf407-3ca7-48bf-be06-738c2b41bff0",
+   "userId": "7e6167bc-e43c-5bb8-aa71-04837b031d08",
+   "tradeId": "9df5e765-cb0a-4baf-a955-8e1243e40b87",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "0x14f6a94909c407854390aa2d2462a3095d317777",
+   "chainId": 56,
+   "chain": "bsc",
+   "avatar": null,
+   "tokenImage": "https://token-media.defined.fi/56_0x14f6a94909c407854390aa2d2462a3095d317777_small_c7293e8290b0.png",
+   "notificationType": null,
+   "usdValue": null,
+   "text": "3SAMPLE posted a thesis on $旺柴: The contract address ends in 7777 (luck, good fortune, angel number)",
+   "ts": 1790883130000,
+   "raw": {
+    "title": "",
+    "text": "3SAMPLE posted a thesis on $旺柴: The contract address ends in 7777 (luck, good fortune, angel number)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.147540+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883155000_2967",
+   "alertType": "perp",
+   "source": "feed",
+   "trader": "samplegains",
+   "token": "NEAR",
+   "eventId": "030ad2de-3f24-45db-aacc-ccea3e7423da",
+   "userId": "b3725d10-d11a-5dca-bf52-9fea4ed24c43",
+   "tradeId": null,
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": null,
+   "chainId": 1337,
+   "chain": "hyperliquid",
+   "notificationType": null,
+   "usdValue": null,
+   "text": "samplegains Open Long 5x $NEAR perp",
+   "ts": 1790883155000,
+   "raw": {
+    "title": "",
+    "text": "samplegains Open Long 5x $NEAR perp"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:44:58.148156+00:00",
+  "message": {
+   "type": "alert",
+   "replay": true,
+   "id": "alrt_1790883190000_2971",
+   "alertType": "buy",
+   "source": "feed",
+   "trader": "sampl3ss",
+   "token": "RAIL",
+   "eventId": "8c9fbcee-2513-53ba-be83-90db8baeb90f",
+   "userId": "27cb348e-f259-5c69-b7e6-53a599079685",
+   "tradeId": "edccb07b-8a5f-4332-a281-e06acd8f256f",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
+   "chainId": 1,
+   "chain": "ethereum",
+   "notificationType": null,
+   "usdValue": 25022.55,
+   "positionValueUsd": 25022.55,
+   "text": "sampl3ss bought $RAIL ($25K size)",
+   "ts": 1790883190000,
+   "raw": {
+    "title": "",
+    "text": "sampl3ss bought $RAIL ($25K size)"
+   }
+  }
+ },
+ {
+  "received_at": "2026-10-01T19:45:07.458385+00:00",
+  "message": {
+   "type": "alert",
+   "id": "alrt_1790883905000_3060",
+   "alertType": "sell",
+   "source": "feed",
+   "trader": "DryOnlySample",
+   "token": "FOMO",
+   "eventId": "8eeb56b7-d6b4-54d8-a1e9-cdaebb040a6c",
+   "userId": "9dea0085-d69a-542f-a4f6-f6b7ba3a1079",
+   "tradeId": "71bbc14e-3b80-4cea-bd00-540f64c474dd",
+   "swapId": null,
+   "transferId": null,
+   "tokenAddress": "8V2jTnUbfTDkzznAD2BwhCRR1jJrin3Exj5zPoU2AmJA",
+   "chainId": 1399811149,
+   "chain": "solana",
+   "notificationType": null,
+   "usdValue": 2734.3,
+   "realizedPnlUsd": 2734.3,
+   "text": "DryOnlySample sold $FOMO (+$3K realized)",
+   "ts": 1790883905000,
+   "raw": {
+    "title": "",
+    "text": "DryOnlySample sold $FOMO (+$3K realized)"
+   }
+  }
+ }
+]

@@ -1,0 +1,91 @@
+/* Calls › Paper books (books.js): a card per book, its realized P&L line, and the dossier report */
+.bk-intro { margin-bottom: 4px; }
+.bk-intro p { margin: 0; max-width: 92ch; color: var(--ink-2); font-size: 14.5px; line-height: 1.55; }
+.bk-intro p + p { margin-top: 6px; }
+.bk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 12px; align-items: start; }
+.bk-card { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.bk-card .panel-h { margin-bottom: 0; align-items: center; }
+.bk-card .panel-h h2 { font-size: 22px; text-wrap: balance; }
+.bk-rule { margin: 0; color: var(--ink-2); font-size: 13.5px; line-height: 1.45; }
+.bk-big { margin: 2px 0 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.bk-big b { font: 400 34px/1.05 var(--serif); color: var(--ink); font-variant-numeric: tabular-nums; }
+.bk-big span { color: var(--ink-2); font-size: 13px; }
+.bk-open { margin: -2px 0 0; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.bk-open b { font-weight: 600; }
+.bk-open .sub { font-size: 12px; }
+.bk-open.big { font-size: 13px; }
+.bk-open.big b { font: 400 34px/1.05 var(--serif); margin-left: 4px; vertical-align: -4px; }
+.bk-stands { color: var(--ink) !important; }
+.bk-stands:empty { display: none; }
+.bk-stands a { color: var(--ink); text-decoration-color: var(--cream); text-underline-offset: 3px; }
+.bk-chart { min-height: 40px; }
+.bk-svg { height: 150px; }
+.bk-svg .bk-main { stroke: var(--line); stroke-width: 2; fill: none; }
+.bk-svg .bk-main.up { stroke: var(--good); }
+.bk-svg .bk-main.down { stroke: #e27a70; }
+.bk-svg .bk-other { stroke: var(--muted); stroke-width: 1.4; stroke-dasharray: 4 4; fill: none; }
+.bk-svg .bk-ref { stroke: var(--axis); stroke-width: 1; stroke-dasharray: 2 3; }
+.bk-empty { margin: 6px 0; }
+.bk-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin: 0; }
+.bk-stats > div { padding: 8px 10px; border-radius: 10px; background: rgb(11 12 12 / .42); border: 1px solid rgb(239 232 220 / .07); min-width: 0; }
+.bk-stats dt { font: 600 11px/1.2 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-2); }
+.bk-stats dd { margin: 4px 0 0; font-size: 15px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.bk-stats dd .sub { display: block; font-size: 12px; font-weight: 400; color: var(--ink-2); }
+.bk-vs, .bk-verdict, .bk-foot { margin: 0; line-height: 1.5; }
+.bk-vs { font-size: 13.5px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.bk-verdict { font-size: 14px; color: var(--ink-2); }
+.bk-foot { font-size: 12.5px; color: var(--ink-2); }
+.bk-vs .sub, .bk-sides .sub, .bk-table .sub { color: var(--ink-2); font-size: 12px; }
+#tab-books .up { color: var(--good); }
+#tab-books .down { color: #e27a70; }
+.bk-trades summary { cursor: pointer; font-size: 13px; color: var(--ink-2); }
+.bk-trades summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.bk-tw { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 14px; margin-top: 6px; }
+.bk-tw ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 13px; }
+.bk-tw li { display: flex; flex-wrap: wrap; gap: 0 6px; align-items: baseline; min-width: 0; overflow-wrap: anywhere; }
+.bk-tw a { color: var(--ink); text-decoration-color: var(--cream); text-underline-offset: 3px; }
+#bk-dossier { max-width: 1100px; }
+#bk-dossier .answer-verdict .jstate { margin-right: 6px; }
+.bk-sides { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 6px 0 8px; }
+.bk-side { padding: 10px 12px; border-radius: 12px; background: rgb(11 12 12 / .42); border: 1px solid rgb(239 232 220 / .07); min-width: 0; }
+.bk-side h4 { margin: 0 0 4px; font: 600 11.5px/1.2 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-2); }
+.bk-side p { margin: 0; font-size: 14px; color: var(--ink-2); }
+.bk-side p b { font: 400 26px/1.1 var(--serif); }
+.bk-side p.sub { margin-top: 4px; }
+.bk-table td, .bk-table th { white-space: nowrap; }
+.bk-fold { margin-top: 12px; }
+#tab-books .table-wrap { margin: 8px 0; }
+@media (max-width: 640px) {
+  .bk-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bk-sides, .bk-tw { grid-template-columns: minmax(0, 1fr); }
+  .bk-big b { font-size: 30px; }
+}
+
+/* ─── Results › Books (2026-10-06): compact cards with the same parts in the same places (subgrid rows), a click
+   opens the book's page (#/book/<key>, the full card) ─── */
+.bk-grid:has(.bk-mini) { grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); row-gap: 0; column-gap: 12px; align-items: stretch; }
+.bk-grid > .bk-card { grid-row: span 6; margin-bottom: 12px; }
+.bk-mini { display: grid; grid-row: span 6; grid-template-rows: subgrid; row-gap: 8px; margin-bottom: 12px; padding: 14px 16px; cursor: pointer; min-width: 0; }
+.bk-mini:hover { border-color: rgb(239 232 220 / .22); }
+.bk-mini:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.bk-mini.audit { border-style: dashed; border-color: rgb(217 164 65 / .45); }
+.bk-mh { display: grid; gap: 6px; align-content: start; }
+.bk-mh h2 { margin: 0; font: 400 22px/1.1 var(--serif); text-wrap: balance; }
+.bk-due { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 12.5px; }
+.bk-due b { font-weight: 600; }
+.bk-due .vbar { width: 64px; height: 4px; border-radius: 3px; background: rgb(239 232 220 / .1); overflow: hidden; }
+.bk-due .vbar i { display: block; height: 100%; background: var(--warning); }
+.bk-mini .bk-big { display: grid; gap: 2px; margin: 0; }
+.bk-mini .bk-big b { font-size: 32px; }
+.bk-mini .bk-big span { font-size: 12.5px; }
+.bk-mini .bk-big .bk-openl { color: var(--ink); }
+.bk-cmp { margin: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px; align-items: center; font-size: 12.5px; color: var(--ink-2); line-height: 1.4; }
+.bk-cmp.nochip { grid-template-columns: minmax(0, 1fr); }
+.bk-f3 { margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; border-top: 1px solid var(--grid); padding-top: 8px; }
+.bk-f3 dt { font: 600 10.5px/1.2 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.bk-f3 dd { margin: 2px 0 0; font-size: 13.5px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+.bk-page { max-width: 1100px; }
+.bk-page .bk-card .panel-h h2, .bk-page .bk-rule { display: none; }     /* the masthead names the book and its rule */
+#tab-book .up, #tab-dreport .up { color: var(--good); }
+#tab-book .down, #tab-dreport .down { color: #e27a70; }
+#tab-book .table-wrap { margin: 8px 0; }

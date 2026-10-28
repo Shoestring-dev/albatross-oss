@@ -1,0 +1,81 @@
+{
+  "token": {
+    "name": "boar",
+    "symbol": "boar",
+    "decimals": 18,
+    "address": "0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
+    "totalHolders": 3709
+  },
+  "withToken": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "totalHolders": 11409568
+  },
+  "summary": {
+    "risk": "low",
+    "riskLevel": 1,
+    "flags": []
+  },
+  "simulationSuccess": true,
+  "honeypotResult": {
+    "isHoneypot": false
+  },
+  "simulationResult": {
+    "buyTax": 0,
+    "sellTax": 0,
+    "transferTax": 0,
+    "buyGas": "186997",
+    "sellGas": "137678"
+  },
+  "holderAnalysis": {
+    "holders": "96",
+    "successful": "96",
+    "failed": "0",
+    "siphoned": "0",
+    "averageTax": 0,
+    "averageGas": 121343.77083333333,
+    "highestTax": 0,
+    "highTaxWallets": "0",
+    "taxDistribution": [
+      {
+        "tax": 0,
+        "count": 96
+      }
+    ],
+    "snipersFailed": 0,
+    "snipersSuccess": 0
+  },
+  "flags": [],
+  "contractCode": {
+    "openSource": true,
+    "rootOpenSource": true,
+    "isProxy": false,
+    "hasProxyCalls": false
+  },
+  "chain": {
+    "id": "8453",
+    "name": "Base",
+    "shortName": "base",
+    "currency": "ETH"
+  },
+  "router": "0x2626664c2603336E57B271c5C0b26F421741e481",
+  "pair": {
+    "pair": {
+      "name": "Uniswap V3: boar-USDC",
+      "address": "0x7B30c9a7f015A9242b44357937A64aeFdD559BE3",
+      "token0": "0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
+      "token1": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "type": "UniswapV3"
+    },
+    "chainId": "8453",
+    "reserves0": "48892010643048501179379",
+    "reserves1": "390798",
+    "liquidity": 0.78149439252,
+    "router": "0x2626664c2603336E57B271c5C0b26F421741e481",
+    "createdAtTimestamp": "1790443311",
+    "creationTxHash": "0x513ac18b235542483ab89edd68c9af218527552779a6c72f807c9dbbfbc3701a"
+  },
+  "pairAddress": "0x7B30c9a7f015A9242b44357937A64aeFdD559BE3"
+}

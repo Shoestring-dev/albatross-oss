@@ -1,0 +1,851 @@
+{
+ "now": "2026-09-30T17:32:02.059006+00:00",
+ "latency_s": 232.0,
+ "envelope": {
+  "text": "{\"reads\":[{\"token\":\"T1\",\"posts\":[{\"search\":1,\"url\":\"https://x.com/poster_058/status/2105339155459704716\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_065/status/2105335516509294870\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_067/status/2105334223526365338\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_068/status/2105333210554413198\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_067/status/2105333056770758397\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_si16z/status/2105328611296178738\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":36,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_si16z/status/2105342431142440250\",\"stance\":\"neutral\",\"kind\":\"project\",\"well_known\":false,\"likes\":11,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_si16z/status/2105330800298522740\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":12,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_si16z/status/2105333510102742155\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":15,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_si16z/status/2105331324009154438\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":12,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/proj_si16z/status/2105342431142440250\",\"stance\":\"neutral\",\"kind\":\"project\",\"well_known\":false,\"likes\":11,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/proj_si16z/status/2105337731239492162\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":25,\"followers\":null}],\"mood\":3,\"summary\":\"@proj_si16z says $si16z is live, with trade fees funding OpenRouter compute and about $5k already loaded, while low-like caller accounts spam 2x–10x profit posts and the project replies to a quote that said 260k went to zero.\",\"other_token_posts\":0,\"why_it_matters\":\"The only substantive posts are the project's own launch and compute updates; the profit calls are near-zero engagement templates, and the one drawdown line is a quote the project is waving off.\",\"notable\":[{\"author\":\"@proj_si16z\",\"text\":\"$si16z is live.\\n\\nCA: Gu2bpydt5bHVHtko5vvsWH5KQUT3Wxvt6hzYvKdND6ur\\n\\npair a token with any SI (Super Intelligence) model. trading fees pay for that model's compute, and anyone can use it.\\n\\nlaunch → trade → fees → compute → SI\\n\\nmodels served through OpenRouter.\",\"url\":\"https://x.com/proj_si16z/status/2105328611296178738\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@proj_si16z\",\"text\":\"Compute balance is now ~$5k USD.\\n\\nFree for anyone to use.\\n\\npaid for by $si16z fees\",\"url\":\"https://x.com/proj_si16z/status/2105333510102742155\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@proj_si16z\",\"text\":\"patience. every AI coin that ran had a quiet stretch first.\\n\\nyou'll look back at this post and laugh.\",\"url\":\"https://x.com/proj_si16z/status/2105337731239492162\",\"stance\":\"bullish\",\"followers\":null}],\"account\":{\"handle\":\"proj_si16z\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"copy_paste\",\"detail\":\"Several caller accounts posted the same template of an Nx profit from a private TG call plus this contract and a DM-for-access line, each with about zero likes.\",\"url\":\"https://x.com/poster_058/status/2105339155459704716\"},{\"kind\":\"other\",\"detail\":\"The project account replied \\\"patience\\\" under a quote saying the coin went from 260k to zero.\",\"url\":\"https://x.com/proj_si16z/status/2105337731239492162\"}]},{\"token\":\"T2\",\"posts\":[{\"search\":4,\"url\":\"https://x.com/poster_010/status/2105347474436328863\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_059/status/2105345206457966660\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_059/status/2105345000659941618\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_059/status/2105344512987153826\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_069/status/2105343612228698230\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_011/status/2105343610014713635\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_070/status/2105343094128702945\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_071/status/2105342481075120771\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/Proj_athena/status/2105333581093873057\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":23,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/Proj_athena/status/2105315316417751612\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":17,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/Proj_athena/status/2105309428503359727\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":20,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/Proj_athena/status/2105311079223415613\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":17,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/Proj_athena/status/2105347001018119224\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":7,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/Proj_athena/status/2105347001018119224\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":7,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/Proj_athena/status/2105333581093873057\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":23,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/Proj_athena/status/2105325914934393882\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":13,\"followers\":null}],\"mood\":3,\"summary\":\"@Proj_athena says the token is live and dex is paid and is quoting Ethena ATH coverage, while the contract feed is Telegram profit spam and posts pushing people to vote on random Netlify links.\",\"other_token_posts\":0,\"why_it_matters\":\"Visible interest is the project's own hype plus copy-paste call groups, with no large-account confirmation and vote links pointing at unverified Netlify domains.\",\"notable\":[{\"author\":\"@Proj_athena\",\"text\":\"Athena is live\\n\\n3sHx88FKnmL7AXaiLv4iq8k7ssdqjmJzVXtmYz6SqtT9\",\"url\":\"https://x.com/Proj_athena/status/2105309428503359727\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@Proj_athena\",\"text\":\"Dex is paid.\",\"url\":\"https://x.com/Proj_athena/status/2105315316417751612\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@Proj_athena\",\"text\":\"Everything points to ATHENA.\",\"url\":\"https://x.com/Proj_athena/status/2105347001018119224\",\"stance\":\"bullish\",\"followers\":null}],\"account\":{\"handle\":\"Proj_athena\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"copy_paste\",\"detail\":\"@poster_059 posted three near-duplicate Alpha Telegram profit claims on this contract, including a stated ~33x from $5.5K to $182K MC, each with zero likes.\",\"url\":\"https://x.com/poster_059/status/2105344512987153826\"},{\"kind\":\"paid_raid\",\"detail\":\"Separate posts tell people they must vote now for $ATH and link two different netlify vote pages with listing ids.\",\"url\":\"https://x.com/poster_010/status/2105347474436328863\"},{\"kind\":\"copy_paste\",\"detail\":\"Other callers (@poster_070, @poster_071) used the same private-TG multiplier template, claiming about 4.8x and 23x on this contract.\",\"url\":\"https://x.com/poster_070/status/2105343094128702945\"}]},{\"token\":\"T3\",\"posts\":[{\"search\":7,\"url\":\"https://x.com/poster_072/status/2105349322446966244\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_060/status/2105349021135975949\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_063/status/2105348784493309120\",\"stance\":\"bullish\",\"kind\":\"bot\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_073/status/2105348460588628649\",\"stance\":\"neutral\",\"kind\":\"organic\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_074/status/2105347723584205960\",\"stance\":\"bullish\",\"kind\":\"bot\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_075/status/2105346710205830035\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_076/status/2105346637724986940\",\"stance\":\"neutral\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":8,\"url\":\"https://x.com/poster_062/status/2105330145212828657\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":12,\"followers\":null},{\"search\":8,\"url\":\"https://x.com/poster_061/status/2105342571930773443\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":6,\"followers\":null},{\"search\":8,\"url\":\"https://x.com/poster_061/status/2105346080262176854\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":5,\"followers\":null}],\"mood\":3,\"summary\":\"Traders posting this BSC contract are showing gains and talking about a push toward multi-million market cap, one says they expected a rug and it has not happened yet, and another asks why their timeline is not buying $BI.\",\"other_token_posts\":2,\"why_it_matters\":\"There is real chatter on this contract, but the two highest-like $BI posts in the ticker search are a different Solana token, Bullish Inu, with contract FWQf2kYPxWbggMj5w84H42gSdPcbgDwjt9uwUyYnpump.\",\"notable\":[{\"author\":\"@poster_060\",\"text\":\"After the $SI run they launched $BI today and I expected a rug. It hasn't happened (yet).\\nWith more momentum it could reach 100M+ once the Binance wave starts.\\n0xcaF66eb2C00D206D741a654FacE34768CF2A7777\",\"url\":\"https://x.com/poster_060/status/2105349021135975949\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_061\",\"text\":\"$BI trench update\\n\\n+11.3k on one play and still holding. I want to see a 10mil mc on $bi, it has to happen. Greedy and proud.\\n\\n0xcaf66eb2c00d206d741a654face34768cf2a7777\",\"url\":\"https://x.com/poster_061/status/2105342571930773443\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_062\",\"text\":\"$bi on bnb chain\\n\\n0xcaF66eb2C00D206D741a654FacE34768CF2A7777\\n\\n5M next\\n\\nchart looks good\",\"url\":\"https://x.com/poster_062/status/2105330145212828657\",\"stance\":\"bullish\",\"followers\":null}],\"account\":null,\"red_flags\":[{\"kind\":\"impersonation\",\"detail\":\"A bullish call on this contract is posted under a well-known trader's display name by @poster_062, which is not that trader's account.\",\"url\":\"https://x.com/poster_062/status/2105330145212828657\"},{\"kind\":\"rug_warning\",\"detail\":\"@poster_060 writes they expected $BI to rug after the $SI hype and that it has not, or not yet.\",\"url\":\"https://x.com/poster_060/status/2105349021135975949\"},{\"kind\":\"other\",\"detail\":\"A VIP-alert post labels the move $OI while pasting this $BI contract and a Telegram radar link, and a FOMO Radar post claims $1.5K became +$6,686 with a trade bot link.\",\"url\":\"https://x.com/poster_063/status/2105348784493309120\"}]},{\"token\":\"T4\",\"posts\":[{\"search\":9,\"url\":\"https://x.com/poster_077/status/2105336936220257514\",\"stance\":\"neutral\",\"kind\":\"organic\",\"well_known\":false,\"likes\":2,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_065/status/2105336099982109403\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_066/status/2105333588298624240\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_078/status/2105330752779982624\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_064/status/2105322921896882430\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_048/status/2105322734438819190\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_079/status/2105316413466016398\",\"stance\":\"neutral\",\"kind\":\"organic\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_080/status/2105343674424617808\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":5,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_081/status/2105317772559876480\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_081/status/2105317916760572678\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_082/status/2105335193410866696\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":7,\"followers\":null},{\"search\":11,\"url\":\"https://x.com/proj_chamber/status/2105343020929286827\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":11,\"followers\":null},{\"search\":11,\"url\":\"https://x.com/proj_chamber/status/2105334037043117578\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":7,\"followers\":null},{\"search\":11,\"url\":\"https://x.com/proj_chamber/status/2105333327661074777\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":17,\"followers\":null}],\"mood\":3,\"summary\":\"@proj_chamber is posting a v2 rebuild on larger models, saying creator fees are paying for Runpod GPUs and that the code will be published on GitHub, while callers spam 2.9x–8.8x claims and fomo vote replies.\",\"other_token_posts\":0,\"why_it_matters\":\"The project feed is a concrete spend-and-ship update rather than only slogans, and the rest of the contract posts are caller templates plus vote nudges.\",\"notable\":[{\"author\":\"@proj_chamber\",\"text\":\"Chamber v2 update:\\n\\nWe are skipping ahead to much larger models.\\n\\nCreator fees now cover dedicated rented GPUs, so we are setting up the model families the original paper used (Qwen, Llama, Gemma and Phi, from 2B to 72B).\\n\\nThe paper's experiments will run across all of them so results can be compared by family.\\n\\nCode and infrastructure are nearly done. Live within a few hours.\",\"url\":\"https://x.com/proj_chamber/status/2105343020929286827\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@proj_chamber\",\"text\":\"Next for the Chamber: v2.\\n\\nThe current version is a simplified setup borrowed from an older repo. Fine for watching models under steering, not rigorous enough to conclude much.\\n\\nv2 rebuilds it on the original paper's method, with its published data and code.\\n\\nWhat changes:\\n\\n• Steering vectors rebuilt from the paper's sentence set\\n• Steering strength calibrated so outputs stay coherent\\n• The paper's two-button choice task\\n• Matched controls for every condition\\n• Real and fake relief trials\\n• Hundreds of trials per condition, with hypotheses fixed before collection\\n\\nThe interesting part is replication across model families. We already run Llama and Phi live, so that is where v2 starts.\\n\\nCurrent data moves to the archive.\",\"url\":\"https://x.com/proj_chamber/status/2105333327661074777\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@proj_chamber\",\"text\":\"The full Research Chamber v2 code, configs and findings will be published openly.\\n\\nThe website stays up, and anyone can inspect, reproduce or build on the code, data and results.\",\"url\":\"https://x.com/proj_chamber/status/2105334037043117578\",\"stance\":\"bullish\",\"followers\":null}],\"account\":{\"handle\":\"proj_chamber\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"copy_paste\",\"detail\":\"@poster_065, @poster_078 and @poster_081 posted the same Nx-from-my-call template on this contract, including an 8.8x TG pitch and back-to-back 2.9x and 3x posts.\",\"url\":\"https://x.com/poster_065/status/2105336099982109403\"},{\"kind\":\"paid_raid\",\"detail\":\"Two posts tell people not to fade $CHAMBER and to vote it on fomovotes.com using this contract.\",\"url\":\"https://x.com/poster_066/status/2105333588298624240\"}]}]}",
+  "stopReason": "end_turn",
+  "sessionId": "01a0f35f-a72f-70c1-bece-e4cfb2121b31",
+  "requestId": "e39da2cb-5185-4b7c-86e1-a4c9cf5a5ec1",
+  "thought": "I will run the requested X searches and report the findings in the specified JSON format.\n\nI am mapping out the five X searches to run in parallel. They cover contract mentions, token queries, project account posts, and a related wallet.\n\nI have mapped the remaining six X searches. They cover Athena on Solana, a related wallet, $BI, a pump token, and Chamber AI.",
+  "usage": {
+   "input_tokens": 22553,
+   "cache_read_input_tokens": 6144,
+   "cache_creation_input_tokens": 0,
+   "output_tokens": 18491,
+   "reasoning_tokens": 12373,
+   "total_tokens": 47188
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.32410216,
+  "total_cost_usd_ticks": 3241021600,
+  "modelUsage": {
+   "grok-4.7-build": {
+    "inputTokens": 22553,
+    "outputTokens": 18491,
+    "cacheReadInputTokens": 6144,
+    "cacheCreationInputTokens": 0,
+    "modelCalls": 1,
+    "costUSD": 0.32410216
+   }
+  },
+  "structuredOutput": {
+   "reads": [
+    {
+     "token": "T1",
+     "posts": [
+      {
+       "search": 1,
+       "url": "https://x.com/poster_058/status/2105339155459704716",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_065/status/2105335516509294870",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_067/status/2105334223526365338",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_068/status/2105333210554413198",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_067/status/2105333056770758397",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/proj_si16z/status/2105328611296178738",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 36,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/proj_si16z/status/2105342431142440250",
+       "stance": "neutral",
+       "kind": "project",
+       "well_known": false,
+       "likes": 11,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/proj_si16z/status/2105330800298522740",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 12,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/proj_si16z/status/2105333510102742155",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 15,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/proj_si16z/status/2105331324009154438",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 12,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/proj_si16z/status/2105342431142440250",
+       "stance": "neutral",
+       "kind": "project",
+       "well_known": false,
+       "likes": 11,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/proj_si16z/status/2105337731239492162",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 25,
+       "followers": null
+      }
+     ],
+     "mood": 3,
+     "summary": "@proj_si16z says $si16z is live, with trade fees funding OpenRouter compute and about $5k already loaded, while low-like caller accounts spam 2x–10x profit posts and the project replies to a quote that said 260k went to zero.",
+     "other_token_posts": 0,
+     "why_it_matters": "The only substantive posts are the project's own launch and compute updates; the profit calls are near-zero engagement templates, and the one drawdown line is a quote the project is waving off.",
+     "notable": [
+      {
+       "author": "@proj_si16z",
+       "text": "$si16z is live.\n\nCA: Gu2bpydt5bHVHtko5vvsWH5KQUT3Wxvt6hzYvKdND6ur\n\npair a token with any SI (Super Intelligence) model. trading fees pay for that model's compute, and anyone can use it.\n\nlaunch → trade → fees → compute → SI\n\nmodels served through OpenRouter.",
+       "url": "https://x.com/proj_si16z/status/2105328611296178738",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@proj_si16z",
+       "text": "Compute balance is now ~$5k USD.\n\nFree for anyone to use.\n\npaid for by $si16z fees",
+       "url": "https://x.com/proj_si16z/status/2105333510102742155",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@proj_si16z",
+       "text": "patience. every AI coin that ran had a quiet stretch first.\n\nyou'll look back at this post and laugh.",
+       "url": "https://x.com/proj_si16z/status/2105337731239492162",
+       "stance": "bullish",
+       "followers": null
+      }
+     ],
+     "account": {
+      "handle": "proj_si16z",
+      "followers": null,
+      "created": null,
+      "name_changes": null
+     },
+     "red_flags": [
+      {
+       "kind": "copy_paste",
+       "detail": "Several caller accounts posted the same template of an Nx profit from a private TG call plus this contract and a DM-for-access line, each with about zero likes.",
+       "url": "https://x.com/poster_058/status/2105339155459704716"
+      },
+      {
+       "kind": "other",
+       "detail": "The project account replied \"patience\" under a quote saying the coin went from 260k to zero.",
+       "url": "https://x.com/proj_si16z/status/2105337731239492162"
+      }
+     ]
+    },
+    {
+     "token": "T2",
+     "posts": [
+      {
+       "search": 4,
+       "url": "https://x.com/poster_010/status/2105347474436328863",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_059/status/2105345206457966660",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_059/status/2105345000659941618",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_059/status/2105344512987153826",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_069/status/2105343612228698230",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_011/status/2105343610014713635",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_070/status/2105343094128702945",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_071/status/2105342481075120771",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/Proj_athena/status/2105333581093873057",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 23,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/Proj_athena/status/2105315316417751612",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 17,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/Proj_athena/status/2105309428503359727",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 20,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/Proj_athena/status/2105311079223415613",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 17,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/Proj_athena/status/2105347001018119224",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 7,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/Proj_athena/status/2105347001018119224",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 7,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/Proj_athena/status/2105333581093873057",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 23,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/Proj_athena/status/2105325914934393882",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 13,
+       "followers": null
+      }
+     ],
+     "mood": 3,
+     "summary": "@Proj_athena says the token is live and dex is paid and is quoting Ethena ATH coverage, while the contract feed is Telegram profit spam and posts pushing people to vote on random Netlify links.",
+     "other_token_posts": 0,
+     "why_it_matters": "Visible interest is the project's own hype plus copy-paste call groups, with no large-account confirmation and vote links pointing at unverified Netlify domains.",
+     "notable": [
+      {
+       "author": "@Proj_athena",
+       "text": "Athena is live\n\n3sHx88FKnmL7AXaiLv4iq8k7ssdqjmJzVXtmYz6SqtT9",
+       "url": "https://x.com/Proj_athena/status/2105309428503359727",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@Proj_athena",
+       "text": "Dex is paid.",
+       "url": "https://x.com/Proj_athena/status/2105315316417751612",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@Proj_athena",
+       "text": "Everything points to ATHENA.",
+       "url": "https://x.com/Proj_athena/status/2105347001018119224",
+       "stance": "bullish",
+       "followers": null
+      }
+     ],
+     "account": {
+      "handle": "Proj_athena",
+      "followers": null,
+      "created": null,
+      "name_changes": null
+     },
+     "red_flags": [
+      {
+       "kind": "copy_paste",
+       "detail": "@poster_059 posted three near-duplicate Alpha Telegram profit claims on this contract, including a stated ~33x from $5.5K to $182K MC, each with zero likes.",
+       "url": "https://x.com/poster_059/status/2105344512987153826"
+      },
+      {
+       "kind": "paid_raid",
+       "detail": "Separate posts tell people they must vote now for $ATH and link two different netlify vote pages with listing ids.",
+       "url": "https://x.com/poster_010/status/2105347474436328863"
+      },
+      {
+       "kind": "copy_paste",
+       "detail": "Other callers (@poster_070, @poster_071) used the same private-TG multiplier template, claiming about 4.8x and 23x on this contract.",
+       "url": "https://x.com/poster_070/status/2105343094128702945"
+      }
+     ]
+    },
+    {
+     "token": "T3",
+     "posts": [
+      {
+       "search": 7,
+       "url": "https://x.com/poster_072/status/2105349322446966244",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 7,
+       "url": "https://x.com/poster_060/status/2105349021135975949",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 7,
+       "url": "https://x.com/poster_063/status/2105348784493309120",
+       "stance": "bullish",
+       "kind": "bot",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 7,
+       "url": "https://x.com/poster_073/status/2105348460588628649",
+       "stance": "neutral",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 7,
+       "url": "https://x.com/poster_074/status/2105347723584205960",
+       "stance": "bullish",
+       "kind": "bot",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 7,
+       "url": "https://x.com/poster_075/status/2105346710205830035",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 7,
+       "url": "https://x.com/poster_076/status/2105346637724986940",
+       "stance": "neutral",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 8,
+       "url": "https://x.com/poster_062/status/2105330145212828657",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 12,
+       "followers": null
+      },
+      {
+       "search": 8,
+       "url": "https://x.com/poster_061/status/2105342571930773443",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 6,
+       "followers": null
+      },
+      {
+       "search": 8,
+       "url": "https://x.com/poster_061/status/2105346080262176854",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 5,
+       "followers": null
+      }
+     ],
+     "mood": 3,
+     "summary": "Traders posting this BSC contract are showing gains and talking about a push toward multi-million market cap, one says they expected a rug and it has not happened yet, and another asks why their timeline is not buying $BI.",
+     "other_token_posts": 2,
+     "why_it_matters": "There is real chatter on this contract, but the two highest-like $BI posts in the ticker search are a different Solana token, Bullish Inu, with contract FWQf2kYPxWbggMj5w84H42gSdPcbgDwjt9uwUyYnpump.",
+     "notable": [
+      {
+       "author": "@poster_060",
+       "text": "After the $SI run they launched $BI today and I expected a rug. It hasn't happened (yet).\nWith more momentum it could reach 100M+ once the Binance wave starts.\n0xcaF66eb2C00D206D741a654FacE34768CF2A7777",
+       "url": "https://x.com/poster_060/status/2105349021135975949",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@poster_061",
+       "text": "$BI trench update\n\n+11.3k on one play and still holding. I want to see a 10mil mc on $bi, it has to happen. Greedy and proud.\n\n0xcaf66eb2c00d206d741a654face34768cf2a7777",
+       "url": "https://x.com/poster_061/status/2105342571930773443",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@poster_062",
+       "text": "$bi on bnb chain\n\n0xcaF66eb2C00D206D741a654FacE34768CF2A7777\n\n5M next\n\nchart looks good",
+       "url": "https://x.com/poster_062/status/2105330145212828657",
+       "stance": "bullish",
+       "followers": null
+      }
+     ],
+     "account": null,
+     "red_flags": [
+      {
+       "kind": "impersonation",
+       "detail": "A bullish call on this contract is posted under a well-known trader's display name by @poster_062, which is not that trader's account.",
+       "url": "https://x.com/poster_062/status/2105330145212828657"
+      },
+      {
+       "kind": "rug_warning",
+       "detail": "@poster_060 writes they expected $BI to rug after the $SI hype and that it has not, or not yet.",
+       "url": "https://x.com/poster_060/status/2105349021135975949"
+      },
+      {
+       "kind": "other",
+       "detail": "A VIP-alert post labels the move $OI while pasting this $BI contract and a Telegram radar link, and a FOMO Radar post claims $1.5K became +$6,686 with a trade bot link.",
+       "url": "https://x.com/poster_063/status/2105348784493309120"
+      }
+     ]
+    },
+    {
+     "token": "T4",
+     "posts": [
+      {
+       "search": 9,
+       "url": "https://x.com/poster_077/status/2105336936220257514",
+       "stance": "neutral",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 2,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_065/status/2105336099982109403",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_066/status/2105333588298624240",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_078/status/2105330752779982624",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_064/status/2105322921896882430",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_048/status/2105322734438819190",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_079/status/2105316413466016398",
+       "stance": "neutral",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_080/status/2105343674424617808",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 5,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_081/status/2105317772559876480",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_081/status/2105317916760572678",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_082/status/2105335193410866696",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 7,
+       "followers": null
+      },
+      {
+       "search": 11,
+       "url": "https://x.com/proj_chamber/status/2105343020929286827",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 11,
+       "followers": null
+      },
+      {
+       "search": 11,
+       "url": "https://x.com/proj_chamber/status/2105334037043117578",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 7,
+       "followers": null
+      },
+      {
+       "search": 11,
+       "url": "https://x.com/proj_chamber/status/2105333327661074777",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 17,
+       "followers": null
+      }
+     ],
+     "mood": 3,
+     "summary": "@proj_chamber is posting a v2 rebuild on larger models, saying creator fees are paying for Runpod GPUs and that the code will be published on GitHub, while callers spam 2.9x–8.8x claims and fomo vote replies.",
+     "other_token_posts": 0,
+     "why_it_matters": "The project feed is a concrete spend-and-ship update rather than only slogans, and the rest of the contract posts are caller templates plus vote nudges.",
+     "notable": [
+      {
+       "author": "@proj_chamber",
+       "text": "Chamber v2 update:\n\nWe are skipping ahead to much larger models.\n\nCreator fees now cover dedicated rented GPUs, so we are setting up the model families the original paper used (Qwen, Llama, Gemma and Phi, from 2B to 72B).\n\nThe paper's experiments will run across all of them so results can be compared by family.\n\nCode and infrastructure are nearly done. Live within a few hours.",
+       "url": "https://x.com/proj_chamber/status/2105343020929286827",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@proj_chamber",
+       "text": "Next for the Chamber: v2.\n\nThe current version is a simplified setup borrowed from an older repo. Fine for watching models under steering, not rigorous enough to conclude much.\n\nv2 rebuilds it on the original paper's method, with its published data and code.\n\nWhat changes:\n\n• Steering vectors rebuilt from the paper's sentence set\n• Steering strength calibrated so outputs stay coherent\n• The paper's two-button choice task\n• Matched controls for every condition\n• Real and fake relief trials\n• Hundreds of trials per condition, with hypotheses fixed before collection\n\nThe interesting part is replication across model families. We already run Llama and Phi live, so that is where v2 starts.\n\nCurrent data moves to the archive.",
+       "url": "https://x.com/proj_chamber/status/2105333327661074777",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@proj_chamber",
+       "text": "The full Research Chamber v2 code, configs and findings will be published openly.\n\nThe website stays up, and anyone can inspect, reproduce or build on the code, data and results.",
+       "url": "https://x.com/proj_chamber/status/2105334037043117578",
+       "stance": "bullish",
+       "followers": null
+      }
+     ],
+     "account": {
+      "handle": "proj_chamber",
+      "followers": null,
+      "created": null,
+      "name_changes": null
+     },
+     "red_flags": [
+      {
+       "kind": "copy_paste",
+       "detail": "@poster_065, @poster_078 and @poster_081 posted the same Nx-from-my-call template on this contract, including an 8.8x TG pitch and back-to-back 2.9x and 3x posts.",
+       "url": "https://x.com/poster_065/status/2105336099982109403"
+      },
+      {
+       "kind": "paid_raid",
+       "detail": "Two posts tell people not to fade $CHAMBER and to vote it on fomovotes.com using this contract.",
+       "url": "https://x.com/poster_066/status/2105333588298624240"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "effort": "medium",
+ "tokens": [
+  {
+   "chain": "solana",
+   "address": "Gu2bpydt5bHVHtko5vvsWH5KQUT3Wxvt6hzYvKdND6ur",
+   "symbol": "si16z",
+   "name": "super intelligence",
+   "handle": "proj_si16z",
+   "created_at": "2026-09-30T16:07:00+00:00",
+   "first_call": "2026-09-30T16:16:00+00:00",
+   "window_h": 2
+  },
+  {
+   "chain": "solana",
+   "address": "3sHx88FKnmL7AXaiLv4iq8k7ssdqjmJzVXtmYz6SqtT9",
+   "symbol": "ATH",
+   "name": "Athena",
+   "handle": "proj_athena",
+   "first_call": "2026-09-30T14:49:00+00:00",
+   "window_h": 3
+  },
+  {
+   "chain": "bsc",
+   "address": "0xcaf66eb2c00d206d741a654face34768cf2a7777",
+   "symbol": "BI",
+   "name": "Binance Inu",
+   "handle": null,
+   "created_at": "2026-09-30T15:18:52+00:00",
+   "first_call": "2026-09-30T16:56:00+00:00",
+   "window_h": 3
+  },
+  {
+   "chain": "solana",
+   "address": "GpuvH6LGtLtrLrD87pHLSJpQC6HF8mtKYumZuk1rpump",
+   "symbol": "CHAMBER",
+   "name": "Research Chamber",
+   "handle": "proj_chamber",
+   "first_call": "2026-09-30T14:48:00+00:00",
+   "window_h": 3
+  }
+ ],
+ "searches": [
+  {
+   "token": "T1",
+   "facet": "contract",
+   "query": "Gu2bpydt5bHVHtko5vvsWH5KQUT3Wxvt6hzYvKdND6ur within_time:2h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 2,
+   "n": 1
+  },
+  {
+   "token": "T1",
+   "facet": "talk",
+   "query": "($si16z OR @proj_si16z) min_faves:3 within_time:2h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 2,
+   "n": 2
+  },
+  {
+   "token": "T1",
+   "facet": "account",
+   "query": "from:proj_si16z",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 3
+  },
+  {
+   "token": "T2",
+   "facet": "contract",
+   "query": "3sHx88FKnmL7AXaiLv4iq8k7ssdqjmJzVXtmYz6SqtT9 within_time:3h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 3,
+   "n": 4
+  },
+  {
+   "token": "T2",
+   "facet": "talk",
+   "query": "@proj_athena min_faves:3 within_time:3h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 3,
+   "n": 5
+  },
+  {
+   "token": "T2",
+   "facet": "account",
+   "query": "from:proj_athena",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 6
+  },
+  {
+   "token": "T3",
+   "facet": "contract",
+   "query": "0xcaf66eb2c00d206d741a654face34768cf2a7777 within_time:3h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 3,
+   "n": 7
+  },
+  {
+   "token": "T3",
+   "facet": "talk",
+   "query": "$BI min_faves:3 within_time:3h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 3,
+   "n": 8
+  },
+  {
+   "token": "T4",
+   "facet": "contract",
+   "query": "GpuvH6LGtLtrLrD87pHLSJpQC6HF8mtKYumZuk1rpump within_time:3h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 3,
+   "n": 9
+  },
+  {
+   "token": "T4",
+   "facet": "talk",
+   "query": "($CHAMBER OR @proj_chamber) min_faves:3 within_time:3h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 3,
+   "n": 10
+  },
+  {
+   "token": "T4",
+   "facet": "account",
+   "query": "from:proj_chamber",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 11
+  }
+ ]
+}

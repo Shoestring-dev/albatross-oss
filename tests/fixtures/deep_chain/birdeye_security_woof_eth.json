@@ -1,0 +1,38 @@
+{
+  "buyTax": "0",
+  "cannotBuy": "0",
+  "cannotSellAll": "0",
+  "creatorAddress": "0xd68f4970108dcf96e6875b0efedce87904d977de",
+  "creatorBalance": "1657478.722109842966436143",
+  "creatorPercentage": "0.001657",
+  "holderCount": "136",
+  "honeypotWithSameCreator": "0",
+  "isInDex": "1",
+  "lpHolderCount": "1",
+  "lpHolders": [
+    {
+      "address": "0xc5884a98f5318fb333e9a7574eedf6ba91c3fd1b",
+      "tag": "",
+      "value": "7.65306101545445545492",
+      "is_contract": 0,
+      "balance": "7.07428077606105691",
+      "percent": "1.000000000000000000",
+      "NFT_list": [
+        {
+          "value": "7.65306101545445545492",
+          "NFT_id": "420277",
+          "amount": "7.07428077606105691",
+          "in_effect": "1",
+          "NFT_percentage": "1.000000000000000000"
+        }
+      ],
+      "is_locked": 0
+    }
+  ],
+  "lpTotalSupply": "7.074280776061057",
+  "ownerAddress": "",
+  "sellTax": "0",
+  "tokenName": "Woof",
+  "tokenSymbol": "WOOF",
+  "totalSupply": "1000000000"
+}

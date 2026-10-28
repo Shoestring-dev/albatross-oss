@@ -1,0 +1,53 @@
+{
+ "code": "0",
+ "msg": "",
+ "data": [
+  {
+   "details": [
+    {
+     "annType": "announcements-new-listings",
+     "title": "OKX to list VVV/USDT (Venice) for spot trading",
+     "url": "https://www.okx.com/en-us/help/okx-to-list-vvv-usdt-venice-for-spot-trading",
+     "pTime": "1789455636348",
+     "businessPTime": "1789455600000"
+    },
+    {
+     "annType": "announcements-new-listings",
+     "title": "OKX to list GRVT/USDT (Grvt) for spot trading",
+     "url": "https://www.okx.com/en-us/help/okx-to-list-grvt-usdt-grvt-for-spot-trading",
+     "pTime": "1785380409432",
+     "businessPTime": "1785380400000"
+    },
+    {
+     "annType": "announcements-new-listings",
+     "title": "OKX will launch GRVT/USD for spot trading",
+     "url": "https://www.okx.com/en-us/help/okx-will-launch-grvt-usd-for-spot-trading",
+     "pTime": "1785380409238",
+     "businessPTime": "1785380400000"
+    },
+    {
+     "annType": "announcements-new-listings",
+     "title": "OKX will launch AEON/USD for spot trading",
+     "url": "https://www.okx.com/en-us/help/okx-will-launch-aeon-usd-for-spot-trading",
+     "pTime": "1785121210459",
+     "businessPTime": "1785121200000"
+    },
+    {
+     "annType": "announcements-new-listings",
+     "title": "OKX to list AEON/USDT (Aeon) for spot trading",
+     "url": "https://www.okx.com/en-us/help/okx-to-list-aeon-usdt-aeon-for-spot-trading",
+     "pTime": "1785121204905",
+     "businessPTime": "1785121200000"
+    },
+    {
+     "annType": "announcements-new-listings",
+     "title": "OKX to list SLX/USDT (Solstice) for spot trading",
+     "url": "https://www.okx.com/en-us/help/okx-to-list-slx-usdt-solstice-for-spot-trading",
+     "pTime": "1783648816124",
+     "businessPTime": "1783648800000"
+    }
+   ],
+   "totalPage": "5"
+  }
+ ]
+}

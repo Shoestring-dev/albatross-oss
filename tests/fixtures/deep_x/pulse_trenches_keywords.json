@@ -1,0 +1,35 @@
+{
+ "now": "2026-09-30T17:37:28.605380+00:00",
+ "latency_s": 92.3,
+ "envelope": {
+  "text": "{\"market_score\":0,\"market_mood\":\"\",\"reads\":[],\"headlines\":[],\"trending\":[],\"trenches\":[],\"memecoin_narratives\":[]}{\"market_score\":0,\"market_mood\":\"Crypto X this hour is flat and engagement-farm heavy, led by SOL giveaways, contract drops and a trading-app launch on Robinhood Chain.\",\"reads\":[],\"headlines\":[{\"text\":\"A trading app launched on Robinhood Chain with spot, perpetuals and liquidity pools across crypto, tokenized stocks, ETFs, commodities and prediction markets.\",\"kind\":\"launch\",\"url\":\"https://x.com/poster_005/status/2105338228902308836\",\"coins\":[]},{\"text\":\"An infrastructure project is pitching cross-chain coordination tooling, with the account stating mainnet in October 2026.\",\"kind\":\"catalyst\",\"url\":\"https://x.com/poster_006/status/2105342029732520623\",\"coins\":[]}],\"trending\":[],\"trenches\":[],\"memecoin_narratives\":[{\"narrative\":\"Memecoins mooning, traders asking for the top hold\",\"url\":\"https://x.com/poster_007/status/2105336395503945028\",\"tickers\":[]},{\"narrative\":\"Pump.fun flow sidelined after selling to buy back lower\",\"url\":\"https://x.com/poster_008/status/2105346399532057165\",\"tickers\":[]},{\"narrative\":\"Pump.fun shipping callouts, holder rewards and zero trading fees\",\"url\":\"https://x.com/poster_009/status/2105342073835023059\",\"tickers\":[\"PUMPGU\"]}]}",
+  "stopReason": "end_turn",
+  "sessionId": "01a0f364-aae4-7dc1-991e-fda2ae965efa",
+  "requestId": "bb7b53e3-36ed-43bd-9a71-726264238bfe",
+  "thought": "I will run two X keyword searches. The first covers crypto and altcoins with a 50-favorite threshold. The second covers memecoins and pump.fun with a 20-favorite threshold. Both searches use the Top mode and a one-hour window.",
+  "usage": {
+   "input_tokens": 9209,
+   "cache_read_input_tokens": 5888,
+   "cache_creation_input_tokens": 0,
+   "output_tokens": 6077,
+   "reasoning_tokens": 5584,
+   "total_tokens": 21174
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.10966016,
+  "total_cost_usd_ticks": 1096601600,
+  "modelUsage": {
+   "grok-4.7-build": {
+    "inputTokens": 9209,
+    "outputTokens": 6077,
+    "cacheReadInputTokens": 5888,
+    "cacheCreationInputTokens": 0,
+    "modelCalls": 1,
+    "costUSD": 0.10966016
+   }
+  },
+  "structuredOutput": null,
+  "structuredOutputError": "model output was not valid JSON: trailing characters at line 1 column 115"
+ },
+ "prompt": "Current time: 2026-09-30 17:37 UTC.\n\nRun exactly these X searches with x_search, each once, with the mode and limit given. Run no other search.\n1. query \"(crypto OR bitcoin OR altcoins OR $BTC OR $ETH OR $SOL) min_faves:50 -filter:replies within_time:1h\", mode Top, limit 12  (market pulse)\n2. query '(memecoin OR memecoins OR trenches OR pumpfun OR \"pump.fun\" OR letsbonk OR \"four.meme\") min_faves:20 -filter:replies within_time:1h', mode Top, limit 8  (memecoin trenches)\n\nSearch 1 is the market pulse. Use it for market_score, market_mood, headlines and trending. Search 2 is the\nmemecoin trenches; use it only for trenches and memecoin_narratives. Every later search is one coin; use it\nfor that coin's read. Weight traders, analysts, funds, exchanges and on-chain trackers; ignore giveaways,\nairdrop bait, bots, paid shills and copy-pasted signals.\n\n- market_score: integer -5..+5 for crypto X overall. market_mood: one sentence.\n- headlines: up to 5 things a trader should know from the pulse posts, most important first (a flow, a\n  dated catalyst, a positioning claim naming who, a launch or listing, a risk). Each: one plain sentence\n  (text), kind, the coin tickers it concerns (coins; empty for the whole market), and the x.com URL of the\n  post it came from (url, required).\n  Leave out single-account \"gem\" or \"10x\" calls on small caps: a headline is something a trader would act on.\n- trending: up to 6 coin tickers that several different accounts in the pulse are excited or worried about,\n  each with why (a few words) and one post URL. Leave out BTC and ETH unless they are the story, and one\n  account shilling its own pick.\n- trenches: up to 6 memecoin tickers the trenches posts show running right now (several accounts on it, a sharp\n  move, a new meta), each with why (a few words) and one post URL. Leave out one account shilling its own pick,\n  giveaways, and posts that are not about memecoins.\n- memecoin_narratives: up to 3 themes those memecoins ride right now (a meme, a person, a news story, an AI\n  agent, a launchpad or chain), each as a short phrase (narrative) with the tickers riding it and one post URL.\n- reads: one per coin search, scope exactly as given:\n  summary: one plain sentence on what X is saying about it right now.\n  why_it_matters: one sentence on what a trader should take from it, or \"\" if nothing stands out.\n  notable: true only for something new or unusual (a catalyst, a crowding extreme, a sharp change in mood,\n    credible positioning); false for ordinary chatter.\n  posts_reviewed; sentiment_score (integer -5..+5); post_volume vs its usual level; crowding (is\n    positioning chatter one-sided?); narratives (up to 3 short phrases); positioning (up to 3 concrete\n    claims, naming who); catalysts (up to 3, each with its date as posted); sample_posts (the 2 most\n    informative posts: author, text, x.com URL, required).\nSentiment anchors: -5 capitulation, -3 clearly bearish, -1 mildly bearish, 0 mixed or neutral chop, +1 mildly\nbullish, +3 clearly bullish, +5 euphoric. Ordinary chop is 0 or +-1. If a search returns almost nothing,\nsay post_volume \"low\", sentiment 0, notable false."
+}

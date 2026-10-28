@@ -1,0 +1,35 @@
+# Server-only services, layered on the base file:
+#   docker compose -f docker-compose.yml -f deploy/compose.server.yml up -d --build
+# The dashboard is reachable only through: Cloudflare -> tunnel -> gate (Caddy asks the app's /auth/check) -> dashboard.
+# In the Cloudflare dashboard, point the tunnel's public hostname at http://gate:80. The tunnel sits on its own network
+# with the gate alone, so it can't reach the dashboard (or the database) even if pointed there by mistake.
+networks:
+  edge: {}
+
+services:
+  gate:
+    image: caddy:2
+    restart: unless-stopped
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+    networks: [default, edge]
+    depends_on: [dashboard]
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    command: ["tunnel", "--no-autoupdate", "run", "--token-file", "/run/tunnel.token"]
+    volumes:
+      - ./deploy/tunnel.token:/run/tunnel.token:ro   # gitignored
+    networks: [edge]
+    depends_on: [gate]
+
+  # The ChatGPT-subscription lane: the Codex gateway's Unix socket (deploy/codex_gateway.py, run on the host as the
+  # locked-down `codex` user). The directory is mounted, not the socket file, so a gateway restart is seen live.
+  # Compose merges volumes by their target, so these replace the base file's subs_sock volume at the same path.
+  ingest:
+    volumes:
+      - /var/lib/albatross-codex/sock:/run/albatross-codex
+  dashboard:
+    volumes:
+      - /var/lib/albatross-codex/sock:/run/albatross-codex

@@ -1,0 +1,153 @@
+[
+ {
+  "chainId": "solana",
+  "dexId": "pumpfun",
+  "url": "https://dexscreener.com/solana/2115qwbq2icibrm7yqnklruuhb7bwml4kwxnefaqj6ih",
+  "pairAddress": "2115qwbq2iciBrm7YqNkLrUUHB7bwML4kwXnEFAQj6iH",
+  "baseToken": {
+   "address": "6bMmUjQdr2cLCaQi21URJLuU8CDZZxseACBMMgWmpump",
+   "name": "Super Neko",
+   "symbol": "SN"
+  },
+  "quoteToken": {
+   "address": "So11111111111111111111111111111111111111112",
+   "name": "Wrapped SOL",
+   "symbol": "SOL"
+  },
+  "priceNative": "0.0000001458",
+  "priceUsd": "0.00001737",
+  "txns": {
+   "m5": {
+    "buys": 4,
+    "sells": 3
+   },
+   "h1": {
+    "buys": 244,
+    "sells": 155
+   },
+   "h6": {
+    "buys": 382,
+    "sells": 314
+   },
+   "h24": {
+    "buys": 382,
+    "sells": 314
+   }
+  },
+  "volume": {
+   "h24": 36098.92,
+   "h6": 36098.92,
+   "h1": 16102.77,
+   "m5": 57.26
+  },
+  "priceChange": {
+   "m5": 0.47,
+   "h1": 21.64,
+   "h6": 390,
+   "h24": 390
+  },
+  "fdv": 17376.84,
+  "marketCap": 17376.84,
+  "pairCreatedAt": 1790785311000,
+  "info": {
+   "imageUrl": "https://cdn.dexscreener.com/cms/images/rAPQf82L8XUIk04L?width=800&height=800&quality=95&format=auto",
+   "header": "https://cdn.dexscreener.com/cms/images/vs-mfcP6hU8wuFwq?width=1500&height=500&quality=95&format=auto",
+   "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6bMmUjQdr2cLCaQi21URJLuU8CDZZxseACBMMgWmpump?timestamp=1790789700000",
+   "websites": [
+    {
+     "url": "https://superneko.meme",
+     "label": "Website"
+    }
+   ],
+   "socials": [
+    {
+     "url": "https://x.com/_SuperNeko",
+     "type": "twitter"
+    }
+   ]
+  },
+  "boosts": {
+   "active": 30
+  }
+ },
+ {
+  "chainId": "solana",
+  "dexId": "pumpswap",
+  "url": "https://dexscreener.com/solana/eg3qubscgmz6ncaqsn1ysgns2b9eeveg2jiuwb9rfwcb",
+  "pairAddress": "Eg3QubsCgMz6nCAqSn1YSGns2b9eeveg2jiuWb9RfWcB",
+  "baseToken": {
+   "address": "67pyUBgbBKjMumTz4ZnQp9GaX3ag1JNVAMoLeyMipump",
+   "name": "Super Intelligence Cat",
+   "symbol": "SIC"
+  },
+  "quoteToken": {
+   "address": "So11111111111111111111111111111111111111112",
+   "name": "Wrapped SOL",
+   "symbol": "SOL"
+  },
+  "priceNative": "0.00000002225",
+  "priceUsd": "0.000002650",
+  "txns": {
+   "m5": {
+    "buys": 699,
+    "sells": 3433
+   },
+   "h1": {
+    "buys": 12010,
+    "sells": 6583
+   },
+   "h6": {
+    "buys": 12010,
+    "sells": 6583
+   },
+   "h24": {
+    "buys": 12010,
+    "sells": 6583
+   }
+  },
+  "volume": {
+   "h24": 795172.97,
+   "h6": 795172.97,
+   "h1": 795172.97,
+   "m5": 44397.39
+  },
+  "priceChange": {
+   "m5": -97.4,
+   "h1": -96.94,
+   "h6": -96.94,
+   "h24": -96.94
+  },
+  "liquidity": {
+   "usd": 2805.17,
+   "base": 919293313,
+   "quote": 3.09027
+  },
+  "fdv": 2609,
+  "marketCap": 2609,
+  "pairCreatedAt": 1790786732000,
+  "info": {
+   "imageUrl": "https://cdn.dexscreener.com/cms/images/LimaG-2EXmz7aVtW?width=800&height=800&quality=95&format=auto",
+   "header": "https://cdn.dexscreener.com/cms/images/p_534riEzxU89Twv?width=1500&height=500&quality=95&format=auto",
+   "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/67pyUBgbBKjMumTz4ZnQp9GaX3ag1JNVAMoLeyMipump?timestamp=1790789700000",
+   "websites": [
+    {
+     "url": "https://www.sicatsol.site",
+     "label": "Website"
+    }
+   ],
+   "socials": [
+    {
+     "url": "https://x.com/sicatsol",
+     "type": "twitter"
+    },
+    {
+     "url": "https://t.me/sicatsol_portal",
+     "type": "telegram"
+    }
+   ]
+  },
+  "boosts": {
+   "active": 50
+  }
+ }
+]

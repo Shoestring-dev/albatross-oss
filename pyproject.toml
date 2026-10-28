@@ -1,0 +1,32 @@
+[project]
+name = "albatross"
+version = "0.1.0"
+description = "Self-hosted crypto research system: data ingest, analyst agents, a call ledger and a grader that scores every call."
+readme = "README.md"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+    "apscheduler>=3.11.3",
+    "asyncpg>=0.31.0",
+    "ccxt>=4.5.84",
+    "fastapi>=0.141.1",
+    "feedparser>=6.0.14",
+    "httpx>=0.28.1",
+    "numpy>=2.5.3",
+    "orjson>=3.11.9",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "telethon>=1.45.0",
+    "tenacity>=9.1.4",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

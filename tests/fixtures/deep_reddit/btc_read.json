@@ -1,0 +1,61 @@
+{
+ "recorded": "2026-10-01T20:02:13Z, ingest container, deepend_stage; Google tokens replaced by placeholders; thread ids, slugs, titles and headlines synthetic",
+ "subject": {
+  "kind": "major",
+  "symbol": "BTC",
+  "name": "Bitcoin"
+ },
+ "prompt": "Today is 2026-10-01 20:02 UTC.\n\nTHE COIN\nBitcoin (BTC), a major crypto asset. Fresh headlines about it (UTC):\n- 2026-10-01 12:20 Stablecoin tax bill advances in the Senate as Bitcoin reporting rules stay unchanged\n- 2026-10-01 12:17 Bitcoin ETF inflow streak ends as $149 million leaves the funds\n\nSEARCH with Google, these searches and no others:\n1. site:reddit.com inurl:comments cryptocurrency daily discussion   (the control: it shows that Reddit is in your results)\n2. site:reddit.com inurl:comments Bitcoin with the key words of its top headline\n3. site:reddit.com/r/<Bitcoin's own subreddit> inurl:comments daily discussion   (e.g. r/Bitcoin for Bitcoin; a general search for the coin finds r/CryptoCurrency first)\nLook for threads from the last 72 hours, the last 24 first.\n\nANSWER\n- control: the link of the first Reddit result of search 1, exactly as returned.\n- threads: every Reddit thread your searches returned that is about this coin (up to 8, newest first),\n  each with its link exactly as returned, its title, posted (YYYY-MM-DD when the result shows the date, else null),\n  score and comments (only when the result shows them, else null), stance (bullish, bearish or neutral) and notable\n  (true for the up to 3 most informative threads). A thread about another coin with the same ticker or name is not\n  about this coin: leave it out and count it in other_coin_threads.\n- mood: integer -5..+5 for how those threads feel: -5 rugged or scam, -3 clearly bearish, -1 mildly bearish, 0 mixed\n  or nothing said, +1 mildly bullish, +3 clearly bullish, +5 euphoric.\n- summary: two or three plain sentences on what people on Reddit are saying about it.\n- red_flags: up to 4, only what the threads show: rug or scam reports, impersonation (fake accounts, a\n  copycat contract passing as this coin), each with kind, one sentence of detail and the link of the thread.\n- why_it_matters: one sentence on what a trader should take from it, or \"\" when nothing stands out.\nIf no Reddit thread is about this coin, answer threads [], mood 0 and a summary saying so.",
+ "response": {
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "message": {
+     "role": "assistant",
+     "content": "```json\n{\n  \"control\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED01\",\n  \"threads\": [\n    {\n      \"url\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED01\",\n      \"title\": \"Daily Discussion Thread\",\n      \"posted\": \"2026-09-29\",\n      \"score\": null,\n      \"comments\": null,\n      \"stance\": \"neutral\",\n      \"notable\": true\n    },\n    {\n      \"url\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED02\",\n      \"title\": \"Daily Discussion Thread\",\n      \"posted\": \"2026-09-29\",\n      \"score\": null,\n      \"comments\": null,\n      \"stance\": \"neutral\",\n      \"notable\": true\n    },\n    {\n      \"url\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED03\",\n      \"title\": \"Daily Discussion Thread\",\n      \"posted\": \"2026-09-28\",\n      \"score\": 21,\n      \"comments\": 99,\n      \"stance\": \"bullish\",\n      \"notable\": true\n    }\n  ],\n  \"other_coin_threads\": 0,\n  \"mood\": 0,\n  \"summary\": \"Reddit discussions around Bitcoin are focused on key price thresholds, debating whether $83k to $85k can hold against selling pressure. Traders are watching futures liquidations and hoping for an 'Uptober' recovery while warning against relying entirely on leveraged short squeezes without retail demand.\",\n  \"red_flags\": [],\n  \"why_it_matters\": \"Retail sentiment remains cautious and split, watching whether support around $81k-$83k will trigger a genuine fourth-quarter rebound or further liquidation sweeps.\"\n}\n```",
+     "annotations": [
+      {
+       "type": "url_citation",
+       "url_citation": {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED02",
+        "title": "reddit.com",
+        "start_index": 0,
+        "end_index": 1854
+       }
+      },
+      {
+       "type": "url_citation",
+       "url_citation": {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED01",
+        "title": "reddit.com",
+        "start_index": 1856,
+        "end_index": 2023
+       }
+      },
+      {
+       "type": "url_citation",
+       "url_citation": {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED03",
+        "title": "reddit.com",
+        "start_index": 1856,
+        "end_index": 2023
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1246,
+   "completion_tokens": 1019,
+   "cost": 0.04675575
+  }
+ },
+ "where": {
+  "https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED01": "https://www.reddit.com/r/CryptoCurrency/comments/1wtv0a1/daily_discussion_thread/",
+  "https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED03": "https://www.reddit.com/r/CryptoCurrency/comments/1ws0c03/daily_discussion_thread/",
+  "https://vertexaisearch.cloud.google.com/grounding-api-redirect/RECORDED02": "https://www.reddit.com/r/CryptoCurrency/comments/1wt0b02/daily_discussion_thread/"
+ }
+}

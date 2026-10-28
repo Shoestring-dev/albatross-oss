@@ -1,0 +1,69 @@
+:80 {
+	# Cloudflare forwards the visitor's scheme. Redirect plain HTTP before any auth challenge
+	# (redir runs ahead of basic_auth) so a password or token never crosses in cleartext.
+	@plain header X-Forwarded-Proto http
+	redir @plain https://{host}{uri} permanent
+
+	# Pages and data: no framing, no caching. The static files get their own block below (a header block that
+	# deletes a field is deferred by Caddy, so an override nested after this one could never win; each path
+	# gets exactly one block instead).
+	@app not path /static/*
+	header @app {
+		X-Robots-Tag "noindex, nofollow"
+		Cache-Control "no-store"
+		Strict-Transport-Security "max-age=31536000"
+		X-Frame-Options "DENY"
+		Content-Security-Policy "frame-ancestors 'none'"
+		-Server
+	}
+	# Code (JS, CSS): kept by the browser but checked on every visit; unchanged files come back as a tiny 304,
+	# a deploy shows at once. "private": only the visitor's browser keeps it, never Cloudflare (the site is gated).
+	@code path /static/*.js /static/*.css
+	header @code {
+		X-Robots-Tag "noindex, nofollow"
+		Cache-Control "private, no-cache"
+		Strict-Transport-Security "max-age=31536000"
+		X-Frame-Options "DENY"
+		Content-Security-Policy "frame-ancestors 'none'"
+		-Server
+	}
+	# Artwork and icons (~1.1 MB on every visit before 2026-10-05): kept a week. A changed image gets a new name.
+	@media {
+		path /static/*
+		not path /static/*.js /static/*.css
+	}
+	header @media {
+		X-Robots-Tag "noindex, nofollow"
+		Cache-Control "private, max-age=604800"
+		Strict-Transport-Security "max-age=31536000"
+		X-Frame-Options "DENY"
+		Content-Security-Policy "frame-ancestors 'none'"
+		-Server
+	}
+
+	# Machine ingest (the call feed) authenticates with its own bearer token in the app.
+	handle /api/ingest/* {
+		request_body {
+			max_size 4MB
+		}
+		reverse_proxy dashboard:8787
+	}
+
+	# The login page (albatross/api/gate.py) and the tab icon it shows are the only things outside the gate.
+	handle /login {
+		reverse_proxy dashboard:8787
+	}
+	handle /favicon.ico {
+		reverse_proxy dashboard:8787
+	}
+
+	# Everything else: the app's /auth/check must say yes first (a signed 30-day device cookie, or Basic
+	# credentials for scripts). Its "no" goes straight back: a redirect to /login for a page load, a 401
+	# for anything else. It fails closed: an app that can't answer lets nobody in.
+	handle {
+		forward_auth dashboard:8787 {
+			uri /auth/check
+		}
+		reverse_proxy dashboard:8787
+	}
+}

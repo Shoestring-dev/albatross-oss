@@ -1,0 +1,464 @@
+[
+ {
+  "id": "44955",
+  "title": "Will Base launch a token by ___ ?",
+  "slug": "will-base-launch-a-token-in-2025-341",
+  "closed": false,
+  "volume": 8016948.451344087,
+  "markets": [
+   {
+    "question": "Will Base launch a token by June 30, 2027?",
+    "groupItemTitle": "June 30, 2027",
+    "endDate": "2027-07-01T03:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.375\", \"0.625\"]",
+    "bestBid": 0.37,
+    "bestAsk": 0.38
+   },
+   {
+    "question": "Will Base launch a token by December 31, 2027?",
+    "groupItemTitle": "December 31, 2027",
+    "endDate": "2028-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.575\", \"0.425\"]",
+    "bestBid": 0.56,
+    "bestAsk": 0.59
+   },
+   {
+    "question": "Will Base launch a token by September 30, 2026?",
+    "groupItemTitle": "September 30, 2026",
+    "endDate": "2026-10-01T03:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will Base launch a token in 2025?",
+    "groupItemTitle": "December 31, 2025",
+    "endDate": "2026-01-01T05:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will Base launch a token by December 31, 2026?",
+    "groupItemTitle": "December 31, 2026",
+    "endDate": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.07\", \"0.93\"]",
+    "bestBid": 0.06,
+    "bestAsk": 0.08
+   },
+   {
+    "question": "Will Base launch a token by June 30, 2026?",
+    "groupItemTitle": "June 30, 2026",
+    "endDate": "2026-06-30T00:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   }
+  ]
+ },
+ {
+  "id": "46724",
+  "title": "Will MetaMask launch a token by ___ ?",
+  "slug": "will-metamask-launch-a-token-in-2025",
+  "closed": false,
+  "volume": 8721416.937478004,
+  "markets": [
+   {
+    "question": "Will MetaMask launch a token in 2025?",
+    "groupItemTitle": "December 31",
+    "endDate": "2026-01-01T04:59:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will MetaMask launch a token by June 30?",
+    "groupItemTitle": "June 30",
+    "endDate": "2026-07-01T03:59:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will MetaMask launch a token by September 30, 2026?",
+    "groupItemTitle": "September 30",
+    "endDate": "2026-10-01T03:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will MetaMask launch a token by December 31, 2026?",
+    "groupItemTitle": "December 31, 2026",
+    "endDate": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.075\", \"0.925\"]",
+    "bestBid": 0.07,
+    "bestAsk": 0.08
+   }
+  ]
+ },
+ {
+  "id": "79076",
+  "title": "Will OpenAI launch a token before 2027?",
+  "slug": "will-openai-launch-a-token-before-2027",
+  "closed": false,
+  "volume": 8884.96219,
+  "markets": [
+   {
+    "question": "Will OpenAI launch a token before 2027?",
+    "groupItemTitle": "",
+    "endDate": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.0275\", \"0.9725\"]",
+    "bestBid": 0.022,
+    "bestAsk": 0.033
+   }
+  ]
+ },
+ {
+  "id": "158120",
+  "title": "Will X launch a USD stablecoin in 2026?",
+  "slug": "will-x-launch-their-own-stablecoin-in-2026",
+  "closed": false,
+  "volume": 10217.280574000002,
+  "markets": [
+   {
+    "question": "Will X launch a USD stablecoin in 2026?",
+    "groupItemTitle": "",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.095\", \"0.905\"]",
+    "bestBid": 0.09,
+    "bestAsk": 0.1
+   }
+  ]
+ },
+ {
+  "id": "189551",
+  "title": "Will Opensea launch a token by ___?",
+  "slug": "will-opensea-launch-a-token-by-142",
+  "closed": false,
+  "volume": 1669445.1051349984,
+  "markets": [
+   {
+    "question": "Will OpenSea launch a token by March 31, 2026?",
+    "groupItemTitle": "March 31, 2026",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will OpenSea launch a token by June 30, 2026?",
+    "groupItemTitle": "June 30, 2026",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will OpenSea launch a token by September 30, 2026?",
+    "groupItemTitle": "September 30, 2026",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will OpenSea launch a token by December 31, 2026?",
+    "groupItemTitle": "December 31, 2026",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.1505\", \"0.8495\"]",
+    "bestBid": 0.141,
+    "bestAsk": 0.16
+   }
+  ]
+ },
+ {
+  "id": "507038",
+  "title": "Will Concrete launch a token by ___?",
+  "slug": "will-concrete-launch-a-token-by",
+  "closed": false,
+  "volume": 75242.479352,
+  "markets": [
+   {
+    "question": "Will Concrete launch a token by June 30, 2026?",
+    "groupItemTitle": "June 30, 2026",
+    "endDate": "2026-07-01T03:59:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will Concrete launch a token by September 30, 2026?",
+    "groupItemTitle": "September 30, 2026",
+    "endDate": "2026-10-01T03:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.5\", \"0.5\"]",
+    "bestBid": 0.01,
+    "bestAsk": 0.99
+   },
+   {
+    "question": "Will Concrete launch a token by December 31, 2026?",
+    "groupItemTitle": "December 31, 2026",
+    "endDate": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.986\", \"0.014\"]",
+    "bestBid": 0.98,
+    "bestAsk": 0.992
+   },
+   {
+    "question": "Will Concrete launch a token by March 31, 2027?",
+    "groupItemTitle": "March 31, 2027",
+    "endDate": "2027-04-01T03:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.67\", \"0.33\"]",
+    "bestBid": 0.39,
+    "bestAsk": 0.95
+   },
+   {
+    "question": "Will Concrete launch a token by June 30, 2027?",
+    "groupItemTitle": "June 30, 2027",
+    "endDate": "2027-07-01T03:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.988\", \"0.012\"]",
+    "bestBid": 0.981,
+    "bestAsk": 0.995
+   },
+   {
+    "question": "Will Concrete launch a token by September 30, 2027?",
+    "groupItemTitle": "September 30, 2027",
+    "endDate": "2027-10-01T03:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.65\", \"0.35\"]",
+    "bestBid": 0.36,
+    "bestAsk": 0.94
+   },
+   {
+    "question": "Will Concrete launch a token by December 31, 2027?",
+    "groupItemTitle": "December 31, 2027",
+    "endDate": "2028-01-01T04:59:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.73\", \"0.27\"]",
+    "bestBid": 0.52,
+    "bestAsk": 0.94
+   }
+  ]
+ },
+ {
+  "id": "25930",
+  "title": "Pump.fun airdrop by ....? ",
+  "slug": "pumpfun-airdop-by",
+  "closed": false,
+  "volume": 2779369.062551,
+  "markets": [
+   {
+    "question": "Will Pump.fun perform an airdrop by June 30? ",
+    "groupItemTitle": "June 30",
+    "endDate": "2025-06-30T00:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.004
+   },
+   {
+    "question": "Will Pump.fun perform an airdrop by July 31? ",
+    "groupItemTitle": "July 31",
+    "endDate": "2025-07-31T00:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": 0.001,
+    "bestAsk": 0.003
+   },
+   {
+    "question": "Will Pump.fun perform an airdrop by July 18? ",
+    "groupItemTitle": "July 18",
+    "endDate": "2025-07-18T00:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will Pump.fun perform an airdrop by August 31? ",
+    "groupItemTitle": "August 31",
+    "endDate": "2025-08-31T00:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will Pump.fun perform an airdrop by September 30? ",
+    "groupItemTitle": "September 30",
+    "endDate": "2025-09-30T00:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": 0.001,
+    "bestAsk": 0.01
+   },
+   {
+    "question": "Will Pump.fun perform an airdrop by December 31? ",
+    "groupItemTitle": "December 31",
+    "endDate": "2025-12-31T00:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will Pump.fun perform an airdrop by March 31? ",
+    "groupItemTitle": "March 31, 2026",
+    "endDate": "2026-03-31T04:00:00Z",
+    "closed": true,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0\", \"1\"]",
+    "bestBid": null,
+    "bestAsk": 0.001
+   },
+   {
+    "question": "Will Pump.fun perform an airdrop by December 31, 2026",
+    "groupItemTitle": "December 31, 2026",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.215\", \"0.785\"]",
+    "bestBid": 0.18,
+    "bestAsk": 0.25
+   }
+  ]
+ },
+ {
+  "id": "52130",
+  "title": "Opensea FDV above ___ one day after launch?",
+  "slug": "opensea-fdv-above-one-day-after-launch",
+  "closed": false,
+  "volume": 6819226.69119,
+  "markets": [
+   {
+    "question": "Opensea FDV above $500M one day after launch?",
+    "groupItemTitle": "$500M ",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.1725\", \"0.8275\"]",
+    "bestBid": 0.171,
+    "bestAsk": 0.174
+   },
+   {
+    "question": "Opensea FDV above $1B one day after launch?",
+    "groupItemTitle": "$1B",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.13\", \"0.87\"]",
+    "bestBid": 0.12,
+    "bestAsk": 0.14
+   },
+   {
+    "question": "Opensea FDV above $3B one day after launch?",
+    "groupItemTitle": "$3B",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.044\", \"0.956\"]",
+    "bestBid": 0.041,
+    "bestAsk": 0.047
+   },
+   {
+    "question": "Opensea FDV above $5B one day after launch?",
+    "groupItemTitle": "$5B",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.037\", \"0.963\"]",
+    "bestBid": 0.033,
+    "bestAsk": 0.041
+   },
+   {
+    "question": "Opensea FDV above $2B one day after launch?",
+    "groupItemTitle": "$2B",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.055\", \"0.945\"]",
+    "bestBid": 0.05,
+    "bestAsk": 0.06
+   },
+   {
+    "question": "Opensea FDV above $100M one day after launch?",
+    "groupItemTitle": "$100M",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.16\", \"0.84\"]",
+    "bestBid": 0.15,
+    "bestAsk": 0.17
+   },
+   {
+    "question": "Opensea FDV above $100M one day after launch?",
+    "groupItemTitle": "$100M",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.173\", \"0.827\"]",
+    "bestBid": 0.16,
+    "bestAsk": 0.186
+   },
+   {
+    "question": "Opensea FDV above $300M one day after launch?",
+    "groupItemTitle": "$300M",
+    "endDate": "2027-01-01T05:00:00Z",
+    "closed": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.18\", \"0.82\"]",
+    "bestBid": 0.17,
+    "bestAsk": 0.19
+   }
+  ]
+ }
+]

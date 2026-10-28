@@ -1,0 +1,34 @@
+/* Results › Strategy lab (lab.js): the intro, a block per family, and the tables of tested strategies */
+.lab-intro p { margin: 0; max-width: 92ch; color: var(--ink-2); font-size: 14.5px; line-height: 1.55; }
+.lab-intro p + p { margin-top: 6px; }
+.lab-stands { color: var(--ink) !important; }
+.lab-stands:empty { display: none; }
+.lab-fam { margin-top: 8px; }
+.lab-fam h4 { margin: 14px 2px 6px; font: 600 11px/1.2 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-2); }
+.lab-fam h4 .cat { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.lab-line { margin: 0 2px 6px; max-width: 92ch; color: var(--ink-2); font-size: 13.5px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.lab-line b { color: var(--ink); }
+.lab-table { font-size: 13px; }
+.lab-table th { white-space: nowrap; }
+.lab-table td { vertical-align: top; }
+.gallery .lab-table td:first-child, .gallery .lab-table td.lab-why { white-space: normal; overflow-wrap: anywhere; }
+.lab-table .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.lab-table .sub { display: block; color: var(--ink-2); font-size: 12px; line-height: 1.4; margin-top: 2px; }
+.lab-name { color: var(--ink); line-height: 1.4; min-width: 24ch; max-width: 60ch; }
+.lab-table td:first-child .sub { max-width: 60ch; }
+.lab-why { min-width: 26ch; max-width: 48ch; color: var(--ink-2); line-height: 1.4; }
+.lab-why .sub { display: inline; }
+#tab-lab .up { color: var(--good); }
+#tab-lab .down { color: #e27a70; }
+.lab-reasons { margin: 8px 2px 0; padding-left: 18px; color: var(--ink-2); font-size: 13px; line-height: 1.5; }
+.lab-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 12px; align-items: start; }
+/* phones: one strategy per block, its name on top and its numbers labelled underneath; the bar and counts fold away */
+@media (max-width: 700px) {
+  .lab-table thead, .lab-table .opt { display: none; }
+  .lab-table, .lab-table tbody { display: block; }
+  .lab-table tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 14px; padding: 9px 2px; border-bottom: 1px solid var(--grid); }
+  .gallery .lab-table td { border: 0; padding: 0; text-align: left; }
+  .lab-table td:first-child, .lab-table td.lab-why { flex-basis: 100%; }
+  .lab-table td[data-k]::before { content: attr(data-k) " "; color: var(--ink-2); font-size: 11.5px; }
+  .lab-name, .lab-table td:first-child .sub, .lab-why { min-width: 0; max-width: none; }
+}

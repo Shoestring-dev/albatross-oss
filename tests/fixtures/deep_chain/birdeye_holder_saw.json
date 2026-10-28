@@ -1,0 +1,206 @@
+{
+  "holder": 4050,
+  "top10_hold_percent": 27.936889258836672,
+  "items": [
+    {
+      "amount": "82751845433464",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "ATrJhrc46UkY4gTmJry2SUZvtaLJX3LydBufPnkWHTC3",
+      "token_account": "HSkA9zBtjagk1x9BFGsxeQaFdEFnrQ1XNR7nvrGTYEyA",
+      "ui_amount": 82751845.433464,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "32298462193408",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "AehFd17n1edfqAvwCFjgrAzLbwu4Nc7FihfJAHgzL8aH",
+      "token_account": "CDFPNMQ2K1cxu8qchNS1i9wq5DCkMnpjd6W9q7kkPGu6",
+      "ui_amount": 32298462.193408,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "23599810136808",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "3aoWt49S2ekjUvY3wuRhMzf5yddTCWstEcQb9asktph1",
+      "token_account": "5t3jAU1NhZZd1Q7pXzTRaiZCHfuiBGXJym91nSkv5WsJ",
+      "ui_amount": 23599810.136808,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "22865620578984",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "51g7SgUZEiG23smFr1EAHmLJ5mduJfN52SZxT4HJWQus",
+      "token_account": "63tjrDg3B1rMqDPGKEnrurS5Wrw59rQSMoyyY8wdYcuo",
+      "ui_amount": 22865620.578984,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "21465980825873",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "3Zp1vERwrx9WnJBcV9zngaqDTNzi66YR37BkzTjqEsS3",
+      "token_account": "HUB9pBmTLsPgXAiM4uFUAj8zFYyhiH88Ae6uRpcfqNBy",
+      "ui_amount": 21465980.825873,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "21135903768345",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "4DcPdBkvRZvX4JQDodrkDBGo8F4WHpmFMbGkgQRMvP9s",
+      "token_account": "4H4W1F3j2bXkLtMtmg3idi5N62Yv6Javf7mz1JyAzRKj",
+      "ui_amount": 21135903.768345,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "18593638525281",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "2xDUGv7pyFntsN2HvJmqvtoxH6XrxBNro1LRjRNjMdgB",
+      "token_account": "3zYyqcWyCpBi8LtiS6dyFfDrn3sSigHcPeheiHt9ybQ6",
+      "ui_amount": 18593638.525281,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "18199508737586",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "W43gfaU7TnGF1thB5zd5oQhWxNSmNTANYmNRP4aLrEKy",
+      "token_account": "3uWuKkRiwyqZA2b6cNw4wF9oyxMtgTqBGuVigw8xxgYn",
+      "ui_amount": 18199508.737586,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "17415140829191",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "5xSFwPK7pS3cWqeBENhdvhwiLabQbYVsjnH8nEsb7v76",
+      "token_account": "5HymNeZitNzdEUmRmWw3UtMV9yp6aAf6EM9tcpSUc4y9",
+      "ui_amount": 17415140.829191,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "16411036028581",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "4ASzW2HRw3Rrqf7FJTUae2QYNwyHAgFuLX2q9pdx9UFq",
+      "token_account": "3HZf7EVamiK6fWB7McxFbQ2XbKYgbrJ8zFNoWMoJrzsg",
+      "ui_amount": 16411036.028581,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "14026899723609",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "49WgcpmmX5PEds8b4japfwwAmCu7UXABcMbE6niYQVXa",
+      "token_account": "4xQRjoA9HRU2CawtrjBPSc4sCHN8WHgyXAVDJKzCVxVh",
+      "ui_amount": 14026899.723609,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "13430665525483",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "3cWyhscSKnxzCJwn8u6MhjK1LecmnrC1LzvFScSx9JD2",
+      "token_account": "3BevumcYvVyjn984ASWN8xsUdEy4LmVfKuwDuHBkH1x7",
+      "ui_amount": 13430665.525483,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "13144122230719",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "MQ1Yb2qiPE7RrQovDYhmqe4CmwDzajoyraVm9JYGrGku",
+      "token_account": "4EPKqyDdqoPYvK6fV25SjVKs3MXNv1u5q1ZLsm53dtzA",
+      "ui_amount": 13144122.230719,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "10897999419315",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "2iPK7fSzvjAAbMpVvfNE5ubuVSFebmg2snk93REoekza",
+      "token_account": "5cTCsGCMCEsR9b1e5gDj7kRUYwyEhsmrVafbL9Xc3PG7",
+      "ui_amount": 10897999.419315,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "10609941232173",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "4VEw6PutSUBC1rcFHi2BHwM8UEMvvafor1TmT13og4Fr",
+      "token_account": "2ARBzTNNSXsmdhTRopYFPFGuDiJMSDMiRYYFBzs6aeaz",
+      "ui_amount": 10609941.232173,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "10044481620345",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "38b2ti36CGdiujBythdzHL3hvEbPJNqZynNENscDnVUP",
+      "token_account": "2xx5Eh2uGQpsd7PBqEVJGSMxHbPcmF39PxYeEnN78AnY",
+      "ui_amount": 10044481.620345,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "10029292339719",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "nNXGduc7hfTEFpNweLaqAeWMaQWsAouCdXnuK9VC2agF",
+      "token_account": "3Y4darEYP6Bc3RYfBvCYhm7qFUcSHTVzASyEF7MNoH3q",
+      "ui_amount": 10029292.339719,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "9395239301572",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "4AJuVEyBrJ3bqwzviB1CDTDCmvZVVhdatEayExLvZNN4",
+      "token_account": "4tG21YVGFJ2cB73grb5Hs1jyfH4UnB4EWKBnZvnRMDVa",
+      "ui_amount": 9395239.301572,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "9376842268726",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "2DhZ28hRbwSBQgv4e1y7VTsgvNi8QKWEPTk2eqPoKD49",
+      "token_account": "54pK8JJTBcnvQhZpMocFY25FQJ8Wt6R1irCDGYeqykix",
+      "ui_amount": 9376842.268726,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    },
+    {
+      "amount": "9136519590882",
+      "decimals": 6,
+      "mint": "9twiuSdTVkwtAC9XQDG57dFRhF4iqPih461HJfMZKci9",
+      "owner": "3f1NzGVH2ajDG9PPs8VvEVDwkWPW7eG9PcLvn2uZ7bUa",
+      "token_account": "Bset3ekfXy87HHSMURNCxyAuXwT8Fwk5S4s3r9iKNqpE",
+      "ui_amount": 9136519.590882,
+      "is_scaled_ui_token": false,
+      "multiplier": null
+    }
+  ]
+}

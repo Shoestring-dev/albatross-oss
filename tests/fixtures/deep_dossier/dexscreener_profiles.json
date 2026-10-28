@@ -1,0 +1,70 @@
+[
+ {
+  "url": "https://dexscreener.com/near/ghoot-fc3310.launchpad.justhoot.near",
+  "chainId": "near",
+  "tokenAddress": "ghoot-fc3310.launchpad.justhoot.near",
+  "icon": "https://cdn.dexscreener.com/cms/images/1Gjv6t7Zxh8lmjMK?width=64&height=64&fit=crop&quality=95&format=auto",
+  "header": "https://cdn.dexscreener.com/cms/images/nOc11EjYPBAD-qcI?width=600&height=200&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/near/ghoot-fc3310.launchpad.justhoot.near?timestamp=1790788500000",
+  "description": "Ghoot! The Mascot...",
+  "links": [
+   {
+    "label": "Website",
+    "url": "https://justhoot.fun/p/ghoot-fc3310.launchpad.justhoot.near"
+   }
+  ],
+  "cto": false
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xf922bace3fbe3f46c5de49b62e08edee1ee3cb22",
+  "chainId": "robinhood",
+  "tokenAddress": "0xf922bACE3FBE3f46C5DE49B62e08edee1EE3CB22",
+  "icon": "https://cdn.dexscreener.com/cms/images/KHI73mvr4JzSjMs8?width=64&height=64&fit=crop&quality=95&format=auto",
+  "header": "https://cdn.dexscreener.com/cms/images/CYLZQ_Jm2O9pm3yp?width=600&height=200&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xf922bace3fbe3f46c5de49b62e08edee1ee3cb22?timestamp=1790788500000",
+  "description": "Space eXploration Super Intelligence",
+  "links": [
+   {
+    "type": "twitter",
+    "url": "https://x.com/poster_906/status/2105325966747966258"
+   }
+  ],
+  "cto": false
+ },
+ {
+  "url": "https://dexscreener.com/solana/2xs2zef8oxmnkpmuhqbradjerxhrr7e1rr4wfi9inef3",
+  "chainId": "solana",
+  "tokenAddress": "2xs2ZEf8oXmNkpmuhQbRAdjerxhrR7E1Rr4Wfi9inEF3",
+  "icon": "https://cdn.dexscreener.com/cms/images/yDbewM0_gt4FMhg-?width=64&height=64&fit=crop&quality=95&format=auto",
+  "header": "https://cdn.dexscreener.com/cms/images/6pxkNYHBAVxF1SIF?width=600&height=200&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2xs2ZEf8oXmNkpmuhQbRAdjerxhrR7E1Rr4Wfi9inEF3?timestamp=1790788500000",
+  "description": "A Solana launchpad built around buybacks, burns and up to 25% reserve backing.",
+  "links": [
+   {
+    "label": "Website",
+    "url": "https://herapad.xyz/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/herapadxyz"
+   }
+  ],
+  "cto": false
+ },
+ {
+  "url": "https://dexscreener.com/solana/4jqe6kecmnzssyfhiwq5g1rgqcacqydsxhtcaqmfpump",
+  "chainId": "solana",
+  "tokenAddress": "4JqE6KecmNzSSYfHiWQ5g1rGqCACqYDsxHtcaqMfpump",
+  "icon": "https://cdn.dexscreener.com/cms/images/lYRwpitkCA3EoKB-?width=64&height=64&fit=crop&quality=95&format=auto",
+  "header": "https://cdn.dexscreener.com/cms/images/uKdxWQ4G95edq0_b?width=600&height=200&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4JqE6KecmNzSSYfHiWQ5g1rGqCACqYDsxHtcaqMfpump?timestamp=1790788500000",
+  "description": "Super Bull is flying",
+  "links": [
+   {
+    "type": "twitter",
+    "url": "https://x.com/superbullfun"
+   }
+  ],
+  "cto": false
+ }
+]

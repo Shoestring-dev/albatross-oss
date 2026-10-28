@@ -1,0 +1,70 @@
+[
+ {
+  "url": "https://dexscreener.com/solana/6bmmujqdr2clcaqi21urjluu8cdzzxseacbmmgwmpump",
+  "chainId": "solana",
+  "tokenAddress": "6bMmUjQdr2cLCaQi21URJLuU8CDZZxseACBMMgWmpump",
+  "description": "Whoever faded $SI deserves a second chance and that’s where Super Neko comes in.\n\nDog = Inu\nCat = Neko\n\nSuper Neko carries the Super Inu story\n\n$SN uses buybacks and burns to reduce supply while rewarding holders with $SI.",
+  "icon": "rAPQf82L8XUIk04L",
+  "header": "https://cdn.dexscreener.com/cms/images/vs-mfcP6hU8wuFwq?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6bMmUjQdr2cLCaQi21URJLuU8CDZZxseACBMMgWmpump?timestamp=1790788500000",
+  "links": [
+   {
+    "url": "https://superneko.meme"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/_SuperNeko"
+   }
+  ],
+  "totalAmount": 30,
+  "amount": 30
+ },
+ {
+  "url": "https://dexscreener.com/solana/67pyubgbbkjmumtz4znqp9gax3ag1jnvamoleymipump",
+  "chainId": "solana",
+  "tokenAddress": "67pyUBgbBKjMumTz4ZnQp9GaX3ag1JNVAMoLeyMipump",
+  "description": "Super Intelligence Cat is too smart for the timeline, outplaying humans and turning every meme into pure chaos.",
+  "icon": "LimaG-2EXmz7aVtW",
+  "header": "https://cdn.dexscreener.com/cms/images/p_534riEzxU89Twv?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/67pyUBgbBKjMumTz4ZnQp9GaX3ag1JNVAMoLeyMipump?timestamp=1790788500000",
+  "links": [
+   {
+    "url": "https://www.sicatsol.site"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/sicatsol"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/sicatsol_portal"
+   }
+  ],
+  "totalAmount": 50,
+  "amount": 50
+ },
+ {
+  "url": "https://dexscreener.com/base/0xb200000000000000000000fffa494c50a69a7701",
+  "chainId": "base",
+  "tokenAddress": "0xB200000000000000000000Fffa494c50a69A7701",
+  "description": "Born to base\nForced to save the world.\nHe was just a lizard enjoying the sun. Then the world needed a hero.",
+  "icon": "JjUc7BqRmRZuUExA",
+  "header": "https://cdn.dexscreener.com/cms/images/E0hv_eOa4rggmFun?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xb200000000000000000000fffa494c50a69a7701?timestamp=1790788500000",
+  "links": [
+   {
+    "url": "https://www.superiguana.site"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/SuperIguana_X"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/Super_Iguana"
+   }
+  ],
+  "totalAmount": 50,
+  "amount": 50
+ }
+]

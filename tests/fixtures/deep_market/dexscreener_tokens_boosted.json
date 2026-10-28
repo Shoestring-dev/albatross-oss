@@ -1,0 +1,187 @@
+[
+ {
+  "chainId": "solana",
+  "dexId": "pumpswap",
+  "url": "https://dexscreener.com/solana/4apfqygn4x18tcfwxv6pvwymfvvjpm2jts5yhdyvdsem",
+  "pairAddress": "4ApFQYGn4X18tCFwXV6PVWYmfvvJPm2jTs5yhdYvdSeM",
+  "baseToken": {
+   "address": "6ZG6fMHaE7NpubJr16G8nFLBg91rH5kU5SVpqUmQpump",
+   "name": "AirPad",
+   "symbol": "AIRPAD"
+  },
+  "quoteToken": {
+   "address": "So11111111111111111111111111111111111111112",
+   "name": "Wrapped SOL",
+   "symbol": "SOL"
+  },
+  "priceNative": "0.000006684",
+  "priceUsd": "0.0008043",
+  "txns": {
+   "m5": {
+    "buys": 296,
+    "sells": 183
+   },
+   "h1": {
+    "buys": 4776,
+    "sells": 2614
+   },
+   "h6": {
+    "buys": 32086,
+    "sells": 17637
+   },
+   "h24": {
+    "buys": 88356,
+    "sells": 47874
+   }
+  },
+  "volume": {
+   "h24": 6116097.22,
+   "h6": 2364963.45,
+   "h1": 349281.31,
+   "m5": 32460.35
+  },
+  "priceChange": {
+   "m5": 2.41,
+   "h1": 9.17,
+   "h6": 17.51,
+   "h24": 548
+  },
+  "liquidity": {
+   "usd": 92455.97,
+   "base": 58844440,
+   "quote": 374.9926
+  },
+  "fdv": 799202,
+  "marketCap": 799202,
+  "pairCreatedAt": 1790737717000,
+  "info": {
+   "imageUrl": "https://cdn.dexscreener.com/cms/images/q4nHfqrmpczzYsJQ?width=800&height=800&quality=95&format=auto"
+  },
+  "boosts": {
+   "active": 500
+  }
+ },
+ {
+  "chainId": "solana",
+  "dexId": "pumpswap",
+  "url": "https://dexscreener.com/solana/gakq4tpvxvzqtvnuapwnk4exggb3e3djhgnw4b9bm8ft",
+  "pairAddress": "GaKQ4tPVxvZqTVnuApwnK4exggB3e3dJHGnw4b9bM8ft",
+  "baseToken": {
+   "address": "ESEdbgAw2mgkVTPhCz1pbBbKdAmFAFgqu9i1gpsNpump",
+   "name": "Non Pepe Character",
+   "symbol": "NPC"
+  },
+  "quoteToken": {
+   "address": "So11111111111111111111111111111111111111112",
+   "name": "Wrapped SOL",
+   "symbol": "SOL"
+  },
+  "priceNative": "0.00000002639",
+  "priceUsd": "0.000003174",
+  "txns": {
+   "m5": {
+    "buys": 0,
+    "sells": 0
+   },
+   "h1": {
+    "buys": 4,
+    "sells": 4
+   },
+   "h6": {
+    "buys": 3035,
+    "sells": 31
+   },
+   "h24": {
+    "buys": 14715,
+    "sells": 926
+   }
+  },
+  "volume": {
+   "h24": 546329.57,
+   "h6": 1037.39,
+   "h1": 28.41,
+   "m5": 0
+  },
+  "priceChange": {
+   "h1": 3.43,
+   "h6": -96.41,
+   "h24": -96.2
+  },
+  "liquidity": {
+   "usd": 3285.98,
+   "base": 849975683,
+   "quote": 4.89
+  },
+  "fdv": 3118,
+  "marketCap": 3118,
+  "pairCreatedAt": 1790703637000,
+  "info": {
+   "imageUrl": "https://cdn.dexscreener.com/cms/images/feD3AeMgAX7FNYYl?width=800&height=800&quality=95&format=auto"
+  },
+  "boosts": {
+   "active": 500
+  }
+ },
+ {
+  "chainId": "solana",
+  "dexId": "pumpswap",
+  "url": "https://dexscreener.com/solana/glawm3vfovjbeck7k1ujq1z6bvxzfb319vven3bahz2b",
+  "pairAddress": "GLAwM3VfovjbECk7k1Ujq1z6bvxZFb319VVeN3baHZ2b",
+  "baseToken": {
+   "address": "6Vuz122BbhCoBSXLH94JdMamHAJhRGBKGJJ1i2TWpump",
+   "name": "CROCS",
+   "symbol": "CROCS"
+  },
+  "quoteToken": {
+   "address": "So11111111111111111111111111111111111111112",
+   "name": "Wrapped SOL",
+   "symbol": "SOL"
+  },
+  "priceNative": "0.0000004026",
+  "priceUsd": "0.00004845",
+  "txns": {
+   "m5": {
+    "buys": 6,
+    "sells": 8
+   },
+   "h1": {
+    "buys": 74,
+    "sells": 135
+   },
+   "h6": {
+    "buys": 431,
+    "sells": 752
+   },
+   "h24": {
+    "buys": 5432,
+    "sells": 7881
+   }
+  },
+  "volume": {
+   "h24": 1195819.64,
+   "h6": 32780.27,
+   "h1": 3667.17,
+   "m5": 95.97
+  },
+  "priceChange": {
+   "m5": 0.16,
+   "h1": -4.56,
+   "h6": -48.57,
+   "h24": -55.24
+  },
+  "liquidity": {
+   "usd": 19532.34,
+   "base": 222043293,
+   "quote": 72.9173
+  },
+  "fdv": 47889,
+  "marketCap": 47889,
+  "pairCreatedAt": 1790705786000,
+  "info": {
+   "imageUrl": "https://cdn.dexscreener.com/cms/images/hqCpOVWYG8iJIT8u?width=800&height=800&quality=95&format=auto"
+  },
+  "boosts": {
+   "active": 500
+  }
+ }
+]

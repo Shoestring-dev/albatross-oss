@@ -1,0 +1,58 @@
+{
+ "updateUnixTime": 1790788673,
+ "updateTime": "2026-09-30T17:17:53",
+ "tokens": [
+  {
+   "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+   "decimals": 5,
+   "fdv": 338058270.24875844,
+   "liquidity": 9109656.052106915,
+   "logoURI": "https://arweave.net/hQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I",
+   "marketcap": 337986987.99196935,
+   "name": "Bonk",
+   "price": 3.841816702842946e-06,
+   "rank": 1,
+   "symbol": "Bonk",
+   "volume24hUSD": 5180927.92692733,
+   "volume24hChangePercent": 11.239688221104402,
+   "price24hChangePercent": 7.38466871289323,
+   "isScaledUiToken": false,
+   "multiplier": null
+  },
+  {
+   "address": "SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH",
+   "decimals": 9,
+   "fdv": 2199093.3310456583,
+   "liquidity": 1559646.6584966702,
+   "logoURI": "https://static.satrush.io/rush.png",
+   "marketcap": 2199089.173619649,
+   "name": "Sat Rush",
+   "price": 51.136793418322505,
+   "rank": 2,
+   "symbol": "RUSH",
+   "volume24hUSD": 2602391.314112326,
+   "volume24hChangePercent": 10623.332344951317,
+   "price24hChangePercent": 14.246506304960127,
+   "isScaledUiToken": false,
+   "multiplier": null
+  },
+  {
+   "address": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+   "decimals": 5,
+   "fdv": 46193907.99652634,
+   "liquidity": 10680634.947802665,
+   "logoURI": "https://bafkreidlwyr565dxtao2ipsze6bmzpszqzybz7sqi2zaet5fs7k53henju.ipfs.nftstorage.link/",
+   "marketcap": 46193893.98978363,
+   "name": "cat in a dogs world",
+   "price": 0.0005197014150057382,
+   "rank": 3,
+   "symbol": "MEW",
+   "volume24hUSD": 5331377.805251934,
+   "volume24hChangePercent": 1513.3451997547147,
+   "price24hChangePercent": 10.514949244148365,
+   "isScaledUiToken": false,
+   "multiplier": null
+  }
+ ],
+ "total": 20447
+}

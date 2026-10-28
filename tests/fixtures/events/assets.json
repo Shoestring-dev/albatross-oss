@@ -1,0 +1,357 @@
+[
+{
+"symbol": "BTC",
+"name": "Bitcoin",
+"sector": "Majors"
+},
+{
+"symbol": "ETH",
+"name": "Ethereum",
+"sector": "Majors"
+},
+{
+"symbol": "SOL",
+"name": "Solana",
+"sector": "Layer 1"
+},
+{
+"symbol": "XRP",
+"name": "XRP",
+"sector": "Layer 1"
+},
+{
+"symbol": "SUI",
+"name": "Sui",
+"sector": "Layer 1"
+},
+{
+"symbol": "LINK",
+"name": "Chainlink",
+"sector": "RWA"
+},
+{
+"symbol": "DOGE",
+"name": "Dogecoin",
+"sector": "Memes"
+},
+{
+"symbol": "BNB",
+"name": "BNB",
+"sector": "Exchange Tokens"
+},
+{
+"symbol": "HYPE",
+"name": "Hyperliquid",
+"sector": "Perp DEX"
+},
+{
+"symbol": "AVAX",
+"name": "Avalanche",
+"sector": "Layer 1"
+},
+{
+"symbol": "SAND",
+"name": "The Sandbox",
+"sector": "Gaming"
+},
+{
+"symbol": "HBAR",
+"name": "Hedera",
+"sector": "Layer 1"
+},
+{
+"symbol": "NEAR",
+"name": "NEAR Protocol",
+"sector": "AI"
+},
+{
+"symbol": "ZEC",
+"name": "Zcash",
+"sector": "Privacy"
+},
+{
+"symbol": "QNT",
+"name": "Quant",
+"sector": "RWA"
+},
+{
+"symbol": "UNI",
+"name": "Uniswap",
+"sector": "Exchange Tokens"
+},
+{
+"symbol": "XLM",
+"name": "Stellar",
+"sector": "RWA"
+},
+{
+"symbol": "ONDO",
+"name": "Ondo",
+"sector": "RWA"
+},
+{
+"symbol": "ADA",
+"name": "Cardano",
+"sector": "Layer 1"
+},
+{
+"symbol": "LTC",
+"name": "Litecoin",
+"sector": "Layer 1"
+},
+{
+"symbol": "WLD",
+"name": "Worldcoin",
+"sector": "Layer 1"
+},
+{
+"symbol": "ENA",
+"name": "Ethena",
+"sector": "DeFi"
+},
+{
+"symbol": "PUMP",
+"name": "Pump.fun",
+"sector": "Memes"
+},
+{
+"symbol": "TRX",
+"name": "TRON",
+"sector": "Layer 1"
+},
+{
+"symbol": "TAO",
+"name": "Bittensor",
+"sector": "AI"
+},
+{
+"symbol": "PEPE",
+"name": "Pepe",
+"sector": "Memes"
+},
+{
+"symbol": "ARB",
+"name": "Arbitrum",
+"sector": "Layer 2"
+},
+{
+"symbol": "BCH",
+"name": "Bitcoin Cash",
+"sector": "Layer 1"
+},
+{
+"symbol": "AAVE",
+"name": "Aave",
+"sector": "Lending"
+},
+{
+"symbol": "RUNE",
+"name": "THORChain",
+"sector": "Exchange Tokens"
+},
+{
+"symbol": "TRUMP",
+"name": "Official Trump",
+"sector": "Memes"
+},
+{
+"symbol": "PENGU",
+"name": "Pudgy Penguins",
+"sector": "Memes"
+},
+{
+"symbol": "ALGO",
+"name": "Algorand",
+"sector": "RWA"
+},
+{
+"symbol": "DOT",
+"name": "Polkadot",
+"sector": "Layer 1"
+},
+{
+"symbol": "PAXG",
+"name": "PAX Gold",
+"sector": "RWA"
+},
+{
+"symbol": "SEI",
+"name": "Sei",
+"sector": "DeFi"
+},
+{
+"symbol": "FET",
+"name": "Artificial Superintelligence Alliance",
+"sector": "AI Agents"
+},
+{
+"symbol": "FIL",
+"name": "Filecoin",
+"sector": "DePIN"
+},
+{
+"symbol": "VIRTUAL",
+"name": "Virtuals Protocol",
+"sector": "AI Agents"
+},
+{
+"symbol": "DASH",
+"name": "Dash",
+"sector": "Layer 1"
+},
+{
+"symbol": "POL",
+"name": "POL (ex-MATIC)",
+"sector": "Layer 2"
+},
+{
+"symbol": "JUP",
+"name": "Jupiter",
+"sector": "Perp DEX"
+},
+{
+"symbol": "ASTER",
+"name": "Aster",
+"sector": "Perp DEX"
+},
+{
+"symbol": "MON",
+"name": "Monad",
+"sector": "Layer 1"
+},
+{
+"symbol": "INJ",
+"name": "Injective",
+"sector": "RWA"
+},
+{
+"symbol": "GRAM",
+"name": "Gram (prev. Toncoin)",
+"sector": "Layer 1"
+},
+{
+"symbol": "XMR",
+"name": "Monero",
+"sector": "Privacy"
+},
+{
+"symbol": "CRV",
+"name": "Curve DAO",
+"sector": "Exchange Tokens"
+},
+{
+"symbol": "NMR",
+"name": "Numeraire",
+"sector": "DeFi"
+},
+{
+"symbol": "XPL",
+"name": "Plasma",
+"sector": "Layer 1"
+},
+{
+"symbol": "ZRO",
+"name": "LayerZero",
+"sector": "Layer 1"
+},
+{
+"symbol": "SHIB",
+"name": "Shiba Inu",
+"sector": "Memes"
+},
+{
+"symbol": "CAKE",
+"name": "PancakeSwap",
+"sector": "Perp DEX"
+},
+{
+"symbol": "KII",
+"name": "KiiChain",
+"sector": "Layer 2"
+},
+{
+"symbol": "ETC",
+"name": "Ethereum Classic",
+"sector": "Layer 1"
+},
+{
+"symbol": "RENDER",
+"name": "Render",
+"sector": "AI"
+},
+{
+"symbol": "LIT",
+"name": "Lighter",
+"sector": "Perp DEX"
+},
+{
+"symbol": "SOON",
+"name": "SOON",
+"sector": "Layer 2"
+},
+{
+"symbol": "APT",
+"name": "Aptos",
+"sector": "Layer 1"
+},
+{
+"symbol": "ICP",
+"name": "Internet Computer",
+"sector": "AI"
+},
+{
+"symbol": "AERO",
+"name": "Aerodrome Finance",
+"sector": "Exchange Tokens"
+},
+{
+"symbol": "OP",
+"name": "Optimism",
+"sector": "Layer 2"
+},
+{
+"symbol": "WIF",
+"name": "dogwifhat",
+"sector": "Memes"
+},
+{
+"symbol": "PENDLE",
+"name": "Pendle",
+"sector": "Liquid Staking / Restaking"
+},
+{
+"symbol": "GRASS",
+"name": "Grass",
+"sector": "AI"
+},
+{
+"symbol": "GRT",
+"name": "The Graph",
+"sector": "AI"
+},
+{
+"symbol": "LDO",
+"name": "Lido DAO",
+"sector": "Liquid Staking / Restaking"
+},
+{
+"symbol": "ATOM",
+"name": "Cosmos Hub",
+"sector": "Layer 1"
+},
+{
+"symbol": "RAY",
+"name": "Raydium",
+"sector": "Perp DEX"
+},
+{
+"symbol": "BABY",
+"name": "Babylon",
+"sector": "DeFi"
+},
+{
+"symbol": "W",
+"name": "Wormhole",
+"sector": null
+}
+]

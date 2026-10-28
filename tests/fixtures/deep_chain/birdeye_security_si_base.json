@@ -1,0 +1,14 @@
+{
+  "result": {
+    "status": 0,
+    "score": 0,
+    "scoreComponents": {
+      "popularScore": 99,
+      "holderScore": 1,
+      "liquidityScore": 0.5585303601622844,
+      "infoScore": 0
+    },
+    "data": null,
+    "warning": null
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "antiWhaleModifiable": "0",
+  "buyTax": "",
+  "cannotBuy": "0",
+  "canTakeBackOwnership": "0",
+  "creatorAddress": "0xbcedd8b4150afb39b4d3af4b303d99f0424caf84",
+  "creatorBalance": "0",
+  "creatorPercentage": "0.000000",
+  "externalCall": "0",
+  "hiddenOwner": "0",
+  "holderCount": "4",
+  "honeypotWithSameCreator": "0",
+  "isAntiWhale": "0",
+  "isBlacklisted": "0",
+  "isHoneypot": "0",
+  "isInDex": "1",
+  "isMintable": "0",
+  "isOpenSource": "1",
+  "isProxy": "0",
+  "isWhitelisted": "0",
+  "launchpadToken": {
+    "is_launchpad_token": "1",
+    "launchpad_name": "Clanker"
+  },
+  "lpHolderCount": "1",
+  "lpHolders": [
+    {
+      "address": "0xa222164b8a318749a355f28946f0022dd2ac0eb0",
+      "tag": "",
+      "value": "0.98144976805936037288",
+      "is_contract": 1,
+      "balance": "997519.51106574995028247",
+      "percent": "1.000000000000000000",
+      "NFT_list": [
+        {
+          "value": "0.98144976805936037288",
+          "NFT_id": "3088981",
+          "amount": "997519.51106574995028247",
+          "in_effect": "1",
+          "NFT_percentage": "1.000000000000000000"
+        }
+      ],
+      "is_locked": 0
+    }
+  ],
+  "lpTotalSupply": "997519.51106575",
+  "ownerAddress": "0x0000000000000000000000000000000000000000",
+  "ownerBalance": "0",
+  "ownerChangeBalance": "0",
+  "ownerPercentage": "0.0",
+  "personalSlippageModifiable": "0",
+  "sellTax": "0",
+  "slippageModifiable": "0",
+  "tokenName": "boar",
+  "tokenSymbol": "boar",
+  "totalSupply": "100000000000",
+  "tradingCooldown": "0",
+  "transferPausable": "0",
+  "transferTax": ""
+}

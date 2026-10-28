@@ -1,0 +1,81 @@
+{
+ "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+ "scope": "live-top-holders",
+ "source": "live-fomo",
+ "count": 3,
+ "totalHolders": 90535,
+ "holders": [
+  {
+   "handle": "SampleGoat_",
+   "displayName": "SampleGoat💛🐈",
+   "wallet": {
+    "solana": "67emv9iGAwXE65TgxZdwDgpxttfRSA4oQamx6TZYkeKW",
+    "evm": "0x7e2a1041f79884790206f20f70859623bc4c66e7",
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "onchain-holdings"
+    }
+   },
+   "amount": 27625511.94,
+   "valueUsd": 1671221.8,
+   "priceUsd": 0.0604955954933,
+   "pnlUsd": 1618071.07,
+   "unrealizedPnlUsd": 1556818.18,
+   "costBasisUsd": 137691.24,
+   "isDev": false,
+   "followers": 584635,
+   "verified": false,
+   "clan": null,
+   "thesis": "Just don’t fade this one…\n\nSample thesis text for the tests imo💛🐈"
+  },
+  {
+   "handle": "sample_capital",
+   "displayName": "samplez",
+   "wallet": {
+    "solana": "5RronHb8ZtB5P68RwTbLj5vMCPUHxLAEXQn3Xn3w4sNv",
+    "evm": "0x0b02b682249a4be1dee9fbe18c53efc79996ce4d",
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "onchain-holdings"
+    }
+   },
+   "amount": 27393038.42,
+   "valueUsd": 1657158.17,
+   "priceUsd": 0.0604955954933,
+   "pnlUsd": 105519.85,
+   "unrealizedPnlUsd": 95403.91,
+   "costBasisUsd": 1579244.55,
+   "isDev": false,
+   "followers": 76541,
+   "verified": false,
+   "clan": null,
+   "thesis": "sample entry\n\nsynthetic thesis text: holders kept growing through a 55% dump"
+  },
+  {
+   "handle": "boosterexample",
+   "displayName": "Sample Jules",
+   "wallet": {
+    "solana": "3QLd3KnFphw3VM1gUc6HknxBFCGdJb6SKRX8dVBLgoTr",
+    "evm": "0x6863a918b073f70ba9f613a55dff6f457c740344",
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "onchain-holdings"
+    }
+   },
+   "amount": 10412644.98,
+   "valueUsd": 629919.16,
+   "priceUsd": 0.0604955954933,
+   "pnlUsd": 570484.36,
+   "unrealizedPnlUsd": 554505.03,
+   "costBasisUsd": 120669.02,
+   "isDev": false,
+   "followers": 73266,
+   "verified": false,
+   "clan": null,
+   "thesis": "Sample cat is not for sale"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "next": "https://cryptopanic.com/api/growth/v2/posts/?page=2&public=true&kind=news",
+ "previous": null,
+ "results": [
+  {
+   "id": 24810311,
+   "slug": "bonk-dao-completes-scheduled-burn",
+   "title": "BONK DAO completes a scheduled token burn as Solana memecoins rally",
+   "description": "The DAO said the burn finishes its planned schedule for the quarter.",
+   "published_at": "2026-09-30T16:41:00Z",
+   "created_at": "2026-09-30T16:42:10Z",
+   "kind": "news",
+   "source": {"title": "Example Wire", "region": "en", "domain": "wire.example.com", "path": null},
+   "original_url": "https://www.wire.example.com/post/370001/bonk-dao-burn",
+   "url": "https://cryptopanic.com/news/24810311/bonk-dao-completes-scheduled-burn",
+   "image": null,
+   "instruments": [{"code": "BONK", "title": "Bonk", "slug": "bonk", "url": "https://cryptopanic.com/news/bonk/"},
+                   {"code": "sol", "title": "Solana", "slug": "solana", "url": "https://cryptopanic.com/news/solana/"}],
+   "votes": {"negative": 1, "positive": 14, "important": 6, "liked": 9, "disliked": 0, "lol": 2, "toxic": 0,
+             "saved": 3, "comments": 1},
+   "panic_score": 61,
+   "panic_score_1h": 44
+  },
+  {
+   "id": 24810290,
+   "title": "Horror-themed memecoin $SAW draws traders ahead of Halloween",
+   "published_at": "2026-09-30T15:05:00Z",
+   "kind": "news",
+   "source": {"title": "Example Daily", "domain": "daily.example.com"},
+   "url": "https://cryptopanic.com/news/24810290/horror-memecoin-saw-draws-traders",
+   "currencies": [{"code": "SAW", "title": "The Torture Chamber"}],
+   "votes": {"positive": 2, "negative": 3, "important": 0}
+  },
+  {
+   "id": 24810001,
+   "title": "",
+   "published_at": "2026-09-30T14:00:00Z",
+   "url": "https://cryptopanic.com/news/24810001/untitled"
+  }
+ ]
+}

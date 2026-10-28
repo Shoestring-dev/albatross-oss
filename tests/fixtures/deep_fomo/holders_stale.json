@@ -1,0 +1,95 @@
+{
+ "token": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+ "scope": "live-top-holders",
+ "source": "live-fomo-stale",
+ "count": 3,
+ "totalHolders": 37170,
+ "stale": true,
+ "ageSeconds": 6533,
+ "staleNote": "Upstream did not answer, so this is the last payload we successfully fetched for this key. ageSeconds says how old it is. Retry for fresh data; this is served instead of a 503 so you have something to act on rather than nothing.",
+ "holders": [
+  {
+   "handle": "unisample",
+   "displayName": "Unisample",
+   "wallet": {
+    "solana": "4j7So9yFbNZhPEAnD5ww99DEGgDKwpCfHj5wxGpUcDQE",
+    "evm": "0x5296a45f0f203974db49f2dcbf3179690d38af32",
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "onchain-holdings"
+    }
+   },
+   "amount": 19654074.65,
+   "valueUsd": 708405.06,
+   "priceUsd": 0.0360436740954,
+   "pnlUsd": 512254.88,
+   "unrealizedPnlUsd": 512254.88,
+   "costBasisUsd": 196150.04,
+   "isDev": false,
+   "followers": 764671,
+   "verified": false,
+   "clan": {
+    "id": "d1968c43-f075-442b-83bb-0c046799d4d0",
+    "name": "Clan Orchid",
+    "icon": "https://example.com/avatar/8.png",
+    "role": null
+   },
+   "thesis": "synthetic thesis: confident enough to keep buying the dips\n\nit's going to look clear in hindsight!"
+  },
+  {
+   "handle": "QX_SAMPLE_AT_HQ",
+   "displayName": "QX_SAMPLE_AT_HQ",
+   "wallet": {
+    "solana": "4oZydFMpXRH3GKjq8AkRByL8S5RukEKtLJHsB9LmAgq7",
+    "evm": "0x6c18d76ae755ea4e2f93cfb24d4c596d96c50715",
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "onchain-holdings"
+    }
+   },
+   "amount": 13636803.46,
+   "valueUsd": 491520.5,
+   "priceUsd": 0.0360436740954,
+   "pnlUsd": 358032.14,
+   "unrealizedPnlUsd": 355658.21,
+   "costBasisUsd": 138982.97,
+   "isDev": false,
+   "followers": 21078,
+   "verified": false,
+   "clan": null,
+   "thesis": "This will look obvious in hindsight.\n\nSample thesis paragraph: $SI has held up better than most memes this month.\n\nThe thesis is bigger than just another dog coin.\n\nAI → SI.\nA sample line → another sample line.\n\nSynthetic paragraph 1: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 2: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 3: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 4: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 5: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 6: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 7: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 8: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 9: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 10: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 11: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 12: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 13: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 14: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 15: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 16: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 17: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nSynthetic paragraph 18: the narrative, the ticker and the timing are “placeholders” written for this fixture; they quote nobody and describe no real token’s holders.\n\nStudy the ticker.\nStudy the meme.\nStudy the timing."
+  },
+  {
+   "handle": "jexample",
+   "displayName": "Jexample",
+   "wallet": {
+    "solana": "gtQxfiL2DKH9iwtGLN2DahpHYbeMkKvYo3bQoj6wvki",
+    "evm": "0xef8b7ba53e186d6a569cd7b89dfd7da521366a56",
+    "verified": false,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "provider-claimed"
+    },
+    "note": "An address marked provider-claimed came from the upstream provider and has NOT been matched against this trader's on-chain positions. It is checked to be an ordinary account rather than a contract, but treat it as a lead. evidence:\"onchain-holdings\" is proven."
+   },
+   "amount": 12643900.18,
+   "valueUsd": 455732.62,
+   "priceUsd": 0.0360436740954,
+   "pnlUsd": 182064.6,
+   "unrealizedPnlUsd": 67401.09,
+   "costBasisUsd": 575444.82,
+   "isDev": false,
+   "followers": 16877,
+   "verified": false,
+   "clan": {
+    "id": "aeae4c31-26e4-4d38-8270-d816654ea69f",
+    "name": "Clan Birch",
+    "icon": "https://example.com/avatar/9.png",
+    "role": null
+   },
+   "thesis": "Sample village is hungry again. Buying more."
+  }
+ ]
+}

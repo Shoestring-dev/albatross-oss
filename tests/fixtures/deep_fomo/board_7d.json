@@ -1,0 +1,380 @@
+{
+ "window": "7d",
+ "source": "fomo-live",
+ "capturedAt": "2026-10-01T19:43:17.767Z",
+ "count": 7,
+ "traders": [
+  {
+   "rank": 1,
+   "handle": "SampleTallTrader",
+   "userId": "8f83254e-6d69-54a3-811f-b005a7e9efe1",
+   "displayName": "SampleTallTrader",
+   "pnlUsd": 739411,
+   "volumeUsd": 1086874,
+   "trades": 87,
+   "followers": 44689,
+   "holdings": 0,
+   "wallets": {
+    "solana": "xMWkuqFfrL5qDU8FZfwKfdrB3bv9J7o5dpLREL7XnUTz",
+    "evm": "0x249d0739040274db91ba940a457a8401102acba8",
+    "verified": false,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "provider-claimed"
+    },
+    "note": "An address marked provider-claimed came from the upstream provider and has NOT been matched against this trader's on-chain positions. It is checked to be an ordinary account rather than a contract, but treat it as a lead. evidence:\"onchain-holdings\" is proven."
+   },
+   "avatar": "",
+   "topTokens": [],
+   "clan": null,
+   "twitter": null,
+   "createdAt": "2026-09-18T16:17:32.398Z",
+   "description": null,
+   "following": 4,
+   "verified": false
+  },
+  {
+   "rank": 2,
+   "handle": "sampleprice",
+   "userId": "994e0c80-878c-533b-a37a-7e87ccdf210f",
+   "displayName": "sampleprice",
+   "pnlUsd": 547812,
+   "volumeUsd": 933687,
+   "trades": 115,
+   "followers": 41640,
+   "holdings": 22,
+   "wallets": {
+    "solana": "4LqTZy5PkRxpBVP5pgtPS9yWfTfoDTm7utHjXjhahssQ",
+    "evm": "0xd89a845f066e33c878c10e8f5dbd96425eacf660",
+    "verified": false,
+    "evidence": {
+     "solana": "provider-claimed",
+     "evm": "onchain-holdings"
+    },
+    "note": "An address marked provider-claimed came from the upstream provider and has NOT been matched against this trader's on-chain positions. It is checked to be an ordinary account rather than a contract, but treat it as a lead. evidence:\"onchain-holdings\" is proven."
+   },
+   "avatar": "",
+   "topTokens": [
+    {
+     "imageUrl": "https://token-media.defined.fi/4663_0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3_thumb_934e78f37433.png",
+     "tokenAddress": "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3",
+     "networkId": 4663,
+     "humanAmount": 17150331.662868395,
+     "price": 0.0899123062546,
+     "value": 1542025.8728397866,
+     "pnl": 1630329.8606637274
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/4663_0x07ebb29a38fbcb41563817e5e19f2cec619c90d2_thumb_a7519279cbf1.png",
+     "tokenAddress": "0x07ebb29a38fbcb41563817e5e19f2cec619c90d2",
+     "networkId": 4663,
+     "humanAmount": 2969454.794354331,
+     "price": 0.072179431729,
+     "value": 214333.5596014502,
+     "pnl": 183646.95214845016
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_PerPsCe2SJ7Q25CN4R5TTX4fmBdmknE2hQmqCt96fHL_thumb_37e0ee4536b4.png",
+     "tokenAddress": "PerPsCe2SJ7Q25CN4R5TTX4fmBdmknE2hQmqCt96fHL",
+     "networkId": 1399811149,
+     "humanAmount": 3316894.749366,
+     "price": 0.00144689895634,
+     "value": 4799.211551147291,
+     "pnl": -28731.152983852702
+    }
+   ],
+   "clan": null,
+   "twitter": null,
+   "createdAt": "2025-10-31T14:58:46.460Z",
+   "description": "fomo 2026 rising star\nX: @sample_pricer",
+   "following": 0,
+   "verified": false
+  },
+  {
+   "rank": 4,
+   "handle": "SAMPLE_K1",
+   "userId": "4dcffad9-c289-5a51-8b40-5d468be2270e",
+   "displayName": "SAMPLE_K1",
+   "pnlUsd": 453515,
+   "volumeUsd": 5087893,
+   "trades": 380,
+   "followers": 7371,
+   "holdings": 12,
+   "wallets": {
+    "solana": "3A8gWCcjy3QHtGGasff37DRRPMQGxn65SB2aKjatom6i",
+    "evm": null,
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings"
+    }
+   },
+   "avatar": "https://example.com/avatar/1.png",
+   "topTokens": [
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP_thumb_b81e3d2dc953.png",
+     "tokenAddress": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+     "networkId": 1399811149,
+     "humanAmount": 4485375.835361,
+     "price": 0.0346460424989,
+     "value": 155400.5218154563,
+     "pnl": 575963.8213794561
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR_thumb_5be66b06bbf1.png",
+     "tokenAddress": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+     "networkId": 1399811149,
+     "humanAmount": 3318864.216867818,
+     "price": 0.0477150497503,
+     "value": 158359.77122233837,
+     "pnl": -51991.47849366084
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS_large_small_thumb_6575c9ff-aedf-47df-b70e-fccf2d6c1538.png",
+     "tokenAddress": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+     "networkId": 1399811149,
+     "humanAmount": 0.09507141,
+     "price": 1319.40899936,
+     "value": 125.4380739358443,
+     "pnl": -5.948533879972878
+    }
+   ],
+   "clan": null,
+   "twitter": null,
+   "createdAt": "2026-09-03T11:57:55.000Z",
+   "description": null,
+   "following": 64,
+   "verified": false
+  },
+  {
+   "rank": 7,
+   "handle": "byexampler",
+   "userId": "c7f9af59-45a5-54e9-8b73-75b3f0dad11c",
+   "displayName": "byexampler",
+   "pnlUsd": 376503,
+   "volumeUsd": 5950246,
+   "trades": 1885,
+   "followers": 16132,
+   "holdings": 10,
+   "wallets": {
+    "solana": "2zvAYmpsZ2mjxb3muD2qqZ9veCg377mPTv7uF5X2zxXN",
+    "evm": null,
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings"
+    }
+   },
+   "avatar": "https://example.com/avatar/2.png",
+   "topTokens": [
+    {
+     "imageUrl": "https://token-media.defined.fi/1_0x4e67db19044549ff420860834c91b45bad298722_thumb_1be9e34d3970.png",
+     "tokenAddress": "0x4e67db19044549ff420860834c91b45bad298722",
+     "networkId": 1,
+     "humanAmount": 5037209.092983544,
+     "price": 0.0164392595904,
+     "value": 82807.98789067981,
+     "pnl": 234257.71238833695
+    },
+    {
+     "imageUrl": "https://media.thegrid.id/1270/14/336/id1761223287-yofTwDGNQzWuWUaALp4d4Q/image-1762952497.jpg",
+     "tokenAddress": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
+     "networkId": 1399811149,
+     "humanAmount": 784.55938090288,
+     "price": 110.485611256,
+     "value": 86682.52276568362,
+     "pnl": 23546.230149119532
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/56_0x355c11826d33ac0cce61f4c1f71eef9363707777_thumb_80d629508708.png",
+     "tokenAddress": "0x355c11826d33ac0cce61f4c1f71eef9363707777",
+     "networkId": 56,
+     "humanAmount": 20960279.713354494,
+     "price": 0.000754252162367,
+     "value": 15809.336297614791,
+     "pnl": 13809.117282516738
+    }
+   ],
+   "clan": {
+    "id": "ad094113-815d-4b45-be45-a70b2707c034",
+    "name": "$",
+    "icon": "https://example.com/avatar/3.png",
+    "role": null
+   },
+   "twitter": null,
+   "createdAt": "2026-07-03T23:01:31.356Z",
+   "description": "All socials: byexampler",
+   "following": 73,
+   "verified": false
+  },
+  {
+   "rank": 14,
+   "handle": "macsample",
+   "userId": "5e7af1ac-5b16-5150-9bd4-ccfb72c2c27f",
+   "displayName": "777",
+   "pnlUsd": 271407,
+   "volumeUsd": 9802945,
+   "trades": 1390,
+   "followers": 44420,
+   "holdings": 106,
+   "wallets": {
+    "solana": "2QwuPxsCbRw8gsA96Nkt3kFRNHce9EPBJJGjSQTyvVR9",
+    "evm": "0xe8e2163e72b9789acb541dc49d9330da124cebe9",
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "onchain-holdings"
+    }
+   },
+   "avatar": "https://example.com/avatar/4.png",
+   "topTokens": [
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP_thumb_b81e3d2dc953.png",
+     "tokenAddress": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+     "networkId": 1399811149,
+     "humanAmount": 1842540.387911,
+     "price": 0.0346460424989,
+     "value": 63836.7325855042,
+     "pnl": 623097.4769245046
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump_thumb_91c7c8bee740.png",
+     "tokenAddress": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+     "networkId": 1399811149,
+     "humanAmount": 2085821.288787,
+     "price": 0.0605797817414,
+     "value": 126358.59842628213,
+     "pnl": -55049.307483717894
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/56_0xcaf66eb2c00d206d741a654face34768cf2a7777_thumb_add4f2465cd9.png",
+     "tokenAddress": "0xcaf66eb2c00d206d741a654face34768cf2a7777",
+     "networkId": 56,
+     "humanAmount": 7967614.768294587,
+     "price": 0.0010125099391,
+     "value": 8067.289143818212,
+     "pnl": -11854.83201118178
+    }
+   ],
+   "clan": null,
+   "twitter": null,
+   "createdAt": "2025-04-09T19:59:57.447Z",
+   "description": "product tester",
+   "following": 88,
+   "verified": false
+  },
+  {
+   "rank": 68,
+   "handle": "sampletitan",
+   "userId": "b118abe5-a9e4-57c1-a917-6cf2723b1d92",
+   "displayName": "Sample Titan",
+   "pnlUsd": 107723,
+   "volumeUsd": 1371665,
+   "trades": 747,
+   "followers": 2170,
+   "holdings": 43,
+   "wallets": {
+    "solana": "3eKFBj1USBvtG6rtPQqbxHwWSvvtYEwUSyBPKUUwCY9Q",
+    "evm": "0x7f064910f8dbe0123c1e41920cdcc0f897ecf9cd",
+    "verified": false,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "provider-claimed"
+    },
+    "note": "An address marked provider-claimed came from the upstream provider and has NOT been matched against this trader's on-chain positions. It is checked to be an ordinary account rather than a contract, but treat it as a lead. evidence:\"onchain-holdings\" is proven."
+   },
+   "avatar": "https://example.com/avatar/5.png",
+   "topTokens": [
+    {
+     "imageUrl": "https://token-media.defined.fi/4663_0xedbf91223639800bcd5756815caf908df3b890be_thumb_5585020c9375.png",
+     "tokenAddress": "0xedbf91223639800bcd5756815caf908df3b890be",
+     "networkId": 4663,
+     "humanAmount": 14318644.771184493,
+     "price": 0.00683585751143,
+     "value": 97880.21541259941,
+     "pnl": 135428.360632995
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/56_0xccfbcd3bf85d8657a6bbd10b8c81c99f13207777_thumb_3882fb3dbcac.png",
+     "tokenAddress": "0xccfbcd3bf85d8657a6bbd10b8c81c99f13207777",
+     "networkId": 56,
+     "humanAmount": 23757521.170006637,
+     "price": 6.91847709905e-05,
+     "value": 1643.658661448865,
+     "pnl": -9899.573904883904
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/4663_0x0de4f4bbf2b822019b362e51e2d8a1f13ca5ab01_thumb_2f79d9f93a17.png",
+     "tokenAddress": "0x0de4f4bbf2b822019b362e51e2d8a1f13ca5ab01",
+     "networkId": 4663,
+     "humanAmount": 23472467.48742569,
+     "price": 2.2716160015e-05,
+     "value": 533.2043273912469,
+     "pnl": -2649.1996116087535
+    }
+   ],
+   "clan": {
+    "id": "5fc7c174-2e04-45db-84c9-f58792055c45",
+    "name": "Clan Cedar",
+    "icon": "https://example.com/avatar/6.png",
+    "role": null
+   },
+   "twitter": null,
+   "createdAt": "2026-01-20T09:43:28.894Z",
+   "description": "oh baby",
+   "following": 35,
+   "verified": false
+  },
+  {
+   "rank": 108,
+   "handle": "sample999",
+   "userId": "813c287b-a2da-5333-b90f-1e6fc6eba6a1",
+   "displayName": "sample999",
+   "pnlUsd": 66212,
+   "volumeUsd": 7663016,
+   "trades": 196,
+   "followers": 1787,
+   "holdings": 11,
+   "wallets": {
+    "solana": "3sgrrLN4DsFjZqFkXR5aCzZYGwqwGvt6f7i6rQYqttbM",
+    "evm": "0x5f550f09785b3f9da573f9cc1dfb459a351e5380",
+    "verified": true,
+    "evidence": {
+     "solana": "onchain-holdings",
+     "evm": "onchain-holdings"
+    }
+   },
+   "avatar": "https://example.com/avatar/7.png",
+   "topTokens": [
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp_thumb_1e1b256dad55.png",
+     "tokenAddress": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+     "networkId": 1399811149,
+     "humanAmount": 2948211.962824,
+     "price": 0.20456687248,
+     "value": 603106.5006430277,
+     "pnl": 103483.99868271356
+    },
+    {
+     "imageUrl": "https://image-renderer.fomo.cloud/hl/ZRO/icon.png",
+     "tokenAddress": "ZRO",
+     "networkId": 1337,
+     "pnl": 18408.75429
+    },
+    {
+     "imageUrl": "https://token-media.defined.fi/1399811149_DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump_thumb_cbc45e89e6ef.png",
+     "tokenAddress": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
+     "networkId": 1399811149,
+     "humanAmount": 1029756.886798,
+     "price": 0.00191924360683,
+     "value": 1976.3543215762254,
+     "pnl": -511.1606784237745
+    }
+   ],
+   "clan": null,
+   "twitter": null,
+   "createdAt": "2026-01-31T00:21:08.633Z",
+   "description": null,
+   "following": 0,
+   "verified": false
+  }
+ ]
+}

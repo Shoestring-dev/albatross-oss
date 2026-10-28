@@ -1,0 +1,99 @@
+name: albatross
+
+services:
+  db:
+    # Pinned: a dump/restore between machines needs the exact same TimescaleDB version.
+    image: timescale/timescaledb:2.30.1-pg17
+    restart: unless-stopped
+    # Docker's default 64 MB /dev/shm ran out under parallel queries on 2026-10-03 ("could not resize shared memory
+    # segment ... No space left on device", a 500 on the Agents page); Postgres's parallel workers need more.
+    shm_size: 256mb
+    environment:
+      POSTGRES_USER: albatross
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-albatross_local}
+      POSTGRES_DB: albatross
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"     # POSTGRES_PORT in .env if 5432 is taken on this machine
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U albatross -d albatross"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  ingest:
+    build: .
+    restart: unless-stopped
+    command: ["python", "-m", "albatross", "run"]
+    # data.keys last: Compose lets a later file override an earlier one even with an EMPTY value, and the
+    # user's keys file carries blank template lines (FRED_API_KEY= ...) that would erase the real keys.
+    env_file:
+      - path: .env
+        required: false
+      - path: data.keys
+        required: false
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432                 # inside the network; POSTGRES_PORT in .env is the host's side
+    volumes:
+      - subs_sock:/run/albatross-codex    # the subscriptions gateway's socket (the subs service below)
+    depends_on:
+      db:
+        condition: service_healthy
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  dashboard:
+    build: .
+    restart: unless-stopped
+    command: ["uvicorn", "albatross.api.app:app", "--host", "0.0.0.0", "--port", "8787"]
+    # data.keys last: Compose lets a later file override an earlier one even with an EMPTY value, and the
+    # user's keys file carries blank template lines (FRED_API_KEY= ...) that would erase the real keys.
+    env_file:
+      - path: .env
+        required: false
+      - path: data.keys
+        required: false
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432                 # inside the network; POSTGRES_PORT in .env is the host's side
+    ports:
+      - "127.0.0.1:${DASHBOARD_PORT:-8787}:8787"   # DASHBOARD_PORT in .env if 8787 is taken
+    volumes:
+      - subs_sock:/run/albatross-codex    # the Setup page signs the gateway in through it
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Optional: the agents on your own ChatGPT plan (Codex CLI) or Claude plan (Claude Code CLI), signed in from the
+  # Setup page. Opt in with `docker compose --profile subscriptions up -d`; see deploy/subs/README.md. No ports: it
+  # answers only on the Unix socket in subs_sock, and the logins stay in subs_home.
+  subs:
+    build:
+      context: ./deploy
+      dockerfile: subs/Dockerfile
+    profiles: ["subscriptions"]
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - subs_home:/home/subs
+      - subs_sock:/run/albatross-codex
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  pgdata:
+  subs_home:
+  subs_sock:

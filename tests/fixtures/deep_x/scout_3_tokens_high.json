@@ -1,0 +1,141 @@
+{
+ "now": "2026-09-30T17:22:58.880703+00:00",
+ "latency_s": 241.2,
+ "envelope": {
+  "text": "{\"reads\":[]}{\"reads\":[{\"token\":\"T1\",\"mood\":3,\"summary\":\"Nullmask’s account says it swapped about $100K of treasury ZEC for $MASK and burned it, while holders talk up the founder and the chart and small accounts repeat listing-vote links that include the contract.\",\"posts\":[{\"search\":1,\"url\":\"https://x.com/poster_010/status/2105347759692976921\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_011/status/2105340037769527006\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_012/status/2105337740486904623\",\"stance\":\"bullish\",\"kind\":\"organic\",\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_013/status/2105337314256991382\",\"stance\":\"bearish\",\"kind\":\"organic\",\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_011/status/2105336629206737060\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_011/status/2105336057790445834\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_014/status/2105334725666806277\",\"stance\":\"bullish\",\"kind\":\"organic\",\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_nullmask/status/2105317416667727091\",\"stance\":\"neutral\",\"kind\":\"project\",\"followers\":null},{\"search\":2,\"url\":\"https://x.com/poster_015/status/2105303286041569691\",\"stance\":\"bullish\",\"kind\":\"organic\",\"followers\":null},{\"search\":2,\"url\":\"https://x.com/poster_016/status/2105258711514544787\",\"stance\":\"bullish\",\"kind\":\"organic\",\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_nullmask/status/2105301923675579297\",\"stance\":\"bullish\",\"kind\":\"project\",\"followers\":null},{\"search\":2,\"url\":\"https://x.com/proj_nullmask/status/2105303771696509564\",\"stance\":\"neutral\",\"kind\":\"project\",\"followers\":null},{\"search\":3,\"url\":\"https://x.com/proj_nullmask/status/2105317416667727091\",\"stance\":\"neutral\",\"kind\":\"project\",\"followers\":null},{\"search\":3,\"url\":\"https://x.com/proj_nullmask/status/2105303771696509564\",\"stance\":\"neutral\",\"kind\":\"project\",\"followers\":null},{\"search\":3,\"url\":\"https://x.com/proj_nullmask/status/2105301923675579297\",\"stance\":\"bullish\",\"kind\":\"project\",\"followers\":null}],\"other_token_posts\":0,\"why_it_matters\":\"The buyback-and-burn note is the concrete update with transaction links, and the fresh contract mentions are mostly the same vote-link script from small accounts.\",\"notable\":[{\"author\":\"@proj_nullmask\",\"text\":\"Treasury update: about $100K of ZEC from the treasury was swapped into $MASK, and that $MASK has been burned.\\n\\nMore buybacks will follow, and we will keep adding liquidity over time.\\n\\nBuyback tx: https://explorer.example.com/tx/buyback-1\\nBurn tx: https://explorer.example.com/tx/burn-1\",\"url\":\"https://x.com/proj_nullmask/status/2105301923675579297\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_016\",\"text\":\"Very bullish on this founder.\\n\\nQuiet math nerd who actually ships, exactly the kind of dev you want behind a coin.\\n\\nRaise your targets on solana:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7\",\"url\":\"https://x.com/poster_016/status/2105258711514544787\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_013\",\"text\":\"how is solana:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7 worth about 3.5x the other privacy coin with less volume, thinner liquidity and a quarter of the holders? doesn't add up\",\"url\":\"https://x.com/poster_013/status/2105337314256991382\",\"stance\":\"bearish\",\"followers\":null}],\"account\":{\"handle\":\"@proj_nullmask\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"copy_paste\",\"detail\":\"@poster_011 and @poster_010 posted the same show-up-and-vote script for $MASK with this contract, each time on a different netlify domain and listing id.\",\"url\":\"https://x.com/poster_011/status/2105340037769527006\"}]},{\"token\":\"T2\",\"mood\":1,\"summary\":\"Scanners and a few accounts are posting the $LONG contract after a fast move, including a paid Dexscreener alert, a soft-10x call, and a wallet bot listing 570 bundler wallets with 15.36% dev/team holdings.\",\"posts\":[{\"search\":4,\"url\":\"https://x.com/poster_017/status/2105342981346350285\",\"stance\":\"bullish\",\"kind\":\"organic\",\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_018/status/2105338760641530686\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_019/status/2105338128502634930\",\"stance\":\"bullish\",\"kind\":\"bot\",\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_020/status/2105336927853484523\",\"stance\":\"neutral\",\"kind\":\"organic\",\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_021/status/2105336747393877538\",\"stance\":\"neutral\",\"kind\":\"bot\",\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_022/status/2105336646715292295\",\"stance\":\"neutral\",\"kind\":\"bot\",\"followers\":null}],\"other_token_posts\":0,\"why_it_matters\":\"The feed is alert bots and short calls on a token those alerts describe as minutes old, and one wallet post lists a large bundler count plus a sizable dev/team share.\",\"notable\":[{\"author\":\"@poster_019\",\"text\":\"Paid Dexscreener update just went live for $LONG (longnose).\\n\\nAge: 22m | MC: $245.6K | Liq: $21.4K | Holders: 1093\\nContract checks look clean.\\n\\nCA:\\nCdDrjtJTC9JELJPZNdzo68r1ixGZfndMo1r9hFZFPdEn\",\"url\":\"https://x.com/poster_019/status/2105338128502634930\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_022\",\"text\":\"CTO wallet activity: $LONG\\n\\nSmart: 54 | Renowned: 3 | Fresh: 638\\nSniper: 0 | Bundler: 570 | Top: 51\\n\\nCreator hold: 0.00%\\nDev/team hold: 15.36%\\n\\nCA: CdDrjtJTC9JELJPZNdzo68r1ixGZfndMo1r9hFZFPdEn\",\"url\":\"https://x.com/poster_022/status/2105336646715292295\",\"stance\":\"neutral\",\"followers\":null},{\"author\":\"@poster_017\",\"text\":\"Soft 10x loading on $LONG, enjoy\\n\\nCdDrjtJTC9JELJPZNdzo68r1ixGZfndMo1r9hFZFPdEn\",\"url\":\"https://x.com/poster_017/status/2105342981346350285\",\"stance\":\"bullish\",\"followers\":null}],\"account\":null,\"red_flags\":[{\"kind\":\"other\",\"detail\":\"A scanner account said a paid Dexscreener update went live for $LONG when the token was about 22 minutes old, around a $245.6K market cap.\",\"url\":\"https://x.com/poster_019/status/2105338128502634930\"},{\"kind\":\"other\",\"detail\":\"A wallet-activity alert listed 570 bundler wallets and 15.36% dev/team holdings for this contract, with creator holdings at 0%.\",\"url\":\"https://x.com/poster_022/status/2105336646715292295\"}]},{\"token\":\"T3\",\"mood\":1,\"summary\":\"The Robinhood $HOTDOG contract shows up in lookalike bullish replies and listing-vote posts, the project account is posting short meme lines, and one user is asking Dexscreener about the paired $COST chart.\",\"posts\":[{\"search\":6,\"url\":\"https://x.com/poster_023/status/2105346291808336262\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_023/status/2105343069614702989\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_024/status/2105329493079703196\",\"stance\":\"bullish\",\"kind\":\"organic\",\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_025/status/2105279710049284587\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_026/status/2105266686359373096\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_027/status/2105311133358155118\",\"stance\":\"bullish\",\"kind\":\"shill\",\"followers\":null},{\"search\":7,\"url\":\"https://x.com/poster_028/status/2105310359584096992\",\"stance\":\"neutral\",\"kind\":\"organic\",\"followers\":null},{\"search\":8,\"url\":\"https://x.com/proj_hotdog/status/2105310403648796522\",\"stance\":\"neutral\",\"kind\":\"project\",\"followers\":null},{\"search\":8,\"url\":\"https://x.com/proj_hotdog/status/2105279885653131107\",\"stance\":\"bullish\",\"kind\":\"project\",\"followers\":null},{\"search\":8,\"url\":\"https://x.com/proj_hotdog/status/2104685476054161753\",\"stance\":\"bullish\",\"kind\":\"project\",\"followers\":null}],\"other_token_posts\":1,\"why_it_matters\":\"The posts that name this contract are mostly matching promo lines and vote links, so the burst of replies reads as a coordinated push.\",\"notable\":[{\"author\":\"@proj_hotdog\",\"text\":\"The hotdog has landed on Robinhood Chain 🌭\",\"url\":\"https://x.com/proj_hotdog/status/2104685476054161753\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_028\",\"text\":\"Has DexScreener answered about the $HOTDOG / COST chart yet? New buyers need to be able to see the liquidity.\",\"url\":\"https://x.com/poster_028/status/2105310359584096992\",\"stance\":\"neutral\",\"followers\":null},{\"author\":\"@poster_027\",\"text\":\"Meme ticker worth a look: $HOTDOG 🌭 Easy narrative, busy community, on Robinhood Chain. DYOR.\\n\\n@proj_hotdog\",\"url\":\"https://x.com/poster_027/status/2105311133358155118\",\"stance\":\"bullish\",\"followers\":null}],\"account\":{\"handle\":\"@proj_hotdog\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"copy_paste\",\"detail\":\"@poster_025 and @poster_026 posted near-identical lines about the $HOTDOG meme’s identity and both pasted this contract.\",\"url\":\"https://x.com/poster_025/status/2105279710049284587\"},{\"kind\":\"paid_raid\",\"detail\":\"@poster_023 posted two show-up-now listing votes for this contract on pons-voting netlify pages with different listing ids.\",\"url\":\"https://x.com/poster_023/status/2105346291808336262\"}]}]}",
+  "stopReason": "end_turn",
+  "sessionId": "01a0f357-9f7c-76b2-99bc-cb322b71f355",
+  "requestId": "ce79045a-91d3-42f7-bd67-b9d0ebb1bdbf",
+  "thought": "Running the requested X searches for the three memecoins. Results will be formatted as JSON with posts, mood, and red flags.",
+  "usage": {
+   "input_tokens": 12895,
+   "cache_read_input_tokens": 5888,
+   "cache_creation_input_tokens": 0,
+   "output_tokens": 17965,
+   "reasoning_tokens": 14320,
+   "total_tokens": 36748
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.20641816,
+  "total_cost_usd_ticks": 2064181600,
+  "modelUsage": {
+   "grok-4.7-build": {
+    "inputTokens": 12895,
+    "outputTokens": 17965,
+    "cacheReadInputTokens": 5888,
+    "cacheCreationInputTokens": 0,
+    "modelCalls": 1,
+    "costUSD": 0.20641816
+   }
+  },
+  "structuredOutput": null,
+  "structuredOutputError": "model output was not valid JSON: trailing characters at line 1 column 13"
+ },
+ "effort": "high",
+ "tokens": [
+  {
+   "chain": "solana",
+   "address": "HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7",
+   "symbol": "MASK",
+   "name": "Nullmask",
+   "handle": "proj_nullmask",
+   "created_at": "2026-09-23T08:50:39+00:00",
+   "first_call": "2026-09-30T16:47:00+00:00",
+   "window_h": 6
+  },
+  {
+   "chain": "solana",
+   "address": "CdDrjtJTC9JELJPZNdzo68r1ixGZfndMo1r9hFZFPdEn",
+   "symbol": "LONG",
+   "name": "longnose",
+   "handle": null,
+   "created_at": "2026-09-30T16:22:26+00:00",
+   "first_call": "2026-09-30T16:26:00+00:00",
+   "window_h": 2
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x45443a4a7b58ab26a4b4d72616cf36d5aae7188c",
+   "symbol": "HOTDOG",
+   "name": "hotdog",
+   "handle": "proj_hotdog",
+   "created_at": "2026-07-30T01:51:05+00:00",
+   "first_call": "2026-09-30T16:04:00+00:00",
+   "window_h": 6
+  }
+ ],
+ "searches": [
+  {
+   "token": "T1",
+   "facet": "contract",
+   "query": "HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7 within_time:6h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 6,
+   "n": 1
+  },
+  {
+   "token": "T1",
+   "facet": "talk",
+   "query": "(\"Nullmask\" OR @proj_nullmask) min_faves:3 within_time:6h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 6,
+   "n": 2
+  },
+  {
+   "token": "T1",
+   "facet": "account",
+   "query": "from:proj_nullmask",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 3
+  },
+  {
+   "token": "T2",
+   "facet": "contract",
+   "query": "CdDrjtJTC9JELJPZNdzo68r1ixGZfndMo1r9hFZFPdEn within_time:2h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 2,
+   "n": 4
+  },
+  {
+   "token": "T2",
+   "facet": "talk",
+   "query": "$LONG min_faves:3 within_time:2h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 2,
+   "n": 5
+  },
+  {
+   "token": "T3",
+   "facet": "contract",
+   "query": "0x45443a4a7b58ab26a4b4d72616cf36d5aae7188c within_time:6h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 6,
+   "n": 6
+  },
+  {
+   "token": "T3",
+   "facet": "talk",
+   "query": "($HOTDOG OR @proj_hotdog) min_faves:3 within_time:6h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 6,
+   "n": 7
+  },
+  {
+   "token": "T3",
+   "facet": "account",
+   "query": "from:proj_hotdog",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 8
+  }
+ ]
+}

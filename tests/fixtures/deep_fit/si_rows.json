@@ -1,0 +1,320 @@
+{
+ "chain": "solana",
+ "address": "9aqmJjCnnMQv42TXLk921ceUkN35nea2QP969n1caqjj",
+ "token": {
+  "symbol": "SI",
+  "name": "Super Intelligence",
+  "launchpad": "pump.fun",
+  "created_at": "2026-09-29T22:42:36+00:00",
+  "liquidity_usd": 225041.24,
+  "mcap_usd": 4075993.0,
+  "volume_h24_usd": 7049434.86,
+  "first_seen": "2026-09-29T22:52:44+00:00"
+ },
+ "same_name": [
+  {
+   "chain": "solana",
+   "address": "4BjTvWFzKVRhiJXmHugHv5FdmQQgWwKDRERWRWr3kUxs",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2025-01-21T22:29:25+00:00",
+   "liquidity_usd": 7200.39768251133,
+   "n_calls": 2,
+   "n_groups": 1,
+   "first_call": "2026-09-30T09:09:14+00:00"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x3fcd140c68d067c6a71ca328a90fe8d688b81e18",
+   "symbol": "SI",
+   "name": "Shiba Inu",
+   "created_at": "2026-08-29T18:27:03+00:00",
+   "liquidity_usd": 293927.23,
+   "n_calls": 5,
+   "n_groups": 1,
+   "first_call": "2026-09-29T20:32:54+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "4SsapSJFx7ZqVb2C7z78wKD4nyySjFCBSuajnZdDsx97",
+   "symbol": "SI",
+   "name": "SUPER INTELLIGENCE",
+   "created_at": "2026-09-14T14:45:13+00:00",
+   "liquidity_usd": 13820.42,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-29T15:04:43+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+   "symbol": "SI",
+   "name": "Super Inu",
+   "created_at": "2026-09-21T15:44:55+00:00",
+   "liquidity_usd": 1396539.61,
+   "n_calls": 16,
+   "n_groups": 2,
+   "first_call": "2026-09-29T14:41:27+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "82ezhRLKdKwkSC9jkM3js1yf93VbmvLXNMPkBmompump",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-24T03:50:30+00:00",
+   "liquidity_usd": 23724.39,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-29T15:07:20+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "v82dUYzPdhBmSKJx1cyd3FWtJ3eU4aHbyxYAmmRSTNK",
+   "symbol": "SI",
+   "name": "Slop Inu",
+   "created_at": "2026-09-24T05:31:52+00:00",
+   "liquidity_usd": 7196.8,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-30T11:01:40+00:00"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x0473396ffb1354b13a6e10a92970a28fe86bdf22",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-24T06:30:07+00:00",
+   "liquidity_usd": 14078.63,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-29T20:56:13+00:00"
+  },
+  {
+   "chain": "base",
+   "address": "0xd8690690e1e5e3c4aee2832d30c666bfe49d5ca4",
+   "symbol": "SI",
+   "name": "Super Intelligence Race",
+   "created_at": "2026-09-24T15:51:03+00:00",
+   "liquidity_usd": 14007.05,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-30T15:00:00+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "EnHrbkhScpdWTCL37XyPGsCJxms2gE66gkVZUGX3UVGR",
+   "symbol": "SI",
+   "name": "Solana Inu",
+   "created_at": "2026-09-27T22:44:59+00:00",
+   "liquidity_usd": 21195.99,
+   "n_calls": 2,
+   "n_groups": 1,
+   "first_call": "2026-09-29T19:59:23+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "7GYk6spb1x9V3YS5F4qcARfhp242Nd64Dq1rhHCAmtb3",
+   "symbol": "SI",
+   "name": "SuperIntelligence",
+   "created_at": "2026-09-29T18:40:27+00:00",
+   "liquidity_usd": 4902.68,
+   "n_calls": 2,
+   "n_groups": 1,
+   "first_call": "2026-09-29T19:22:04+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "FKfhzmbMtgbf1YwwyNMxtFU43MdATe5S8Pq2bsQ7uAHn",
+   "symbol": "SI",
+   "name": "Stupid Inu",
+   "created_at": "2026-09-29T19:20:53+00:00",
+   "liquidity_usd": 6283.61,
+   "n_calls": 3,
+   "n_groups": 2,
+   "first_call": "2026-09-29T19:40:29+00:00"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x280f96be1ab107e95692c31171ceaae53433e5d8",
+   "symbol": "SI",
+   "name": "Super Inu",
+   "created_at": "2026-09-29T20:03:37+00:00",
+   "liquidity_usd": 8479.32,
+   "n_calls": 3,
+   "n_groups": 1,
+   "first_call": "2026-09-29T20:16:45+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "97SkmPTaFH5zT4QD2KjSsmxaPmKG3PL9kxb3KMtsJwfs",
+   "symbol": "SI",
+   "name": "Shiba Inu",
+   "created_at": "2026-09-29T20:04:05+00:00",
+   "liquidity_usd": 7967.33,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-29T20:18:42+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "EEGdD4njbMM27Bw6r8Ugo54xxWaxvCpgsm8A2yTGqwo1",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-29T20:08:33+00:00",
+   "liquidity_usd": 583.6385119230956,
+   "n_calls": 2,
+   "n_groups": 2,
+   "first_call": "2026-09-29T20:10:16+00:00"
+  },
+  {
+   "chain": "base",
+   "address": "0xb2000000000000000000001eb03f58a18f2add01",
+   "symbol": "SI",
+   "name": "Super Iguana",
+   "created_at": "2026-09-29T21:37:47+00:00",
+   "liquidity_usd": 28276.5,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-30T16:15:06+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "2KfbhUBYFMUoJgocJ8Wh2SEuuizuw1Bi7SK4Q5FER47H",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-29T21:50:27+00:00",
+   "liquidity_usd": 42592.88,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-29T23:09:25+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "7Wh6rxVWUBFCNCWCz7nLaV7z3SDr2M6rFTjjWP6aE8p1",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-29T21:52:39+00:00",
+   "liquidity_usd": 20640.41,
+   "n_calls": 9,
+   "n_groups": 2,
+   "first_call": "2026-09-29T21:57:31+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "69LUE1aKyP9DeKkRjZbmefXmj2VBJiorLGSw9oL83WCp",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-29T21:53:02+00:00",
+   "liquidity_usd": 4037.81,
+   "n_calls": 2,
+   "n_groups": 1,
+   "first_call": "2026-09-29T22:32:28+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "DtFkKBC3Cmi9j3SxBGRUd8gvBLw7nAasrvUJFB69yubM",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-29T22:37:50+00:00",
+   "liquidity_usd": 9620.53,
+   "n_calls": 4,
+   "n_groups": 1,
+   "first_call": "2026-09-29T22:45:34+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "9aqmJjCnnMQv42TXLk921ceUkN35nea2QP969n1caqjj",
+   "symbol": "SI",
+   "name": "Super Intelligence",
+   "created_at": "2026-09-29T22:42:36+00:00",
+   "liquidity_usd": 225041.24,
+   "n_calls": 22,
+   "n_groups": 2,
+   "first_call": "2026-09-29T22:52:44+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "bsVFNjW9znB9LnWDXf7rQW9Bv7SXV1gqDRneZ2kpump",
+   "symbol": "SI",
+   "name": "Stupid Inu",
+   "created_at": "2026-09-30T06:02:16+00:00",
+   "liquidity_usd": 2797.87,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-30T06:51:01+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "Djij3iUGJSJY3KMU7pRDrGXFGfCc5LQUqDDqfACJxxW5",
+   "symbol": "SI",
+   "name": "Solana Inu",
+   "created_at": "2026-09-30T15:29:17+00:00",
+   "liquidity_usd": 8992.96,
+   "n_calls": 1,
+   "n_groups": 1,
+   "first_call": "2026-09-30T16:00:33+00:00"
+  },
+  {
+   "chain": "solana",
+   "address": "Gu2bpydt5bHVHtko5vvsWH5KQUT3Wxvt6hzYvKdND6ur",
+   "symbol": "si16z",
+   "name": "super intelligence",
+   "created_at": "2026-09-30T16:06:24+00:00",
+   "liquidity_usd": 11417.4,
+   "n_calls": 2,
+   "n_groups": 1,
+   "first_call": "2026-09-30T16:16:57+00:00"
+  }
+ ],
+ "calls": [
+  {
+   "grp": "Night Desk",
+   "n": 21,
+   "first_at": "2026-09-29T22:52:44+00:00"
+  },
+  {
+   "grp": "Alpha Callers",
+   "n": 1,
+   "first_at": "2026-09-30T02:58:21+00:00"
+  }
+ ],
+ "pulse": {
+  "ts": "2026-09-30T16:12:00+00:00",
+  "narratives": {
+   "trending": [],
+   "headlines": [
+    {
+     "url": "https://x.com/news_wire_1/status/2105325360030432900",
+     "kind": "launch",
+     "text": "Watcher.Guru reports that Visa, Stripe, Shopify, Coinbase and Mastercard launched the Open USD stablecoin with $1 billion of liquidity across Solana, Base, Ethereum and Tempo.",
+     "coins": [
+      "OUSD",
+      "SOL",
+      "ETH"
+     ]
+    },
+    {
+     "url": "https://x.com/poster_905/status/2105314321881748360",
+     "kind": "catalyst",
+     "text": "Conor Kenny says the odds of a Fed rate hike have fallen from 70% to 34% and calls that bullish for crypto.",
+     "coins": []
+    },
+    {
+     "url": "https://x.com/poster_901/status/2105314522853159888",
+     "kind": "positioning",
+     "text": "Royal Kane says shorts opened after CZ posted Soon were liquidated as Bitcoin moved higher.",
+     "coins": [
+      "BTC"
+     ]
+    }
+   ],
+   "coins_read": [
+    "DOGE",
+    "SOON",
+    "SUI"
+   ],
+   "market_mood": "Crypto X is mildly bullish, centered on the Open USD stablecoin launch and a posted drop in Fed rate-hike odds.",
+   "agent_run_id": 11167
+  }
+ }
+}

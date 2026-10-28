@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Albatross</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/static/brand/favicon-32.png">
+<link rel="apple-touch-icon" href="/static/brand/apple-touch-icon.png">
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/static/micro.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/static/gallery.css">
+<link rel="stylesheet" href="/static/deep.css">
+<link rel="stylesheet" href="/static/output.css">
+<link rel="stylesheet" href="/static/agents.css">
+<link rel="stylesheet" href="/static/books.css">
+<link rel="stylesheet" href="/static/lab.css">
+<link rel="stylesheet" href="/static/alpha.css">
+<link rel="stylesheet" href="/static/home.css">
+<link rel="stylesheet" href="/static/setup.css">
+</head>
+<body class="gallery">
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="sky"></div>
+  <span class="wind w1"></span><span class="wind w2"></span><span class="wind w3"></span><span class="wind w4"></span>
+  <div class="flight"><picture>
+    <!-- painted wingbeat (ChatGPT frames); reduced-motion keeps the still cut-out -->
+    <source srcset="/static/art/albatross-flap.webp" media="(prefers-reduced-motion: no-preference)">
+    <img class="loader-bird" src="/static/art/albatross-cutout.webp" alt="" onerror="this.onerror=null;this.src='/static/brand/albatross-painting.jpg'">
+  </picture></div>
+  <div class="loader-foot"><span class="loader-stroke"></span><p class="loader-text">Reading the tape</p></div>
+</div>
+<div class="brush" id="brush" aria-hidden="true"></div>
+
+<aside class="rail" aria-label="Albatross">
+  <button class="brand" id="brand" type="button" title="About Albatross">
+    <img src="/static/brand/logo-128.png" width="44" height="44" alt="Albatross">
+  </button>
+  <nav class="tabs" aria-label="Sections">
+    <button data-section="home" class="on" aria-current="page" title="Home: is it working, and what to do about it"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Home</span></button>
+    <button data-section="alpha" title="Alpha: the review of what works, and the suggestions on trial"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/><path d="M12 12l7.5-7.5"/><path d="M16 4.5h3.5V8"/></svg><span>Alpha</span></button>
+    <button data-section="results" title="Results: every paper book, every source's record and the reports"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10m5 10V5m5 15v-7m5 7V8"/></svg><span>Results</span></button>
+    <button data-section="memecoins" title="Memecoins: the feed and each token's evidence"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 6.5c1.6-1.3 3.2-1.3 4.8 0s3.2 1.3 4.8 0 3.2-1.3 4.8 0 3.2 1.3 4.8 0"/><path d="M12 10v8.5"/><path d="M8.8 15.4 12 18.6l3.2-3.2"/><path d="M5 21.5h14"/></svg><span>Memecoins</span></button>
+    <button data-section="majors" title="Majors: factor rank, every coin, the calendar, news and X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17l5-5 4 3 7-8"/><path d="M15 7h5v5"/></svg><span>Majors</span></button>
+    <button data-section="ops" class="sys" title="Ops: agents, spend, health and alerts, and Setup for your keys"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1M5.6 18.4l2.1-2.1m8.6-8.6 2.1-2.1"/></svg><span>Ops</span></button>
+  </nav>
+  <button id="theme" class="ghost" title="Toggle theme" hidden>◐</button>
+</aside>
+
+<div class="stage">
+<header class="top">
+  <div class="mast-art" id="mast-art"></div>
+  <button class="mast-brand" id="mast-brand" type="button" title="About Albatross"><img src="/static/brand/logo-128.png" width="32" height="32" alt="About Albatross"></button>
+  <div class="mast-text">
+    <p class="kicker" id="mast-kicker">Albatross</p>
+    <h1 id="mast-title">Multi-timeframe bias</h1>
+    <p class="mast-sub" id="mast-sub"></p>
+  </div>
+  <div class="top-right">
+    <a id="alert-banner" class="alert-banner" href="#/health" hidden></a>
+    <div class="meta" id="meta"></div>
+  </div>
+</header>
+
+<main>
+  <nav class="subnav" id="subnav" aria-label="Views in this section"></nav>
+  <section id="tab-home" class="tab on">
+    <p class="st-nudge" id="st-nudge" hidden></p>
+    <div class="hm-facts" id="hm-facts"></div>
+    <article class="panel hm-standings" id="hm-standings"></article>
+    <div class="hm-cols">
+      <article class="panel hm-decide" id="hm-decide"></article>
+      <div class="hm-side">
+        <article class="panel hm-dates" id="hm-dates"></article>
+        <article class="panel hm-factor" id="hm-factor"></article>
+      </div>
+    </div>
+    <p class="hm-status" id="hm-status"></p>
+  </section>
+
+  <section id="tab-factor" class="tab">
+    <div class="kpis" id="home-kpis"></div>
+    <div class="fr-grid">
+      <article class="panel fr-rank" id="fr-rank"></article>
+      <div class="fr-side">
+        <article class="panel fr-record" id="fr-record"></article>
+        <article class="panel fr-direction" id="fr-direction"></article>
+        <article class="panel fr-funding" id="fr-funding"></article>
+        <article class="panel radar-panel">
+          <header class="panel-h"><h2>What changed</h2><span class="cat">last 24 hours</span></header>
+          <ul class="radar" id="home-radar"><li class="empty">Loading…</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-book" class="tab"><div id="bk-page"></div></section>
+
+  <section id="tab-dreport" class="tab">
+    <article class="panel" id="bk-dossier"></article>
+  </section>
+
+  <section id="tab-matrix" class="tab">
+    <article class="panel compass-panel">
+      <header class="panel-h"><h2>The ten majors</h2><span class="cat">the Strategist's calls · unproven: no direction source beats a coin flip yet</span></header>
+      <div class="table-wrap bare"><table class="matrix compass" id="home-compass"><tbody><tr><td class="left note">Loading…</td></tr></tbody></table></div>
+    </article>
+    <div class="filters">
+      <input id="search" type="search" placeholder="Search coin" aria-label="Search coin by symbol or name">
+      <select id="cat-filter" aria-label="Sector"><option value="">All sectors</option></select>
+      <button class="more-toggle" id="matrix-more" aria-expanded="false">More columns &amp; sources</button>
+      <div class="legend" aria-label="Bias legend">
+        <span>Bearish</span>
+        <i style="--pole:var(--bear);--mag:1"></i><i style="--pole:var(--bear);--mag:.5"></i><i></i><i style="--pole:var(--bull);--mag:.5"></i><i style="--pole:var(--bull);--mag:1"></i>
+        <span>Bullish</span>
+        <span class="stale-key">stale</span>
+      </div>
+    </div>
+    <div class="filters more-row" id="matrix-more-row" hidden>
+      <div class="chips" id="src-chips" aria-label="Source of the calls">
+        <span class="chips-label">Calls from</span>
+        <button data-src="quant">Quant</button>
+        <button data-src="ensemble">Blended call</button>
+        <button data-src="strategist">Strategist</button>
+      </div>
+      <div class="chips" id="tier-chips" aria-label="Tiers">
+        <span class="chips-label">Tiers</span>
+        <button data-tier="1" class="on">Tier 1</button>
+        <button data-tier="2" class="on">Tier 2</button>
+        <button data-tier="3">Tier 3</button>
+      </div>
+    </div>
+    <div class="table-wrap"><table class="matrix" id="matrix"></table></div>
+    <div id="matrix-rest"></div>
+    <p class="note" id="matrix-note"></p>
+  </section>
+
+  <section id="tab-sectors" class="tab">
+    <div class="filters">
+      <div class="chips" id="map-tf" aria-label="Treemap timeframe">
+        <button data-tf="1h">1h</button><button data-tf="4h">4h</button><button data-tf="1d" class="on">1d</button><button data-tf="1w">1w</button>
+      </div>
+      <div class="legend" aria-label="Treemap colour: the sector's quant score">
+        <span>Bearish</span>
+        <i style="--pole:var(--bear);--mag:1"></i><i style="--pole:var(--bear);--mag:.5"></i><i></i><i style="--pole:var(--bull);--mag:.5"></i><i style="--pole:var(--bull);--mag:1"></i>
+        <span>Bullish</span>
+        <span class="legend-note">quant score · box size = coins</span>
+      </div>
+    </div>
+    <div class="treemap" id="sectors-map" role="group" aria-label="Sectors, sized by coins and coloured by quant score"></div>
+    <details class="fold"><summary>Every sector on every timeframe</summary>
+      <div class="table-wrap"><table class="matrix" id="sectors"></table></div>
+      <p class="note">Coins = every coin tagged with the sector, which is what clicking it lists; a coin can carry several tags. The score is the volume-weighted mean of the quant scores of the coins whose main sector it is, so each coin counts once. Breadth = the share of those coins pointing the sector's way.</p>
+    </details>
+  </section>
+
+  <section id="tab-ideas" class="tab">
+    <div class="mood ledger" id="ledger-line">Checking the ledger…</div>
+    <div class="kpis idea-kpis" id="ideas-kpis"></div>
+    <div class="filters">
+      <div class="chips" id="idea-status" aria-label="The critic's decision">
+        <button data-status="" class="on">All</button>
+        <button data-status="proposed" title="Let through by the critic, as proposed or downgraded">Proposed</button>
+        <button data-status="vetoed" title="Blocked by the critic; still graded, to test whether the critic helps">Vetoed</button>
+      </div>
+      <select id="idea-source" aria-label="Source"><option value="">All sources</option></select>
+    </div>
+    <h3 class="ideas-h">Open now <span class="cat" id="ideas-open-cat"></span></h3>
+    <div class="table-wrap"><table class="matrix ideas" id="ideas"></table></div>
+    <details class="fold" id="ideas-closed-fold"><summary id="ideas-closed-sum">Closed ideas</summary>
+      <div class="table-wrap"><table class="matrix ideas" id="ideas-closed"></table></div>
+    </details>
+    <p class="note" id="ideas-note"></p>
+  </section>
+
+  <section id="tab-reports" class="tab">
+    <div class="reports">
+      <aside class="rside" aria-label="All reports">
+        <h3 class="rside-h">All reports</h3>
+        <div class="chips small" id="report-kinds" hidden></div>
+        <ul class="rlist" id="report-list"></ul>
+        <p class="rnext" id="report-next"></p>
+      </aside>
+      <article class="md" id="report"></article>
+    </div>
+  </section>
+
+  <section id="tab-deep" class="tab"></section>
+  <section id="tab-dossier" class="tab"></section>
+  <section id="tab-micro" class="tab"></section>
+
+  <section id="tab-coin" class="tab"><div id="coin-body"></div></section>
+
+  <section id="tab-calendar" class="tab">
+    <div class="filters">
+      <div class="chips" id="cal-kinds" aria-label="Kind of event">
+        <button data-group="all" class="on">All<span class="n"></span></button>
+        <button data-group="listings">Listings<span class="n"></span></button>
+        <button data-group="launches">Token launches<span class="n"></span></button>
+        <button data-group="unlocks">Unlocks<span class="n"></span></button>
+        <button data-group="upgrades">Upgrades<span class="n"></span></button>
+        <button data-group="macro">Macro<span class="n"></span></button>
+        <button data-group="other">Other<span class="n"></span></button>
+      </div>
+      <div class="chips" id="cal-window" aria-label="How far ahead">
+        <button data-days="7">Next 7 days</button><button data-days="30" class="on">Next 30 days</button><button data-days="90">Next 90 days</button>
+      </div>
+      <label class="cal-toggle"><input type="checkbox" id="cal-major"> Major only</label>
+      <label class="cal-toggle" id="cal-longshots" hidden title="Token launches the Polymarket crowd gives under 25% by that date"><input type="checkbox"> Show <span class="n"></span></label>
+    </div>
+    <div id="cal-list" class="cal-list"></div>
+  </section>
+  <section id="tab-social" class="tab">
+    <div class="mood" id="mood"></div>
+    <div class="xs-top">
+      <div class="card xs-card" id="xs-headlines"></div>
+      <div class="card xs-card" id="xs-trending"></div>
+    </div>
+    <div class="filters">
+      <div class="chips" id="social-kind">
+        <button data-kind="asset" class="on">Coins</button>
+        <button data-kind="sector">Sectors</button>
+      </div>
+      <div class="chips" id="social-days">
+        <button data-days="1">24h</button>
+        <button data-days="7" class="on">7d</button>
+        <button data-days="30">30d</button>
+      </div>
+      <div class="legend" aria-label="X mood legend">
+        <span>Bearish</span>
+        <i style="--pole:var(--bear);--mag:1"></i><i style="--pole:var(--bear);--mag:.5"></i><i></i><i style="--pole:var(--bull);--mag:.5"></i><i style="--pole:var(--bull);--mag:1"></i>
+        <span>Bullish</span>
+      </div>
+    </div>
+    <div class="xs-list" id="social"></div>
+    <p class="note">Every hour Grok reads the most-engaged crypto posts on X (the pulse) and searches the coins that matter that hour: Tier-1 coins every few hours, plus any coin that is moving hard, trending, in an open trade or in fresh high-impact news. Coins with something new come first. X mood runs from −5 (capitulation) to +5 (euphoric); ±1 is ordinary chop. A read is only stored with the x.com posts it drew on. Tap a coin for its trend, positioning, catalysts and posts.</p>
+  </section>
+
+  <section id="tab-news" class="tab">
+    <div class="filters">
+      <div class="chips" id="impact-chips">
+        <button data-impact="0" class="on">All</button>
+        <button data-impact="3">Impact 3+</button>
+        <button data-impact="4">Impact 4+</button>
+      </div>
+      <div class="chips" id="sent-chips">
+        <button data-sent="" class="on">Any tone</button>
+        <button data-sent="bull">▲ Bullish</button>
+        <button data-sent="bear">▼ Bearish</button>
+        <button data-sent="flat">Neutral</button>
+        <button data-sent="unscored">Unscored</button>
+      </div>
+      <input id="news-asset" type="search" placeholder="Coin, e.g. BTC" aria-label="Filter by coin" autocomplete="off" spellcheck="false">
+    </div>
+    <ul class="news wire" id="news"></ul>
+    <button class="more-toggle news-more" id="news-more" hidden>Show older headlines</button>
+    <p class="cat news-end" id="news-end"></p>
+  </section>
+
+  <section id="tab-scorecard" class="tab">
+    <div class="answers">
+      <article class="panel answer" id="ans-ideas">
+        <header class="panel-h"><h2>Are the ideas making money?</h2><span class="cat">after fees, slippage and funding</span></header>
+        <div id="ans-ideas-body"><p class="cat">Loading the backtest…</p></div>
+      </article>
+      <article class="panel answer" id="ans-sources">
+        <header class="panel-h"><h2>Which sources beat a one-way caller?</h2>
+          <div class="chips small" id="sc-days" aria-label="Window">
+            <button data-days="7">7d</button><button data-days="30">30d</button><button data-days="90">90d</button><button data-days="0" class="on">All</button>
+          </div></header>
+        <div id="ans-sources-body"><p class="cat">Loading the grades…</p></div>
+      </article>
+    </div>
+
+    <details class="fold" id="isc-fold"><summary>Ideas backtest in full <span class="cat">both exit policies, by timeframe, the critic, the baselines</span></summary>
+      <div class="filters">
+        <div class="chips" id="isc-policy" aria-label="Exit policy">
+          <button data-policy="stop_target" class="on" title="Exit at the stop, the first target or the horizon, whichever comes first">Stop / target</button>
+          <button data-policy="horizon" title="Hold to the horizon, ignoring stop and targets">Hold to horizon</button>
+        </div>
+        <div class="chips" id="isc-split" aria-label="Rows">
+          <button data-split="total" class="on">By call status</button>
+          <button data-split="tf">By timeframe</button>
+        </div>
+      </div>
+      <div class="mood" id="isc-critic"></div>
+      <div class="table-wrap"><table class="plain isc" id="isc"></table></div>
+      <p class="note" id="isc-note"></p>
+    </details>
+
+    <details class="fold" id="sc-fold"><summary>Signal accuracy in detail <span class="cat" id="sc-fold-cat"></span></summary>
+      <div class="filters"><div class="chips" id="sc-source" aria-label="Source"></div></div>
+      <div class="cards" id="sc-cards"></div>
+      <h3>By timeframe</h3>
+      <div class="table-wrap"><table class="plain" id="sc-tf"></table></div>
+      <p class="note" id="sc-note"></p>
+      <div class="filters">
+        <h3 style="margin:0">By call strength and direction</h3>
+        <div class="legend" aria-label="Hit rate legend">
+          <span>Below 50%</span>
+          <i style="--pole:var(--bear);--mag:1"></i><i style="--pole:var(--bear);--mag:.5"></i><i></i><i style="--pole:var(--bull);--mag:.5"></i><i style="--pole:var(--bull);--mag:1"></i>
+          <span>Above 50%</span>
+          <span class="few-key">n</span><span>too few to colour</span>
+        </div>
+      </div>
+      <div class="table-wrap"><table class="matrix" id="sc-bias"></table></div>
+      <details class="fold sub-fold"><summary>Asset calls by sector</summary>
+        <div class="table-wrap"><table class="matrix" id="sc-sector"></table></div>
+        <p class="note" id="sc-sector-note"></p>
+      </details>
+      <details class="fold sub-fold"><summary>Sector calls <span class="cat">the quant model's call on each sector as a whole</span></summary>
+        <div class="table-wrap"><table class="matrix" id="sc-sector-calls"></table></div>
+        <p class="note">Graded against a sector index built the same way as the call: the volume-weighted mean of its members' returns over the call's window. Every sector shows however few calls it has; cells below the minimum show their count instead of a colour.</p>
+      </details>
+    </details>
+  </section>
+
+  <section id="tab-books" class="tab">
+    <article class="panel bk-intro">
+      <header class="panel-h"><h2>Is it making money?</h2><span class="cat" id="bk-when"></span></header>
+      <p class="bk-stands" id="bk-stands"></p>
+      <details class="note-fold"><summary>How the books work</summary>
+        <p>Paper trades only: no real money is behind any of these. Each book follows one rule from its first day, and every
+          number is after fees, slippage, price impact and gas. The memecoin rules were fixed on Oct 2 without looking at
+          the result of any call that had a dossier score. Factor rank was picked on its history, so only its live weeks
+          count. The books are rebuilt from the call ledger every 15 minutes.</p>
+        <p>A trade counts once it is settled, the same way in every book of a kind: after 24 hours for the memecoin books,
+          6 hours for the opposite of the quant model, and at the stop, target or horizon for the Strategist's ideas. Until
+          then it shows as open. A book gets a verdict only once it has enough trades, and each card says when that is due.
+          Open a card for the book's page: every number, its best and worst trades and what it leaves out.</p></details>
+    </article>
+    <h3>Memecoins <span class="cat">Telegram calls, $100 a trade</span></h3>
+    <div class="bk-grid" id="bk-deep"></div>
+    <h3>Majors <span class="cat">factor rank, the Strategist, and the opposite of the quant model</span></h3>
+    <div class="bk-grid" id="bk-majors"></div>
+  </section>
+
+  <section id="tab-lab" class="tab">
+    <article class="panel lab-intro">
+      <header class="panel-h"><h2>What the lab has found</h2><span class="cat" id="lab-when"></span></header>
+      <p class="lab-stands" id="lab-stands"></p>
+      <details class="note-fold"><summary>How the lab works</summary>
+        <p>Paper only: no real money is behind any of this. Every hour the lab makes about ten new strategies, variations
+          and crosses of the best so far plus random ones, and once a day the strategy researcher proposes about thirty more.
+          No strategy is tested twice.</p>
+        <p>A strategy has to pass two tests. On the older data its average result has to be positive with a t-statistic
+          above the bar. The bar rises as more strategies are tried, because the more you try, the more look good by luck.
+          On the recent data, which nothing is fitted on, it has to stay positive and do at least as well as the baseline.</p>
+        <p>Survivors trade on paper, up to 12 memecoin and 8 factor strategies at once. A memecoin strategy is ruled on after
+          two weeks and 100 trades, a factor strategy after six weeks. It becomes a champion only if it stays positive with a
+          t of at least 2.45 and beats the baseline over the same days. One that is clearly losing is retired early.
+          Champions are evidence for the owner to weigh: nothing trades on them.</p>
+        <p>Memecoin numbers are the net % of a $100 trade after every cost, one position per coin, the same trades the paper
+          books count. Factor numbers are the net % of each holding period after a 0.1% cost each way, funding left out.</p>
+      </details>
+    </article>
+    <div id="lab-body"></div>
+  </section>
+
+  <section id="tab-live" class="tab">
+    <article class="panel al-intro">
+      <header class="panel-h"><h2>Did the skips die?</h2><span class="cat" id="lv-when"></span></header>
+      <p class="al-lead" id="lv-lead"></p>
+      <details class="note-fold"><summary>How to test it</summary>
+        <p>Every memecoin call gets a verdict the moment it lands, from the coin's dossier as it stood then: SKIP (with the
+          reason), PASS, or NO DOSSIER when none existed yet. It is the rebuilt checklist: skip coins under 24 hours old, a Dex
+          listing still unpaid after a day, and the dev wallet, liquidity, mint, tax, top-10 and organic red flags. A call's
+          result is a $100 buy at the call's price after every cost, held 24 hours.</p>
+        <p>The test is every call from Oct 8, 22:00 UTC on: the checklist was written from calls that had finished before then.
+          The feed below opens on finished calls, so each row already has its answer; switch to "Still open" to pick some to
+          check tomorrow. Each call counts once at its own price, so a coin called five times counts five times, and a few
+          big winners lift the average, so read the median beside it. Paper only: the bot's buys are read from records we
+          already keep, and nothing is sent to the bot.</p></details>
+    </article>
+    <div id="lv-tiles"></div>
+    <div id="lv-windows"></div>
+    <div id="lv-factor"></div>
+    <h3>Every call, newest first <span class="cat">the last 48 hours</span></h3>
+    <div class="al-filters" id="lv-filters"></div>
+    <p class="al-sum" id="lv-sum"></p>
+    <div id="lv-feed"></div>
+  </section>
+
+  <section id="tab-review" class="tab">
+    <article class="panel al-intro">
+      <header class="panel-h"><h2>What the review found</h2><span class="cat" id="al-reviewed"></span></header>
+      <p class="al-lead" id="al-summary"></p>
+      <details class="note-fold"><summary>How to read this</summary>
+        <p>Four reviewers went through every part of Albatross on Oct 9 and asked one question of each: does it produce
+          alpha, either money after costs or intel that is correct, early and changes a decision? Each part got keep,
+          adjust or abandon. Nothing has been switched off: everything keeps running while the suggestions run beside it
+          on the next two pages. No real money is touched.</p></details>
+    </article>
+    <h3>Waiting on you <span class="cat">decisions only you can make</span></h3>
+    <div id="al-decisions"></div>
+    <h3>Where alpha could come from <span class="cat">ranked by the evidence so far</span></h3>
+    <div class="al-bets" id="al-bets"></div>
+    <p class="al-weak" id="al-weak"></p>
+    <h3>Every component <span class="cat">verdict, what the data shows, the suggested change and where it stands</span></h3>
+    <div id="al-components"></div>
+  </section>
+
+  <section id="tab-avoid" class="tab">
+    <article class="panel al-intro">
+      <header class="panel-h"><h2>What tells memecoin losers apart</h2><span class="cat" id="av-when"></span></header>
+      <p class="al-lead" id="av-lead"></p>
+      <details class="note-fold"><summary>How these are measured</summary>
+        <p>Paper only. Every number is a $100 group call after every cost, one position per coin, the same trades the paper
+          books count, from Sep 30. "Against every call" compares each rule with every group call day by day, because the
+          whole memecoin market's mood swings from one day to the next: it shows the average difference in points a
+          trade and on how many days the rule was ahead.</p>
+        <p>The rebuilt checklist was designed on this same history, so its numbers here flatter it. The two rules fixed on
+          Oct 9 are recorded only from Oct 10 on, before any of those trades existed: their record is the test.</p></details>
+    </article>
+    <div id="av-body"></div>
+  </section>
+
+  <section id="tab-edge" class="tab">
+    <article class="panel al-intro">
+      <header class="panel-h"><h2>Factor rank, week by week</h2><span class="cat" id="ed-when"></span></header>
+      <p class="al-lead" id="ed-lead"></p>
+      <details class="note-fold"><summary>How these are measured</summary>
+        <p>Factor rank orders the liquid Hyperliquid coins every day. Once a week, on a fixed Monday, we check whether that
+          day's order matched the next 7 days' returns: the rank correlation is 1 for a perfect match, 0 for no order and below
+          0 for the wrong order. The gap is the top fifth's return minus the bottom fifth's, before costs and funding. The
+          weeks before Sep 29 are the ranking's history, computed the same way after the fact; from then on it ran live.</p></details>
+    </article>
+    <div id="ed-body"></div>
+  </section>
+
+  <section id="tab-setup" class="tab"></section>
+  <section id="tab-health" class="tab">
+    <div class="sys-status" id="sys-status"></div>
+    <div id="alerts-box" hidden>
+      <h3 id="alerts">Open alerts</h3>
+      <div class="table-wrap"><table class="plain alerts" id="alerts-open"></table></div>
+    </div>
+    <details class="fold" id="jobs-fold"><summary>Jobs <span class="cat" id="jobs-sum"></span></summary>
+      <div class="table-wrap"><table class="plain jobs" id="jobs"></table></div>
+      <p class="note">A job is late when it hasn't succeeded within three of its runs (15 minutes at least), the same rule the alerts use. Hover an error for its full text.</p>
+    </details>
+    <details class="fold" id="spend-fold"><summary>Agent spend today <span class="cat" id="spend-sum"></span></summary>
+      <div class="table-wrap"><table class="plain" id="spend"></table></div>
+      <p class="note">LLM calls since 00:00 UTC. Grok (X sentiment) runs on a subscription, so it costs nothing per call; the Oracle researches through OpenRouter. Each agent stops at its own daily cap.</p>
+    </details>
+    <details class="fold" id="fomo-fold"><summary>FOMO subscription test <span class="cat" id="fomo-sum"></span></summary>
+      <div id="fomo-verdict"></div>
+    </details>
+    <details class="fold" id="resolved-fold"><summary>Resolved alerts, last 7 days <span class="cat" id="resolved-sum"></span></summary>
+      <div class="table-wrap"><table class="plain alerts" id="alerts-resolved"></table></div>
+    </details>
+    <details class="fold" id="counts-fold"><summary>Data collected <span class="cat" id="counts-sum"></span></summary>
+      <div class="cards" id="counts"></div>
+    </details>
+    <details class="fold" id="mc-fold"><summary>Micro-cap price accuracy <span class="cat">cross-source checks, last 24 h</span></summary>
+      <div id="mc-health"></div>
+    </details>
+  </section>
+  <section id="tab-agents" class="tab">
+    <div class="ag-head">
+      <ul class="ag-stats" id="ag-stats" aria-label="Last 24 hours"></ul>
+      <div class="chips ag-lanes" id="ag-lanes" role="group" aria-label="Show">
+        <button data-lane="all" class="on">Both</button><button data-lane="majors">Majors</button><button data-lane="deep">Memecoins</button>
+      </div>
+    </div>
+    <div class="ag-legend" id="ag-legend" aria-label="Legend"></div>
+    <div class="ag-scroll"><div class="ag-map" id="ag-map"><svg class="ag-wires" id="ag-wires" aria-hidden="true"></svg></div></div>
+    <div class="ag-notes">
+      <div><h4>Reading the columns</h4><p>The first column reads raw data: candles, funding, headlines, X posts, the web. One step removed means an agent reads at least one model's conclusions; two steps removed, conclusions built on conclusions.</p></div>
+      <div><h4>No loops</h4><p>No agent's conclusion comes back to it as someone else's evidence; a test fails the build if one ever does. Dotted wires are attention only: they decide what an agent looks at, never what it concludes.</p></div>
+      <div><h4>How grades are measured</h4><p>The weekly review grades direction calls against a coin flip with the same mix of longs and shorts, and ideas and trades in R after trading costs, against breaking even. Sources also shows each source by timeframe against a one-way caller (always long or always short, whichever did better). Pause or rescale any agent on the <a href="#/output">Output</a> page.</p></div>
+    </div>
+  </section>
+  <section id="tab-output" class="tab">
+    <div class="out-bar">
+      <div class="chips" id="out-window" role="group" aria-label="Window">
+        <button data-w="1h">1h</button><button data-w="6h">6h</button><button data-w="24h" class="on">24h</button><button data-w="7d">7d</button>
+      </div>
+    </div>
+    <p id="out-note" role="status"></p>
+    <div id="out-kpis" class="out-kpis"></div>
+    <p id="out-plan" class="out-plan"></p>
+    <div id="out-flags"></div>
+    <h3>Agents <span class="cat">calls, what they left behind, what it cost, and how it has graded</span></h3>
+    <div class="table-wrap"><table class="plain" id="out-agents"></table></div>
+    <p class="note">Real output is what an agent stores for something else to use: signals, ideas, X reads, fit reports, scored candidates, reports, headlines, takes. Repeats count calls that resent an input which had already succeeded. Pause stops an agent's model calls (the job around it keeps running); the budget buttons scale its daily or weekly budget. A change takes effect within 30 seconds.</p>
+    <h3>Who reads whom <span class="cat">recursive loops: an agent reading its own conclusions back as evidence</span></h3>
+    <div id="out-loops"></div>
+    <details class="fold" id="out-jobs-fold"><summary>Jobs <span class="cat" id="out-jobs-sum"></span></summary>
+      <div class="table-wrap"><table class="plain" id="out-jobs"></table></div>
+      <p class="note">Every run of every scheduled job. Idle runs wrote nothing; skipped runs came due while the last one was still going. Pause skips a job's runs until you resume it.</p>
+    </details>
+  </section>
+</main>
+
+<aside id="drawer" class="drawer" role="dialog" aria-label="Details" aria-hidden="true">
+  <button class="close ghost" id="drawer-close" aria-label="Close">✕</button>
+  <div id="drawer-body"></div>
+</aside>
+<div id="tip" class="tip" role="tooltip"></div>
+
+<footer class="ticker" id="ticker" aria-label="Tier 1 prices"></footer>
+</div>
+
+<script src="/static/app.js"></script>
+<script src="/static/micro.js"></script>
+<script src="/static/deep.js"></script>
+<script src="/static/gallery.js"></script>
+<script src="/static/intel.js"></script>
+<script src="/static/calendar.js"></script>
+<script src="/static/onchain.js"></script>
+<script src="/static/output.js"></script>
+<script src="/static/agents.js"></script>
+<script src="/static/books.js"></script>
+<script src="/static/lab.js"></script>
+<script src="/static/alpha.js"></script>
+<script src="/static/home.js"></script>
+<script src="/static/majors.js"></script>
+<script src="/static/setup.js"></script>
+</body>
+</html>

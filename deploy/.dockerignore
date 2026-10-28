@@ -1,0 +1,3 @@
+# The subs image (deploy/subs/Dockerfile) builds from this folder and needs only the gateway.
+*
+!codex_gateway.py

@@ -1,0 +1,26 @@
+# Codex gateway: Albatross agents on a ChatGPT subscription (deploy/codex_gateway.py), as the locked-down
+# `codex` user. Install or update: sudo deploy/install-codex-gateway.sh
+[Unit]
+Description=Albatross Codex gateway (ChatGPT subscription lane)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=codex
+Group=codex
+WorkingDirectory=/home/codex/work
+Environment=HOME=/home/codex
+ExecStart=/usr/bin/python3 /opt/albatross-codex/codex_gateway.py
+Restart=always
+RestartSec=10
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/codex /var/lib/albatross-codex
+MemoryMax=3G
+# one run killed for memory must not take the other three down with it
+OOMPolicy=continue
+
+[Install]
+WantedBy=multi-user.target

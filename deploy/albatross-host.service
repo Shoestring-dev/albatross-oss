@@ -1,0 +1,19 @@
+# Host worker (the Grok CLI lane). Install: sudo cp deploy/albatross-host.service /etc/systemd/system/
+# The paths assume a user `albatross` with the repo in /opt/albatross and grok and uv installed for that user: edit
+# them to match your machine.
+[Unit]
+Description=Albatross host worker
+After=docker.service network-online.target
+Wants=network-online.target
+
+[Service]
+User=albatross
+WorkingDirectory=/opt/albatross
+Environment=PATH=/home/albatross/.grok/bin:/home/albatross/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/albatross/.local/bin/uv run --frozen python -m albatross host
+Restart=always
+RestartSec=30
+# Logs go to the journal: journalctl -u albatross-host -f
+
+[Install]
+WantedBy=multi-user.target

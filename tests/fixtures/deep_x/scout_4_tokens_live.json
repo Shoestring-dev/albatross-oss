@@ -1,0 +1,786 @@
+{
+ "now": "2026-09-30T18:12:25.373263+00:00",
+ "latency_s": 274.3,
+ "envelope": {
+  "text": "{\"reads\":[{\"token\":\"T1\",\"posts\":[{\"search\":1,\"url\":\"https://x.com/poster_029/status/2105356031280902512\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_030/status/2105355803589645058\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_031/status/2105349523240355696\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_032/status/2105349460885323360\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":1,\"url\":\"https://x.com/poster_033/status/2105348944501601055\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":2,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/poster_034/status/2105313023328961775\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":42,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/poster_035/status/2105353006644728098\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/poster_036/status/2105284464762483714\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/poster_037/status/2105312855914903828\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":2,\"url\":\"https://x.com/poster_038/status/2105300006170262151\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":6,\"followers\":null}],\"mood\":3,\"summary\":\"Small accounts are posting the contract, saying they bought a floor and are waiting on a new high, while the most-liked post asks who is still holding $ALLINU through the noise.\",\"other_token_posts\":0,\"why_it_matters\":\"The bid is a cluster of low-like buy and hold posts, including one claim that the coin is probably the Bonk team.\",\"notable\":[{\"author\":\"@poster_034\",\"text\":\"Anyone else still holding $ALLINU through all this chop?\",\"url\":\"https://x.com/poster_034/status/2105313023328961775\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_031\",\"text\":\"Added some solana:4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8 here\\nLooks like a floor is forming, and the reversal should be fast when it comes\",\"url\":\"https://x.com/poster_031/status/2105349523240355696\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_030\",\"text\":\"bought solana:4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8 \\nfeels like the bonk team is behind it.\",\"url\":\"https://x.com/poster_030/status/2105355803589645058\",\"stance\":\"bullish\",\"followers\":null}],\"account\":null,\"red_flags\":[]},{\"token\":\"T2\",\"posts\":[{\"search\":3,\"url\":\"https://x.com/poster_010/status/2105360160973531762\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/poster_010/status/2105359736103674501\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/poster_039/status/2105359575444224614\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/poster_040/status/2105359216725802125\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/poster_041/status/2105358847483147532\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/poster_042/status/2105358836421201974\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/poster_043/status/2105357661527057205\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":3,\"url\":\"https://x.com/poster_011/status/2105357441574487840\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/proj_stonk_app/status/2105302498725925989\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":1856,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_044/status/2105331784292066244\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":7,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_045/status/2105339816628263083\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":6,\"followers\":null},{\"search\":4,\"url\":\"https://x.com/poster_046/status/2105306736162506199\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":58,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/proj_stonk/status/2105358926929598266\",\"stance\":\"neutral\",\"kind\":\"project\",\"well_known\":false,\"likes\":3,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/proj_stonk/status/2105357436697742874\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":40,\"followers\":null},{\"search\":5,\"url\":\"https://x.com/proj_stonk/status/2105354342744856965\",\"stance\":\"neutral\",\"kind\":\"project\",\"well_known\":false,\"likes\":13,\"followers\":null}],\"mood\":3,\"summary\":\"A $2,000,000 $STONK rewards post and active @proj_stonk replies lead the tape, with holders citing a 19% burn and daily revenue while listing-vote and allocation spam sits on the contract.\",\"other_token_posts\":0,\"why_it_matters\":\"The rewards announcement is the post with real reach, and holders are defending revenue against an 80% retrace call while low-like vote and allocation links circulate.\",\"notable\":[{\"author\":\"@proj_stonk_app\",\"text\":\"1/ STONK Monthly Rewards are here.\\n\\n$2,000,000 in $STONK goes to this month’s top 5,000 eligible users, ranked on activity and program criteria.\\n\\nThe program is live now.\\n\\nLeaderboard below ⤵️\",\"url\":\"https://x.com/proj_stonk_app/status/2105302498725925989\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@poster_040\",\"text\":\"an 80% retrace call on solana:6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx makes no sense when it brings in 500k-1m+ a day in revenue\",\"url\":\"https://x.com/poster_040/status/2105359216725802125\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@proj_stonk\",\"text\":\"the bot update shipped, nice\",\"url\":\"https://x.com/proj_stonk/status/2105357436697742874\",\"stance\":\"bullish\",\"followers\":null}],\"account\":{\"handle\":\"@proj_stonk\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"copy_paste\",\"detail\":\"Repeated posts tell holders to show up now so $STONK gets listed and link rotating netlify vote pages plus the contract.\",\"url\":\"https://x.com/poster_010/status/2105360160973531762\"},{\"kind\":\"other\",\"detail\":\"Posts with mixed-script lettering say a new $STONK reward contract is live and tell holders to check an allocation.\",\"url\":\"https://x.com/poster_041/status/2105358847483147532\"}]},{\"token\":\"T3\",\"posts\":[{\"search\":6,\"url\":\"https://x.com/poster_011/status/2105356885718109984\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_011/status/2105350311877677252\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_047/status/2105349803566028127\",\"stance\":\"bearish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_011/status/2105348433881925946\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_010/status/2105347307254818055\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_048/status/2105347141809560161\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":6,\"url\":\"https://x.com/poster_049/status/2105341971983748107\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":8,\"url\":\"https://x.com/proj_eacc/status/2104365795071297356\",\"stance\":\"neutral\",\"kind\":\"project\",\"well_known\":false,\"likes\":10484,\"followers\":null}],\"mood\":-1,\"summary\":\"Contract mentions are mostly Moonshot and FOMO vote spam, one detailed post warns of about 32% launch-wallet concentration and netlify farms, and @proj_eacc’s only returned post is “gm, we are live.”\",\"other_token_posts\":0,\"why_it_matters\":\"The only detailed human post flags coordinated launch wallets, a prior high about 3x above current price, and phishing-style listing links.\",\"notable\":[{\"author\":\"@poster_047\",\"text\":\"Notes on CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU (e/acc)\\n\\nThe ticker is an old tech slogan turned into a 4-day Solana meme. Most of the X tape is vote spam and TG shills.\\n\\nBull\\n~20k holders and eight-figure daily volume in under a week.\\nTop-10 hold about 16%. Mint looks revoked.\\n\\nBear\\nCoordinated launch wallets took ~32% at launch. If those bags are still live, that kills the thesis.\\nATH is already ~3x above the current price.\\nLiquidity is thin against volume.\\nThe vote/listing links on X are mostly netlify farms. Ignore them.\",\"url\":\"https://x.com/poster_047/status/2105349803566028127\",\"stance\":\"bearish\",\"followers\":null},{\"author\":\"@proj_eacc\",\"text\":\"gm, we are live.\",\"url\":\"https://x.com/proj_eacc/status/2104365795071297356\",\"stance\":\"neutral\",\"followers\":null}],\"account\":{\"handle\":\"@proj_eacc\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"rug_warning\",\"detail\":\"A contract write-up says coordinated launch wallets took about 32% at launch and calls that the thesis killer if those bags are still live.\",\"url\":\"https://x.com/poster_047/status/2105349803566028127\"},{\"kind\":\"copy_paste\",\"detail\":\"The same accounts repeat “show up or miss the listing” copy for this contract with different netlify Moonshot vote links.\",\"url\":\"https://x.com/poster_011/status/2105356885718109984\"}]},{\"token\":\"T4\",\"posts\":[{\"search\":9,\"url\":\"https://x.com/poster_050/status/2105359972060091530\",\"stance\":\"neutral\",\"kind\":\"organic\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_010/status/2105359904491271125\",\"stance\":\"bullish\",\"kind\":\"shill\",\"well_known\":false,\"likes\":0,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_051/status/2105358878362684842\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":2,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_052/status/2105358615593869296\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":2,\"followers\":null},{\"search\":9,\"url\":\"https://x.com/poster_053/status/2105358469728196093\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":1,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/proj_otc/status/2105324356558703881\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":205,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_054/status/2105356496633485456\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":12,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_055/status/2105336030425950538\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":20,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_056/status/2105357885794208111\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":6,\"followers\":null},{\"search\":10,\"url\":\"https://x.com/poster_057/status/2105338552355716874\",\"stance\":\"bullish\",\"kind\":\"organic\",\"well_known\":false,\"likes\":4,\"followers\":null},{\"search\":11,\"url\":\"https://x.com/proj_otc/status/2105326723146045656\",\"stance\":\"neutral\",\"kind\":\"project\",\"well_known\":false,\"likes\":174,\"followers\":null},{\"search\":11,\"url\":\"https://x.com/proj_otc/status/2105324356558703881\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":205,\"followers\":null},{\"search\":11,\"url\":\"https://x.com/proj_otc/status/2105323169024972500\",\"stance\":\"bullish\",\"kind\":\"project\",\"well_known\":false,\"likes\":202,\"followers\":null}],\"mood\":3,\"summary\":\"@proj_otc is posting basket payouts and trading-terminal updates while holders say $OTC broke out and is heading for new highs.\",\"other_token_posts\":0,\"why_it_matters\":\"The project account’s payout and terminal-link posts have the real engagement, and small accounts are treating the chart as a breakout.\",\"notable\":[{\"author\":\"@proj_otc\",\"text\":\"Over ~200 SOL in basket assets paid out to $SI holders so far.\\n\\nBaskets are the next big asset class.\\n\\n$OTC\",\"url\":\"https://x.com/proj_otc/status/2105324356558703881\",\"stance\":\"bullish\",\"followers\":null},{\"author\":\"@proj_otc\",\"text\":\"All remaining trading terminal links are updated now.\\n\\nAxiom, terminal, dex.\\n\\nTell us if we missed one.\",\"url\":\"https://x.com/proj_otc/status/2105326723146045656\",\"stance\":\"neutral\",\"followers\":null},{\"author\":\"@poster_051\",\"text\":\"solana:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump breakout confirmed, new highs next.\",\"url\":\"https://x.com/poster_051/status/2105358878362684842\",\"stance\":\"bullish\",\"followers\":null}],\"account\":{\"handle\":\"@proj_otc\",\"followers\":null,\"created\":null,\"name_changes\":null},\"red_flags\":[{\"kind\":\"other\",\"detail\":\"A post says Moonshot will skip $OTC unless people vote and links a netlify page with the contract.\",\"url\":\"https://x.com/poster_010/status/2105359904491271125\"}]}]}",
+  "stopReason": "end_turn",
+  "sessionId": "01a0f384-a11b-7d63-b5fa-add3ce6f48db",
+  "requestId": "ed43016a-edaf-43a9-98e6-43d7615e2aa4",
+  "thought": "I will run the requested X searches and report the findings in JSON format.\n\nI have mapped the six X searches to run. They cover contract queries, token handles, and project accounts.",
+  "usage": {
+   "input_tokens": 17370,
+   "cache_read_input_tokens": 6272,
+   "cache_creation_input_tokens": 0,
+   "output_tokens": 21168,
+   "reasoning_tokens": 16243,
+   "total_tokens": 44810
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.29606056,
+  "total_cost_usd_ticks": 2960605600,
+  "modelUsage": {
+   "grok-4.7-build": {
+    "inputTokens": 17370,
+    "outputTokens": 21168,
+    "cacheReadInputTokens": 6272,
+    "cacheCreationInputTokens": 0,
+    "modelCalls": 1,
+    "costUSD": 0.29606056
+   }
+  },
+  "structuredOutput": {
+   "reads": [
+    {
+     "token": "T1",
+     "posts": [
+      {
+       "search": 1,
+       "url": "https://x.com/poster_029/status/2105356031280902512",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_030/status/2105355803589645058",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_031/status/2105349523240355696",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_032/status/2105349460885323360",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 1,
+       "url": "https://x.com/poster_033/status/2105348944501601055",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 2,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/poster_034/status/2105313023328961775",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 42,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/poster_035/status/2105353006644728098",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/poster_036/status/2105284464762483714",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/poster_037/status/2105312855914903828",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 2,
+       "url": "https://x.com/poster_038/status/2105300006170262151",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 6,
+       "followers": null
+      }
+     ],
+     "mood": 3,
+     "summary": "Small accounts are posting the contract, saying they bought a floor and are waiting on a new high, while the most-liked post asks who is still holding $ALLINU through the noise.",
+     "other_token_posts": 0,
+     "why_it_matters": "The bid is a cluster of low-like buy and hold posts, including one claim that the coin is probably the Bonk team.",
+     "notable": [
+      {
+       "author": "@poster_034",
+       "text": "Anyone else still holding $ALLINU through all this chop?",
+       "url": "https://x.com/poster_034/status/2105313023328961775",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@poster_031",
+       "text": "Added some solana:4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8 here\nLooks like a floor is forming, and the reversal should be fast when it comes",
+       "url": "https://x.com/poster_031/status/2105349523240355696",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@poster_030",
+       "text": "bought solana:4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8 \nfeels like the bonk team is behind it.",
+       "url": "https://x.com/poster_030/status/2105355803589645058",
+       "stance": "bullish",
+       "followers": null
+      }
+     ],
+     "account": null,
+     "red_flags": []
+    },
+    {
+     "token": "T2",
+     "posts": [
+      {
+       "search": 3,
+       "url": "https://x.com/poster_010/status/2105360160973531762",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/poster_010/status/2105359736103674501",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/poster_039/status/2105359575444224614",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/poster_040/status/2105359216725802125",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/poster_041/status/2105358847483147532",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/poster_042/status/2105358836421201974",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/poster_043/status/2105357661527057205",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 3,
+       "url": "https://x.com/poster_011/status/2105357441574487840",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/proj_stonk_app/status/2105302498725925989",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 1856,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_044/status/2105331784292066244",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 7,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_045/status/2105339816628263083",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 6,
+       "followers": null
+      },
+      {
+       "search": 4,
+       "url": "https://x.com/poster_046/status/2105306736162506199",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 58,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/proj_stonk/status/2105358926929598266",
+       "stance": "neutral",
+       "kind": "project",
+       "well_known": false,
+       "likes": 3,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/proj_stonk/status/2105357436697742874",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 40,
+       "followers": null
+      },
+      {
+       "search": 5,
+       "url": "https://x.com/proj_stonk/status/2105354342744856965",
+       "stance": "neutral",
+       "kind": "project",
+       "well_known": false,
+       "likes": 13,
+       "followers": null
+      }
+     ],
+     "mood": 3,
+     "summary": "A $2,000,000 $STONK rewards post and active @proj_stonk replies lead the tape, with holders citing a 19% burn and daily revenue while listing-vote and allocation spam sits on the contract.",
+     "other_token_posts": 0,
+     "why_it_matters": "The rewards announcement is the post with real reach, and holders are defending revenue against an 80% retrace call while low-like vote and allocation links circulate.",
+     "notable": [
+      {
+       "author": "@proj_stonk_app",
+       "text": "1/ STONK Monthly Rewards are here.\n\n$2,000,000 in $STONK goes to this month’s top 5,000 eligible users, ranked on activity and program criteria.\n\nThe program is live now.\n\nLeaderboard below ⤵️",
+       "url": "https://x.com/proj_stonk_app/status/2105302498725925989",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@poster_040",
+       "text": "an 80% retrace call on solana:6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx makes no sense when it brings in 500k-1m+ a day in revenue",
+       "url": "https://x.com/poster_040/status/2105359216725802125",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@proj_stonk",
+       "text": "the bot update shipped, nice",
+       "url": "https://x.com/proj_stonk/status/2105357436697742874",
+       "stance": "bullish",
+       "followers": null
+      }
+     ],
+     "account": {
+      "handle": "@proj_stonk",
+      "followers": null,
+      "created": null,
+      "name_changes": null
+     },
+     "red_flags": [
+      {
+       "kind": "copy_paste",
+       "detail": "Repeated posts tell holders to show up now so $STONK gets listed and link rotating netlify vote pages plus the contract.",
+       "url": "https://x.com/poster_010/status/2105360160973531762"
+      },
+      {
+       "kind": "other",
+       "detail": "Posts with mixed-script lettering say a new $STONK reward contract is live and tell holders to check an allocation.",
+       "url": "https://x.com/poster_041/status/2105358847483147532"
+      }
+     ]
+    },
+    {
+     "token": "T3",
+     "posts": [
+      {
+       "search": 6,
+       "url": "https://x.com/poster_011/status/2105356885718109984",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/poster_011/status/2105350311877677252",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/poster_047/status/2105349803566028127",
+       "stance": "bearish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/poster_011/status/2105348433881925946",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/poster_010/status/2105347307254818055",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/poster_048/status/2105347141809560161",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 6,
+       "url": "https://x.com/poster_049/status/2105341971983748107",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 8,
+       "url": "https://x.com/proj_eacc/status/2104365795071297356",
+       "stance": "neutral",
+       "kind": "project",
+       "well_known": false,
+       "likes": 10484,
+       "followers": null
+      }
+     ],
+     "mood": -1,
+     "summary": "Contract mentions are mostly Moonshot and FOMO vote spam, one detailed post warns of about 32% launch-wallet concentration and netlify farms, and @proj_eacc’s only returned post is “gm, we are live.”",
+     "other_token_posts": 0,
+     "why_it_matters": "The only detailed human post flags coordinated launch wallets, a prior high about 3x above current price, and phishing-style listing links.",
+     "notable": [
+      {
+       "author": "@poster_047",
+       "text": "Notes on CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU (e/acc)\n\nThe ticker is an old tech slogan turned into a 4-day Solana meme. Most of the X tape is vote spam and TG shills.\n\nBull\n~20k holders and eight-figure daily volume in under a week.\nTop-10 hold about 16%. Mint looks revoked.\n\nBear\nCoordinated launch wallets took ~32% at launch. If those bags are still live, that kills the thesis.\nATH is already ~3x above the current price.\nLiquidity is thin against volume.\nThe vote/listing links on X are mostly netlify farms. Ignore them.",
+       "url": "https://x.com/poster_047/status/2105349803566028127",
+       "stance": "bearish",
+       "followers": null
+      },
+      {
+       "author": "@proj_eacc",
+       "text": "gm, we are live.",
+       "url": "https://x.com/proj_eacc/status/2104365795071297356",
+       "stance": "neutral",
+       "followers": null
+      }
+     ],
+     "account": {
+      "handle": "@proj_eacc",
+      "followers": null,
+      "created": null,
+      "name_changes": null
+     },
+     "red_flags": [
+      {
+       "kind": "rug_warning",
+       "detail": "A contract write-up says coordinated launch wallets took about 32% at launch and calls that the thesis killer if those bags are still live.",
+       "url": "https://x.com/poster_047/status/2105349803566028127"
+      },
+      {
+       "kind": "copy_paste",
+       "detail": "The same accounts repeat “show up or miss the listing” copy for this contract with different netlify Moonshot vote links.",
+       "url": "https://x.com/poster_011/status/2105356885718109984"
+      }
+     ]
+    },
+    {
+     "token": "T4",
+     "posts": [
+      {
+       "search": 9,
+       "url": "https://x.com/poster_050/status/2105359972060091530",
+       "stance": "neutral",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_010/status/2105359904491271125",
+       "stance": "bullish",
+       "kind": "shill",
+       "well_known": false,
+       "likes": 0,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_051/status/2105358878362684842",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 2,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_052/status/2105358615593869296",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 2,
+       "followers": null
+      },
+      {
+       "search": 9,
+       "url": "https://x.com/poster_053/status/2105358469728196093",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 1,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/proj_otc/status/2105324356558703881",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 205,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_054/status/2105356496633485456",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 12,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_055/status/2105336030425950538",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 20,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_056/status/2105357885794208111",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 6,
+       "followers": null
+      },
+      {
+       "search": 10,
+       "url": "https://x.com/poster_057/status/2105338552355716874",
+       "stance": "bullish",
+       "kind": "organic",
+       "well_known": false,
+       "likes": 4,
+       "followers": null
+      },
+      {
+       "search": 11,
+       "url": "https://x.com/proj_otc/status/2105326723146045656",
+       "stance": "neutral",
+       "kind": "project",
+       "well_known": false,
+       "likes": 174,
+       "followers": null
+      },
+      {
+       "search": 11,
+       "url": "https://x.com/proj_otc/status/2105324356558703881",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 205,
+       "followers": null
+      },
+      {
+       "search": 11,
+       "url": "https://x.com/proj_otc/status/2105323169024972500",
+       "stance": "bullish",
+       "kind": "project",
+       "well_known": false,
+       "likes": 202,
+       "followers": null
+      }
+     ],
+     "mood": 3,
+     "summary": "@proj_otc is posting basket payouts and trading-terminal updates while holders say $OTC broke out and is heading for new highs.",
+     "other_token_posts": 0,
+     "why_it_matters": "The project account’s payout and terminal-link posts have the real engagement, and small accounts are treating the chart as a breakout.",
+     "notable": [
+      {
+       "author": "@proj_otc",
+       "text": "Over ~200 SOL in basket assets paid out to $SI holders so far.\n\nBaskets are the next big asset class.\n\n$OTC",
+       "url": "https://x.com/proj_otc/status/2105324356558703881",
+       "stance": "bullish",
+       "followers": null
+      },
+      {
+       "author": "@proj_otc",
+       "text": "All remaining trading terminal links are updated now.\n\nAxiom, terminal, dex.\n\nTell us if we missed one.",
+       "url": "https://x.com/proj_otc/status/2105326723146045656",
+       "stance": "neutral",
+       "followers": null
+      },
+      {
+       "author": "@poster_051",
+       "text": "solana:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump breakout confirmed, new highs next.",
+       "url": "https://x.com/poster_051/status/2105358878362684842",
+       "stance": "bullish",
+       "followers": null
+      }
+     ],
+     "account": {
+      "handle": "@proj_otc",
+      "followers": null,
+      "created": null,
+      "name_changes": null
+     },
+     "red_flags": [
+      {
+       "kind": "other",
+       "detail": "A post says Moonshot will skip $OTC unless people vote and links a netlify page with the contract.",
+       "url": "https://x.com/poster_010/status/2105359904491271125"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "effort": "medium",
+ "tokens": [
+  {
+   "chain": "solana",
+   "address": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
+   "symbol": "ALLINU",
+   "name": "ALLINU",
+   "handle": null,
+   "created_at": "2026-09-11T20:01:54+00:00",
+   "first_call": "2026-09-30T15:49:42+00:00",
+   "last_read": null,
+   "window_h": 6,
+   "picked_for": "trending",
+   "shared_ticker": 0,
+   "account_search": false,
+   "liquidity": 272519.3
+  },
+  {
+   "chain": "solana",
+   "address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "symbol": "STONK",
+   "name": "STONK",
+   "handle": "proj_stonk",
+   "created_at": "2026-07-23T19:06:56+00:00",
+   "first_call": "2026-09-29T18:56:05+00:00",
+   "last_read": null,
+   "window_h": 6,
+   "picked_for": "trending",
+   "shared_ticker": 0,
+   "account_search": true,
+   "liquidity": 3104904.8
+  },
+  {
+   "chain": "solana",
+   "address": "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU",
+   "symbol": "e/acc",
+   "name": "Effective Accelerationism",
+   "handle": "proj_eacc",
+   "created_at": "2026-09-25T21:14:34+00:00",
+   "first_call": null,
+   "last_read": null,
+   "window_h": 6,
+   "picked_for": "trending",
+   "shared_ticker": 2,
+   "account_search": true,
+   "liquidity": 668800.01
+  },
+  {
+   "chain": "solana",
+   "address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "symbol": "OTC",
+   "name": "OTC",
+   "handle": "proj_otc",
+   "created_at": "2026-08-28T13:31:28+00:00",
+   "first_call": "2026-09-29T22:28:17+00:00",
+   "last_read": null,
+   "window_h": 6,
+   "picked_for": "trending",
+   "shared_ticker": 0,
+   "account_search": true,
+   "liquidity": 487967.4
+  }
+ ],
+ "searches": [
+  {
+   "token": "T1",
+   "facet": "contract",
+   "query": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8 within_time:6h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 6,
+   "n": 1
+  },
+  {
+   "token": "T1",
+   "facet": "talk",
+   "query": "$ALLINU min_faves:3 within_time:6h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 6,
+   "n": 2
+  },
+  {
+   "token": "T2",
+   "facet": "contract",
+   "query": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx within_time:6h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 6,
+   "n": 3
+  },
+  {
+   "token": "T2",
+   "facet": "talk",
+   "query": "($STONK OR @proj_stonk) min_faves:3 within_time:6h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 6,
+   "n": 4
+  },
+  {
+   "token": "T2",
+   "facet": "account",
+   "query": "from:proj_stonk",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 5
+  },
+  {
+   "token": "T3",
+   "facet": "contract",
+   "query": "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU within_time:6h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 6,
+   "n": 6
+  },
+  {
+   "token": "T3",
+   "facet": "talk",
+   "query": "(\"Effective Accelerationism\" OR @proj_eacc) min_faves:3 within_time:6h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 6,
+   "n": 7
+  },
+  {
+   "token": "T3",
+   "facet": "account",
+   "query": "from:proj_eacc",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 8
+  },
+  {
+   "token": "T4",
+   "facet": "contract",
+   "query": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump within_time:6h",
+   "mode": "Latest",
+   "limit": 8,
+   "window_h": 6,
+   "n": 9
+  },
+  {
+   "token": "T4",
+   "facet": "talk",
+   "query": "($OTC OR @proj_otc) min_faves:3 within_time:6h",
+   "mode": "Top",
+   "limit": 5,
+   "window_h": 6,
+   "n": 10
+  },
+  {
+   "token": "T4",
+   "facet": "account",
+   "query": "from:proj_otc",
+   "mode": "Latest",
+   "limit": 3,
+   "window_h": null,
+   "n": 11
+  }
+ ]
+}

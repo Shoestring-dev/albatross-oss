@@ -1,0 +1,77 @@
+{
+ "id": "4ewmm9ozettwCLt4PQWwK2T8UowZ5JmBTpccyQibcXGY",
+ "dev": "HgzeyuDtzrssR9L5VZVCTqzVqYtuTKvr61HuH7Unwky7",
+ "icon": "https://pbs.twimg.com/media/HTeapUnbYAAkWYc?format=png&name=360x360",
+ "name": "Shielded Bitcoin",
+ "tags": [
+  "token-2022",
+  "unknown"
+ ],
+ "audit": {
+  "isSus": true,
+  "devMints": 285,
+  "devMigrations": 56,
+  "devBalancePercentage": 8.955107949970856,
+  "topHoldersPercentage": 12.982780694423996,
+  "mintAuthorityDisabled": true,
+  "freezeAuthorityDisabled": true
+ },
+ "symbol": "sBTC",
+ "stats1h": {
+  "numSells": 1,
+  "numTraders": 1,
+  "sellVolume": 0.00010052310290453418,
+  "priceChange": -100,
+  "holderChange": -0.047393364928909956,
+  "numNetBuyers": 1,
+  "volumeChange": -99.99999999549271,
+  "liquidityChange": -0.2502960490903086
+ },
+ "stats6h": {
+  "numBuys": 6901,
+  "numSells": 4003,
+  "buyVolume": 1120554.8317209508,
+  "numTraders": 2131,
+  "sellVolume": 1109687.5027440193,
+  "priceChange": -100,
+  "holderChange": 13081.25,
+  "numNetBuyers": 2122,
+  "liquidityChange": -99.99971840902957,
+  "buyOrganicVolume": 0.9770909254924625,
+  "sellOrganicVolume": 1.4054616721968918
+ },
+ "decimals": 6,
+ "stats24h": {
+  "numBuys": 6901,
+  "numSells": 4003,
+  "buyVolume": 1120554.8317209508,
+  "numTraders": 2131,
+  "sellVolume": 1109687.5027440193,
+  "priceChange": -100,
+  "holderChange": 13081.25,
+  "numNetBuyers": 2122,
+  "liquidityChange": -99.99971840902957,
+  "buyOrganicVolume": 0.9770909254924625,
+  "sellOrganicVolume": 1.4054616721968918
+ },
+ "createdAt": "2026-09-30T15:39:05Z",
+ "firstPool": {
+  "id": "4ewmm9ozettwCLt4PQWwK2T8UowZ5JmBTpccyQibcXGY",
+  "createdAt": "2026-09-30T15:39:05Z"
+ },
+ "launchpad": "met-dbc",
+ "liquidity": 0.039773405980214734,
+ "updatedAt": "2026-09-30T17:11:07.350821804Z",
+ "circSupply": 999999996.88576,
+ "graduatedAt": "2026-09-30T15:39:05Z",
+ "holderCount": 2109,
+ "totalSupply": 999999996.88576,
+ "organicScore": 0,
+ "priceBlockId": 452012862,
+ "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+ "graduatedPool": "41LRCeNTvuntz75Td5p6E38Ceu9Tu2Fh7VKRDemtzCFa",
+ "metaLaunchpad": "met-dbc",
+ "partnerConfig": "HBbWrhXNE7Tvqdqc4JsipjvdM5VWUmY2aMJfSKvLJJTD",
+ "organicScoreLabel": "low",
+ "as_of": "2026-09-30T17:43:25.67956+00:00"
+}
